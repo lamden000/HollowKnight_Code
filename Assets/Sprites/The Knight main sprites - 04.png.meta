@@ -1,0 +1,4773 @@
+fileFormatVersion: 2
+guid: a4ae9b98bb39dcd43abd11f00a6f4ab4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1630
+        width: 344
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bc403bf3744c14cbad73804c0c201c
+      internalID: -745768899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1707
+        width: 234
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97197dc81a037f44daedc717f5266b26
+      internalID: 1339662106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_2
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1701
+        width: 383
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7246ed100c006e4b98f6c708c817779
+      internalID: -1646239980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_3
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1963
+        width: 205
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa330ee7a32c9e1479bc7f6b6148c51a
+      internalID: 1489483644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_4
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1960
+        width: 335
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20c5c47ca13825479c8fd5b168ec7dd
+      internalID: -1937531631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_5
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 2005
+        width: 95
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395791b46b3cc8f46bd9c593153ceeed
+      internalID: 1642032110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_6
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1958
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14c44e58190c7459a6fc805ba21187
+      internalID: 387321394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_7
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1951
+        width: 183
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a9f54e29dddd949ac9b3e2a55f50b7
+      internalID: -2110590245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_8
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1976
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511b2574c3b48d545b3d20a5ea1b5496
+      internalID: -1047111070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_9
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1965
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055626973db1b04aa85b88bdf41f14f
+      internalID: 553935439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_10
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1901
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e19dcb66635c26459aef7b0c0ac79d1
+      internalID: 336709296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_11
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1650
+        width: 98
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddab4591b3341749be81fa444753a87
+      internalID: -450547779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_12
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1894
+        width: 137
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5360bba2869d08d4585f2954a6fc03fd
+      internalID: 555751402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_13
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1894
+        width: 136
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8019bc6d8fcbfc0499d378899c8b4431
+      internalID: 1772509308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_14
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1850
+        width: 380
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb054ca3d3eb98459a06f06e9919b70
+      internalID: -102150846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_15
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1849
+        width: 180
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71e6e330e7c2c8458143e947a747bef
+      internalID: -2073815832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_16
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1849
+        width: 168
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49efc798f6b5ef44a9fed6769cf0d247
+      internalID: -2047984328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1888
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bff315075cf4594d8cd9b2c9e6cfc33
+      internalID: -813438575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1885
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677269922ed592142a877a397106eaa0
+      internalID: 1545040481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_19
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1869
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2420a20211b33eb4e967a2746bfb05c9
+      internalID: -1727284565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_20
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1875
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f9712dd49f6ff47ae2fc13c26172f0
+      internalID: 1730146403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_21
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1651
+        width: 202
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d54e6aaeb11db4a812bc86e2a0eeb8
+      internalID: -1784906811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_22
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1575
+        width: 183
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf65148ac258b014e9eab5b60185608f
+      internalID: 919327301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_23
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1636
+        width: 238
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25419deb523362e43b61517ffc0a824e
+      internalID: -1813417473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_24
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1775
+        width: 263
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8af715b33cf04f98d37de4ed1ffcd
+      internalID: -2002290197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_25
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1624
+        width: 165
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c360aa89800dd4b83e076b5d6946cd
+      internalID: -600789067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_26
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1775
+        width: 134
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e57eb5c864c1747a13cc00fe992698
+      internalID: -231095014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_27
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1776
+        width: 196
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb5dc081e9d52a4e9b228482fe98699
+      internalID: 1982919042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_28
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1767
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912a78b11af2ddc4997aa4b1a45a78b8
+      internalID: 232266467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_29
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1707
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34858b727f8da2340bb5ed66592d7ecc
+      internalID: 1166593653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_30
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1618
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573def45b49079b4ebf266aa5b593666
+      internalID: 1870189417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_31
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1622
+        width: 29
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1667986400678e14fa334fce2679623b
+      internalID: 1832011276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1167
+        width: 419
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232b62f76222054e849c795cde75f58
+      internalID: -698818559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_33
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1649
+        width: 74
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81be3594831d4444953363cef69c621
+      internalID: -616029279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_34
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1656
+        width: 98
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537415cf86fe865489cf5df659d5c259
+      internalID: 1294972652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_35
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1649
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a722aa94a5f114c8ca9ef77878b99b
+      internalID: -358166649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_36
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1656
+        width: 96
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842019bc1438e6449b7669669befbcc7
+      internalID: 1889630021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_37
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1658
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c787e7baa8859b4d9ada4e1f8c5f679
+      internalID: 1025957739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1572
+        width: 662
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c21b4a8d5db945ad271754eb4c8bb
+      internalID: 2015905734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_39
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1638
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a9fccf110a8954190bc5d485157daa
+      internalID: 873818822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_40
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1499
+        width: 212
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca72b4903f924041bf590b5d2012be6
+      internalID: 1366758723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_41
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1603
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3733cbecb6271464b8f411441bb13e46
+      internalID: 1440502762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_42
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1601
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa003b46fc655844e883a46ac78d1620
+      internalID: -1918222090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_43
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1596
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef99b59f60d56844864831e6c5ff24c
+      internalID: -1732974530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_44
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1485
+        width: 179
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7c77ff27b3bed40bd30adae06fa9f1
+      internalID: 1350932185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_45
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1524
+        width: 85
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58472ee894a4aac41bd9b5a46428a0bc
+      internalID: -1166657597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_46
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1548
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92362b53ca516074ea33e72d0c752dbf
+      internalID: -1068461809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_47
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1562
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a22b52ea85ccc479c8f8a194acaab1
+      internalID: -975129185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_48
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1544
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df565273f9858454a8fccd000273c4c4
+      internalID: -1787836268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_49
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1166
+        width: 407
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66f94b825daf924a9b4f7899a928a0f
+      internalID: 1049750504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_50
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1415
+        width: 232
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcb1ef62d7400c4f90d57787262e08f
+      internalID: -1687746795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_51
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1505
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f956a8939dd4d047832625f56747875
+      internalID: 985882034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_52
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1525
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d42d59f0bdb24385e9ba0bdd078be
+      internalID: -1145472367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_53
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1511
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489fb7e28949e3043b7deefe92f59e38
+      internalID: 1901213930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_54
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1371
+        width: 256
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121a72b345153484a804e7cae46ac15e
+      internalID: -1253652819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_55
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1505
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb89f6c291e11984a99cf78bee6fedfc
+      internalID: -1771452933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_56
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1488
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6d15b80706f7848bc4c2243d2f0d04
+      internalID: -177925474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_57
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1494
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe407bf07751c943bfacb725f461c57
+      internalID: 665545605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_58
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1420
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd34a8b5d8cdd2043aee95cf4c571ab2
+      internalID: -1463117327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_59
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1369
+        width: 228
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cde99c6faba8045b147b70df578067
+      internalID: -840353654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_60
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1369
+        width: 200
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd15f007e45b547a1cbef26a16fcf5
+      internalID: 1492549050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_61
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1352
+        width: 158
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56243f6b1c470eb4e91c00734659f875
+      internalID: -2028604670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_62
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1365
+        width: 168
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e370f9f19651da49b31cda57849408a
+      internalID: -1511546875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_63
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1388
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c36385a5127f418ae8cafe6a492d6
+      internalID: 270229589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_64
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1161
+        width: 192
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20374cea8d5007a49824bf5a69011ead
+      internalID: -1489696479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_65
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1364
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36165be5b087bd141bc010700da1f97e
+      internalID: 1314732441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_66
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1300
+        width: 144
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ea018b0a4ad34488f491eb5994cdd7
+      internalID: 1423956886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_67
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1291
+        width: 260
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6799cbfc37a3949a8aa11b36a12299
+      internalID: -2059068481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_68
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1279
+        width: 173
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b58486165c72642a5c7562dcbc189a
+      internalID: -595525850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_69
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1267
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372d3fad58aca347ad44f23d8e2af91
+      internalID: 337281850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_70
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1308
+        width: 130
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcc21f60eac5ee4fae2e3aede645f55
+      internalID: 811336396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_71
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1339
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c70e1d9a58b41b47b249ac83c982bb1
+      internalID: -1460343122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_72
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1316
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a110fd85fdc1348bb1d9a46957f63d
+      internalID: 68536037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_73
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1318
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148fd8234c12d564c8e0c0a88a5967c0
+      internalID: 729970189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_74
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1274
+        width: 129
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7f875c51dd6764290d74312583457f
+      internalID: 241816038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_75
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1160
+        width: 242
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbe68bb695176547981b5f73cca28d2
+      internalID: 707791257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_76
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1298
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460655764454d2145aa729d5da06578a
+      internalID: 312242204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_77
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1153
+        width: 179
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115fa46e5b271249b38ec8c0a016047
+      internalID: 371763895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_78
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1258
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5361e6c0a97f414abf3496479202742
+      internalID: -690583326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_79
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1250
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f9359eab8691f439ef208cc7e495b4
+      internalID: 1144512583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_80
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1142
+        width: 163
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783e280879931514893c2efe3b5e5007
+      internalID: 1535833159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_81
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1269
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60c39bb7a113ef449a7ef1ac00934cf
+      internalID: 86688473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_82
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1254
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1722dfd21c412f46874d5e91b1f0467
+      internalID: -673308245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_83
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1149
+        width: 138
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aea52ed0c86904f9145eedbbfa847e
+      internalID: -1265848783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_84
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1261
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3096ed15701964e9f99ebbe7e5c589
+      internalID: 1060985170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_85
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1204
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4789531146ba34297abe90a8919c80
+      internalID: 352920722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_86
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97563c3f06d6dc347be6a32768c2e13d
+      internalID: 1965408056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_87
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1199
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a72c82cf456d54699b6049718a103d
+      internalID: 557875305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_88
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 1203
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7c697d1bcb02947a47da1530c1f4e4
+      internalID: -813781113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_89
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1184
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2442c77d69a9f846b2638cfe4ea2994
+      internalID: -2132364236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_90
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1180
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c0e23d666852c468a2c527dffc9f59
+      internalID: 1270721308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_91
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1145
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f4dbb50dc7c44468c7ddc61a88d43e
+      internalID: 203406463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_92
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1089
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0f5e937bb60e43b6f3cde2f960436
+      internalID: 1777200868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_93
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1088
+        width: 140
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad405a872b46fb4f9a8d153fbf045d0
+      internalID: 429989730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_94
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 844
+        width: 580
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89daba71a145db4a9ad0d2637e226a3
+      internalID: -264294087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_95
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1159
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1502c9e146dee45a5aede12fc00366
+      internalID: -1479134703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_96
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1144
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fade546565a4042b69c2e683deee70
+      internalID: -1098735102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 488
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9efd820912ff439ae0852f15b917b
+      internalID: 524692148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_98
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1089
+        width: 155
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8694d6cdca7062d408c4cc460f19e4ba
+      internalID: 245905652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_99
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1081
+        width: 166
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd45500e6bffc428a3a6e0a7f46970
+      internalID: 889476530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_100
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1074
+        width: 213
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a98300234a4be140805ce5a95c14b14
+      internalID: 1965310251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_101
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1142
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d074cbbf1e1b3c842801ab9ac4096dde
+      internalID: -354102290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_102
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1116
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c3a87a4415f00449ca6b30ced6c344
+      internalID: -1497405642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_103
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 647
+        width: 201
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a7b0b2802fc02488b59470efb599cf
+      internalID: -1602174945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_104
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1056
+        width: 124
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee93ba2332c9f042b79609c4c44d148
+      internalID: -1173212924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_105
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1036
+        width: 92
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a24281a3226654280c2090b9aaa90f
+      internalID: -312159499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_106
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 954
+        width: 310
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e50d67d23e2ab44995191dec0bc1a6
+      internalID: 1725668797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_107
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1081
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be35d5e0b50294089d4a8703c51e26
+      internalID: -20710881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_108
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1036
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8915c3879201e74b91915010a87e753
+      internalID: -141453406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_109
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 954
+        width: 137
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f2ad69d3aa37448be9c9eb7b5a0872
+      internalID: 1306357248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_110
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1047
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddacfedfe17b614b84c1d40724362ed
+      internalID: -1763421709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_111
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 944
+        width: 220
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112b9cd23d45cbc4283798298e5b2149
+      internalID: 121126860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_112
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1033
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d738272dd1ae0448aec601f9cdafcc0
+      internalID: 1596107140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_113
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1021
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36d4cac1ce907d4f93e0c8ab219a5eb
+      internalID: 660381397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_114
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 977
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc87495acbf4f7b4ba2b29ab3e60d2a4
+      internalID: 1238639660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_115
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 863
+        width: 212
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac211d1eaea8a45a7fa97e1a3df78c
+      internalID: 1781454048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_116
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 845
+        width: 166
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f629c552772d94e88819ee76d3a094
+      internalID: -523984142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_117
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 828
+        width: 313
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bacd487e7a2f648b0bcabfe154b946
+      internalID: -1096201805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_118
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 891
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ff50d1329ae4f499f716802aa2d47e
+      internalID: -1182897410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_119
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 810
+        width: 88
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5213123749c60164085115c98104ba64
+      internalID: -1869109467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_120
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 840
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5fe873a158419439174e6ccd4ddae8
+      internalID: 375752312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_121
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 758
+        width: 271
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9c02739d6bc6545aff8902699db7a4
+      internalID: 1976144414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_122
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 750
+        width: 182
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db983d78055bd646b46c01610c6d530
+      internalID: -559380253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_123
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 817
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17309bb8e4cfde54793d35826736f6e3
+      internalID: 1856890806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_124
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 592
+        width: 116
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1087cbb6757f54db0bb2f5916f09db
+      internalID: -1692377302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_125
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 819
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067ba01fef40e1148bb23aee6e239e15
+      internalID: 1721613504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_126
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 805
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88d386e85b11b2498858f6df4dc8d7a
+      internalID: 1806917173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_127
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 802
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f0aca91f1bb764a8a5b2f7a38475ae
+      internalID: 1972595203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_128
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 618
+        width: 186
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdac93bfff2f204cbb0eda0942bae62
+      internalID: -760831393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_129
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 778
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f4df512995b84ca88d20b957902ed
+      internalID: 704077182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_130
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 767
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f2cfe45299e2a4cb2484fe87bcae63
+      internalID: 986044632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_131
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 694
+        width: 105
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea0f04e9e3a2764b9534ff6a19b0787
+      internalID: -974815848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_132
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 663
+        width: 91
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4ef082f23acec479dc9318f07413e2
+      internalID: -1584886976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_133
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 746
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1797b0ca914f449ab1c0a7148986d6
+      internalID: -52940139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_134
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 735
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c82a395415a666418381cca4d3df1a6
+      internalID: 498022713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_135
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 591
+        width: 147
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad2e69da70dea5428692f55bf2c881e
+      internalID: -1478677727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_136
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 712
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618c50a64a7ec8f43ab78c7bb5d59439
+      internalID: -1575455930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_137
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 704
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0545e66b4cf035e489fe9fbe79307009
+      internalID: -1857953477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_138
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 720
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04f3b68196ab7d40aa3a57822811326
+      internalID: 1697684669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_139
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 587
+        width: 121
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e163e1b5429aec4583aa7e22cdbceac
+      internalID: 1217120965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_140
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 740
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2aa32d2986c074f9bf66483a629f24
+      internalID: 2045849674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_141
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 721
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8f327f2db40704282d275db09b730f
+      internalID: 1035809002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_142
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 727
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac4ce5a0e2ee8e469aa47405bcc89f1
+      internalID: -763201037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_143
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 714
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a87a544042509f438f06b4742891a90
+      internalID: -1337483150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_144
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 566
+        width: 136
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051545b5e17d14047ad144694f2287f9
+      internalID: -2015716695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_145
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 705
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e538fac92e743b44a5da7709527247a
+      internalID: 1678900032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_146
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 556
+        width: 123
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d68664c623b4fb4287acd25c0b3d52f
+      internalID: 832604800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_147
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 689
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397a78a0d8fd84042b116c18f6c4247c
+      internalID: -1485198865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_148
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 680
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2588009398b3ffd4a9494b00e0e9bae9
+      internalID: 1073414711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_149
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 684
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5e24be8ebc63543b4a7794a24c7843
+      internalID: 1682528736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_150
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 633
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d08bc3da718f4c966ef23dae8a7aa
+      internalID: -361647337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_151
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 649
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9723d57577d80784c8727858ce355613
+      internalID: 714518274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_152
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 548
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f1acae26d59cc4791a6bb187bec444
+      internalID: -685650631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_153
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 538
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea2d9d518356be4a8b5547df4dbe514
+      internalID: 365364216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_154
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 538
+        width: 39
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b7d1c3586fd2749b17ba69ae2f6145
+      internalID: -816766611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_155
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 624
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44b8d3577b4404ea831291da496e71
+      internalID: 816474528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_156
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 625
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30245134af0721540bea46bd5709ca1d
+      internalID: -1868502016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_157
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 626
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3453f2d1d7bc594438174b1e2ab06ef9
+      internalID: -2093200833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_158
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 438
+        width: 214
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa39e56aa07eab46b4be5c204c840f7
+      internalID: 646136562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_159
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 216
+        width: 216
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b25975900ab26042a68b3880038dd00
+      internalID: 1410791719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_160
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 592
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3f0206bef308c428f0c212475a4bc0
+      internalID: -1050399676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_161
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 350
+        width: 346
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9355ec9c33fe7d4b9dcd539973b83fb
+      internalID: -1937932682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_162
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 419
+        width: 274
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c028df10776f124297a3c06c046e5bf
+      internalID: -1996189847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_163
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 540
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44713f588671b1d4e8a896bda8efe23d
+      internalID: -73651984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_164
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 415
+        width: 85
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e341c3819e09564691cee81d2c70e8f
+      internalID: 2073223939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_165
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 526
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4addb3bda09138c43b1350f309e20ce7
+      internalID: 2086157793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_166
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 405
+        width: 126
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5a3d9f9f5e9de4395c14491f4da072
+      internalID: 306446279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_167
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 399
+        width: 98
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87b331e30836834e80cc6ba178ecbff
+      internalID: -1012581674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_168
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 508
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b0a29d7b7e5044acc30354e2013e3
+      internalID: -1412291348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_169
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 499
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cd2265258f1f74a931759fdf132cb3
+      internalID: -760766355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_170
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 489
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2904c7414615904d832b6d8f1d384d2
+      internalID: 967630939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_171
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 492
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fbee4b99e3a5540aab90d15b043bc1
+      internalID: 1493147105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_172
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 213
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747cd1153e1187458553565dff36d1f
+      internalID: 507342144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_173
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 207
+        width: 169
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e59f1394a07c4d99e6f833711311a
+      internalID: -849236826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_174
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 316
+        width: 148
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b86df8d2093ddb4bbb956722c2be8d1
+      internalID: 950590079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_175
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 319
+        width: 149
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3eb1ed01bbcff47b37ca63494489ce
+      internalID: 2068609905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_176
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 314
+        width: 147
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85d8e1151ec1a149820085a1b5ae090
+      internalID: -880005008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_177
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 306
+        width: 122
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a266ac7be9beb4144b616fcf81af58dd
+      internalID: 1395153344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_178
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 394
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57cefe2adc62f545ae7a5c219aa98dc
+      internalID: -166567388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_179
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 278
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca34a643733cd2841b6a18fb5d2e6e59
+      internalID: 125442547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_180
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 259
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4deae20483664d9978b7c55dd9594
+      internalID: 127338381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_181
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 206
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bcd87507176ce449a3eaa49015d351
+      internalID: 1857181551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_182
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 206
+        width: 165
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ba42066d36226498182f8c84bc4762
+      internalID: -96605707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_183
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 202
+        width: 155
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e5466dfc7bfcb43b358c7e096402a7
+      internalID: -1280366344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_184
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 201
+        width: 157
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8059b63b4896b4e8b356c4b356ba6a
+      internalID: 1001617106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_185
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 113
+        width: 243
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55351c67b0ee5478ddc7cb080c7cb1
+      internalID: -1678706560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_186
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 213
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d7978c137f43e4794e90a637943716
+      internalID: -1831731176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_187
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f519f50452c7545998cec8026dcec2
+      internalID: 2063850195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_188
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 47
+        width: 62
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8428baf23f48df48aae4f79d21d076b
+      internalID: 236394576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_189
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 178
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21847a709cbba4fa99f2237d472ed6
+      internalID: 1805844264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_190
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 84
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5217e6a5f8f0240b0056c8c2a07488
+      internalID: 1665123434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_191
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 120
+        width: 280
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56dcbc6a4f233d4bb0ac57288e25547
+      internalID: 209035545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_192
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 194
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b190e07a9fbb8f4d888601c0040a563
+      internalID: 842441349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_193
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 120
+        width: 141
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd04b15f2da38e48b084813da913d1d
+      internalID: -99558275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_194
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 179
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2445f50773edb9c47847ef66fb057aab
+      internalID: 794841481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_195
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 170
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdbf46072095924f87b526db1dd073f
+      internalID: 1491552589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_196
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 120
+        width: 132
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c0b11b2fc444c4591ded942bd851f5
+      internalID: 1526633511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_197
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 147
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc9da97f451e548be8538daadbfbab
+      internalID: 2018238534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_198
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 148
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5a6e92af5c293419ffe98487777ff8
+      internalID: -1852176804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_199
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 31
+        width: 42
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49a33703bd58104691368b5df7b9ad4
+      internalID: -606954538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_200
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 0
+        width: 33
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e4a3a1daeaeea48ae7e697d91db136
+      internalID: -677465733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_201
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 138
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c425a8559c49e5478c6d2250b880bae
+      internalID: 14476365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_202
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 106
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e085d590611d747a323c224970862a
+      internalID: 136410014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_203
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 0
+        width: 146
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7ed1df0c66024190d3f1cc18bf09f
+      internalID: 1851496724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_204
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 9
+        width: 135
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed9a523f37f40948a45fa12b7311457
+      internalID: 730966084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_205
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 0
+        width: 152
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c1148914ebaa4884b09d9cbb4ea46
+      internalID: -2143776233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_206
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 0
+        width: 144
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eebf63e9729b443a53317812de7014
+      internalID: 759444643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_207
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 0
+        width: 78
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2605dbedc661d498f4eb17e067e4d0
+      internalID: -206272404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_208
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 26
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a76a6fd92f73724db01b3da3777c616
+      internalID: -1590758115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight main sprites - 04_209
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 0
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41cb50bebf8c584aa0a9f7db0916ff7
+      internalID: -1655575648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      The Knight main sprites - 04_0: -745768899
+      The Knight main sprites - 04_1: 1339662106
+      The Knight main sprites - 04_10: 336709296
+      The Knight main sprites - 04_100: 1965310251
+      The Knight main sprites - 04_101: -354102290
+      The Knight main sprites - 04_102: -1497405642
+      The Knight main sprites - 04_103: -1602174945
+      The Knight main sprites - 04_104: -1173212924
+      The Knight main sprites - 04_105: -312159499
+      The Knight main sprites - 04_106: 1725668797
+      The Knight main sprites - 04_107: -20710881
+      The Knight main sprites - 04_108: -141453406
+      The Knight main sprites - 04_109: 1306357248
+      The Knight main sprites - 04_11: -450547779
+      The Knight main sprites - 04_110: -1763421709
+      The Knight main sprites - 04_111: 121126860
+      The Knight main sprites - 04_112: 1596107140
+      The Knight main sprites - 04_113: 660381397
+      The Knight main sprites - 04_114: 1238639660
+      The Knight main sprites - 04_115: 1781454048
+      The Knight main sprites - 04_116: -523984142
+      The Knight main sprites - 04_117: -1096201805
+      The Knight main sprites - 04_118: -1182897410
+      The Knight main sprites - 04_119: -1869109467
+      The Knight main sprites - 04_12: 555751402
+      The Knight main sprites - 04_120: 375752312
+      The Knight main sprites - 04_121: 1976144414
+      The Knight main sprites - 04_122: -559380253
+      The Knight main sprites - 04_123: 1856890806
+      The Knight main sprites - 04_124: -1692377302
+      The Knight main sprites - 04_125: 1721613504
+      The Knight main sprites - 04_126: 1806917173
+      The Knight main sprites - 04_127: 1972595203
+      The Knight main sprites - 04_128: -760831393
+      The Knight main sprites - 04_129: 704077182
+      The Knight main sprites - 04_13: 1772509308
+      The Knight main sprites - 04_130: 986044632
+      The Knight main sprites - 04_131: -974815848
+      The Knight main sprites - 04_132: -1584886976
+      The Knight main sprites - 04_133: -52940139
+      The Knight main sprites - 04_134: 498022713
+      The Knight main sprites - 04_135: -1478677727
+      The Knight main sprites - 04_136: -1575455930
+      The Knight main sprites - 04_137: -1857953477
+      The Knight main sprites - 04_138: 1697684669
+      The Knight main sprites - 04_139: 1217120965
+      The Knight main sprites - 04_14: -102150846
+      The Knight main sprites - 04_140: 2045849674
+      The Knight main sprites - 04_141: 1035809002
+      The Knight main sprites - 04_142: -763201037
+      The Knight main sprites - 04_143: -1337483150
+      The Knight main sprites - 04_144: -2015716695
+      The Knight main sprites - 04_145: 1678900032
+      The Knight main sprites - 04_146: 832604800
+      The Knight main sprites - 04_147: -1485198865
+      The Knight main sprites - 04_148: 1073414711
+      The Knight main sprites - 04_149: 1682528736
+      The Knight main sprites - 04_15: -2073815832
+      The Knight main sprites - 04_150: -361647337
+      The Knight main sprites - 04_151: 714518274
+      The Knight main sprites - 04_152: -685650631
+      The Knight main sprites - 04_153: 365364216
+      The Knight main sprites - 04_154: -816766611
+      The Knight main sprites - 04_155: 816474528
+      The Knight main sprites - 04_156: -1868502016
+      The Knight main sprites - 04_157: -2093200833
+      The Knight main sprites - 04_158: 646136562
+      The Knight main sprites - 04_159: 1410791719
+      The Knight main sprites - 04_16: -2047984328
+      The Knight main sprites - 04_160: -1050399676
+      The Knight main sprites - 04_161: -1937932682
+      The Knight main sprites - 04_162: -1996189847
+      The Knight main sprites - 04_163: -73651984
+      The Knight main sprites - 04_164: 2073223939
+      The Knight main sprites - 04_165: 2086157793
+      The Knight main sprites - 04_166: 306446279
+      The Knight main sprites - 04_167: -1012581674
+      The Knight main sprites - 04_168: -1412291348
+      The Knight main sprites - 04_169: -760766355
+      The Knight main sprites - 04_17: -813438575
+      The Knight main sprites - 04_170: 967630939
+      The Knight main sprites - 04_171: 1493147105
+      The Knight main sprites - 04_172: 507342144
+      The Knight main sprites - 04_173: -849236826
+      The Knight main sprites - 04_174: 950590079
+      The Knight main sprites - 04_175: 2068609905
+      The Knight main sprites - 04_176: -880005008
+      The Knight main sprites - 04_177: 1395153344
+      The Knight main sprites - 04_178: -166567388
+      The Knight main sprites - 04_179: 125442547
+      The Knight main sprites - 04_18: 1545040481
+      The Knight main sprites - 04_180: 127338381
+      The Knight main sprites - 04_181: 1857181551
+      The Knight main sprites - 04_182: -96605707
+      The Knight main sprites - 04_183: -1280366344
+      The Knight main sprites - 04_184: 1001617106
+      The Knight main sprites - 04_185: -1678706560
+      The Knight main sprites - 04_186: -1831731176
+      The Knight main sprites - 04_187: 2063850195
+      The Knight main sprites - 04_188: 236394576
+      The Knight main sprites - 04_189: 1805844264
+      The Knight main sprites - 04_19: -1727284565
+      The Knight main sprites - 04_190: 1665123434
+      The Knight main sprites - 04_191: 209035545
+      The Knight main sprites - 04_192: 842441349
+      The Knight main sprites - 04_193: -99558275
+      The Knight main sprites - 04_194: 794841481
+      The Knight main sprites - 04_195: 1491552589
+      The Knight main sprites - 04_196: 1526633511
+      The Knight main sprites - 04_197: 2018238534
+      The Knight main sprites - 04_198: -1852176804
+      The Knight main sprites - 04_199: -606954538
+      The Knight main sprites - 04_2: -1646239980
+      The Knight main sprites - 04_20: 1730146403
+      The Knight main sprites - 04_200: -677465733
+      The Knight main sprites - 04_201: 14476365
+      The Knight main sprites - 04_202: 136410014
+      The Knight main sprites - 04_203: 1851496724
+      The Knight main sprites - 04_204: 730966084
+      The Knight main sprites - 04_205: -2143776233
+      The Knight main sprites - 04_206: 759444643
+      The Knight main sprites - 04_207: -206272404
+      The Knight main sprites - 04_208: -1590758115
+      The Knight main sprites - 04_209: -1655575648
+      The Knight main sprites - 04_21: -1784906811
+      The Knight main sprites - 04_22: 919327301
+      The Knight main sprites - 04_23: -1813417473
+      The Knight main sprites - 04_24: -2002290197
+      The Knight main sprites - 04_25: -600789067
+      The Knight main sprites - 04_26: -231095014
+      The Knight main sprites - 04_27: 1982919042
+      The Knight main sprites - 04_28: 232266467
+      The Knight main sprites - 04_29: 1166593653
+      The Knight main sprites - 04_3: 1489483644
+      The Knight main sprites - 04_30: 1870189417
+      The Knight main sprites - 04_31: 1832011276
+      The Knight main sprites - 04_32: -698818559
+      The Knight main sprites - 04_33: -616029279
+      The Knight main sprites - 04_34: 1294972652
+      The Knight main sprites - 04_35: -358166649
+      The Knight main sprites - 04_36: 1889630021
+      The Knight main sprites - 04_37: 1025957739
+      The Knight main sprites - 04_38: 2015905734
+      The Knight main sprites - 04_39: 873818822
+      The Knight main sprites - 04_4: -1937531631
+      The Knight main sprites - 04_40: 1366758723
+      The Knight main sprites - 04_41: 1440502762
+      The Knight main sprites - 04_42: -1918222090
+      The Knight main sprites - 04_43: -1732974530
+      The Knight main sprites - 04_44: 1350932185
+      The Knight main sprites - 04_45: -1166657597
+      The Knight main sprites - 04_46: -1068461809
+      The Knight main sprites - 04_47: -975129185
+      The Knight main sprites - 04_48: -1787836268
+      The Knight main sprites - 04_49: 1049750504
+      The Knight main sprites - 04_5: 1642032110
+      The Knight main sprites - 04_50: -1687746795
+      The Knight main sprites - 04_51: 985882034
+      The Knight main sprites - 04_52: -1145472367
+      The Knight main sprites - 04_53: 1901213930
+      The Knight main sprites - 04_54: -1253652819
+      The Knight main sprites - 04_55: -1771452933
+      The Knight main sprites - 04_56: -177925474
+      The Knight main sprites - 04_57: 665545605
+      The Knight main sprites - 04_58: -1463117327
+      The Knight main sprites - 04_59: -840353654
+      The Knight main sprites - 04_6: 387321394
+      The Knight main sprites - 04_60: 1492549050
+      The Knight main sprites - 04_61: -2028604670
+      The Knight main sprites - 04_62: -1511546875
+      The Knight main sprites - 04_63: 270229589
+      The Knight main sprites - 04_64: -1489696479
+      The Knight main sprites - 04_65: 1314732441
+      The Knight main sprites - 04_66: 1423956886
+      The Knight main sprites - 04_67: -2059068481
+      The Knight main sprites - 04_68: -595525850
+      The Knight main sprites - 04_69: 337281850
+      The Knight main sprites - 04_7: -2110590245
+      The Knight main sprites - 04_70: 811336396
+      The Knight main sprites - 04_71: -1460343122
+      The Knight main sprites - 04_72: 68536037
+      The Knight main sprites - 04_73: 729970189
+      The Knight main sprites - 04_74: 241816038
+      The Knight main sprites - 04_75: 707791257
+      The Knight main sprites - 04_76: 312242204
+      The Knight main sprites - 04_77: 371763895
+      The Knight main sprites - 04_78: -690583326
+      The Knight main sprites - 04_79: 1144512583
+      The Knight main sprites - 04_8: -1047111070
+      The Knight main sprites - 04_80: 1535833159
+      The Knight main sprites - 04_81: 86688473
+      The Knight main sprites - 04_82: -673308245
+      The Knight main sprites - 04_83: -1265848783
+      The Knight main sprites - 04_84: 1060985170
+      The Knight main sprites - 04_85: 352920722
+      The Knight main sprites - 04_86: 1965408056
+      The Knight main sprites - 04_87: 557875305
+      The Knight main sprites - 04_88: -813781113
+      The Knight main sprites - 04_89: -2132364236
+      The Knight main sprites - 04_9: 553935439
+      The Knight main sprites - 04_90: 1270721308
+      The Knight main sprites - 04_91: 203406463
+      The Knight main sprites - 04_92: 1777200868
+      The Knight main sprites - 04_93: 429989730
+      The Knight main sprites - 04_94: -264294087
+      The Knight main sprites - 04_95: -1479134703
+      The Knight main sprites - 04_96: -1098735102
+      The Knight main sprites - 04_97: 524692148
+      The Knight main sprites - 04_98: 245905652
+      The Knight main sprites - 04_99: 889476530
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
