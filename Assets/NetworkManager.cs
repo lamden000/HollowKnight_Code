@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Microsoft.AspNetCore.SignalR.Client;
+using System;
+using System.Collections;
 
 public class NetworkManager : MonoBehaviour
 {
@@ -15,14 +17,15 @@ public class NetworkManager : MonoBehaviour
             .WithUrl("https://hollowknightonline-dnf9g8fgfxhggrf6.eastasia-01.azurewebsites.net/gamehub")
             .Build();
 
-        // Lắng nghe vị trí của người chơi khác
         connection.On<string, float, float>("ReceivePlayerPosition", (playerId, x, y) =>
         {
+          //  Debug.Log($"Received position from player {playerId}: ({x}, {y})");
             UpdatePlayerPosition(playerId, x, y);
         });
 
         // Kết nối tới server
         await connection.StartAsync();
+       
     }
 
     private void Update()
@@ -31,7 +34,7 @@ public class NetworkManager : MonoBehaviour
         if (connection != null && connection.State == HubConnectionState.Connected)
         {
             // Gửi vị trí của người chơi này
-            SendPlayerPosition("Player1", transform.position); // Thay 'Player1' bằng ID thực tế của người chơi
+            SendPlayerPosition("Player2", transform.position); // Thay 'Player1' bằng ID thực tế của người chơi
         }
     }
 
@@ -44,18 +47,25 @@ public class NetworkManager : MonoBehaviour
     // Cập nhật vị trí của người chơi khác
     private void UpdatePlayerPosition(string playerId, float x, float y)
     {
-        // Kiểm tra nếu người chơi đã tồn tại
-        if (!players.ContainsKey(playerId))
+        MainThreadDispatcher.Enqueue(() =>
         {
-            // Tạo đối tượng người chơi mới nếu chưa có
-            GameObject playerObj = Instantiate(playerPrefab);
-            playerObj.transform.position = new Vector2(x, y);
-            players.Add(playerId, playerObj);
-        }
-        else
-        {
-            // Cập nhật vị trí của người chơi khác
-            players[playerId].transform.position = new Vector2(x, y);
-        }
+            if (!players.ContainsKey(playerId))
+            {
+                if (playerPrefab != null)
+                {
+                    GameObject playerObj = Instantiate(playerPrefab);
+                    playerObj.transform.position = new Vector2(x, y);
+                    players.Add(playerId, playerObj);
+                }
+                else
+                {
+                    Debug.LogError("playerPrefab is null during instantiation!");
+                }
+            }
+            else
+            {
+                players[playerId].transform.position = new Vector2(x, y);
+            }
+        });
     }
 }

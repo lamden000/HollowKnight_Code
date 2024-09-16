@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1288356936122084387}
   - component: {fileID: 4449695794235841047}
   - component: {fileID: 5606407862694141201}
-  - component: {fileID: 9177463109859897676}
   m_Layer: 0
   m_Name: Hollow Knight
   m_TagString: Untagged
@@ -173,16 +172,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &9177463109859897676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8252703744549289289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57da21f9f24aa224795cd84ef1cc5edb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 0}
