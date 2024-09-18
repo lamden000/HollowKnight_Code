@@ -19,7 +19,6 @@ public class NetworkManager : MonoBehaviour
 
         connection.On<string, float, float>("ReceivePlayerPosition", (playerId, x, y) =>
         {
-          //  Debug.Log($"Received position from player {playerId}: ({x}, {y})");
             UpdatePlayerPosition(playerId, x, y);
         });
 
@@ -51,16 +50,9 @@ public class NetworkManager : MonoBehaviour
         {
             if (!players.ContainsKey(playerId))
             {
-                if (playerPrefab != null)
-                {
-                    GameObject playerObj = Instantiate(playerPrefab);
-                    playerObj.transform.position = new Vector2(x, y);
-                    players.Add(playerId, playerObj);
-                }
-                else
-                {
-                    Debug.LogError("playerPrefab is null during instantiation!");
-                }
+                GameObject playerObj = Instantiate(playerPrefab);
+                playerObj.transform.position = new Vector2(x, y);
+                players.Add(playerId, playerObj);
             }
             else
             {
