@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  slashPrefab: {fileID: 0}
 --- !u!50 &5606407862694141201
 Rigidbody2D:
   serializedVersion: 4
