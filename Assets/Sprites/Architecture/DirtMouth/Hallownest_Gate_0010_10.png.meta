@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hallownest_Gate_0010_10_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1249
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01774cdcd11664240ac8086895d98e85
+      internalID: 1369984364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hallownest_Gate_0010_10_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 30
+        width: 298
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c33d61dc19cf4448322c16152f59d1
+      internalID: -1598309947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hallownest_Gate_0010_10_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 225
+        height: 1241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcf3e849035e1a4d97718ab7044a312
+      internalID: 490213877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hallownest_Gate_0010_10_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1173
+        width: 170
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84da657c9894d1429c094f94db5874f
+      internalID: 1889136958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hallownest_Gate_0010_10_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 61
+        width: 147
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29010f1aff7d0742903dc4219cff731
+      internalID: -58365753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +250,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hallownest_Gate_0010_10_0: 1369984364
+      Hallownest_Gate_0010_10_1: -1598309947
+      Hallownest_Gate_0010_10_2: 490213877
+      Hallownest_Gate_0010_10_3: 1889136958
+      Hallownest_Gate_0010_10_4: -58365753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPCEBD~1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 346
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c82bb5e4f68ab04692ba976008f052d
+      internalID: 635160768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 624
+        width: 247
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25725f3beeb0d234da218c79c86d5220
+      internalID: -199907703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 626
+        width: 168
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eb59dd204a8a54b816d441dc3e799b
+      internalID: 1549938115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_3
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 744
+        width: 154
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c408c7e112b30724c9440a71bb07f433
+      internalID: 1807536954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_4
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 646
+        width: 121
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5078a6e0b90c47be94e19afb9d9af
+      internalID: 42372317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 5
+        width: 262
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abad0eae2072e549bba3a43981537b9
+      internalID: 170157538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_6
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 268
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d97143b088004a948bb3c7841c45a
+      internalID: 1067385372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 353
+        width: 258
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840c1716d0844bb43a28d91e7cd9dd9b
+      internalID: 1589945245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_8
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 138
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aa75a01a87221499895fa2256dcf87
+      internalID: -1003271207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_9
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 344
+        width: 188
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5edbcfc5f0cf443aa2aeffbc67c12e
+      internalID: -568159794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 142
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f82fceb7e20343ae336c1d61f624a
+      internalID: -801175571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +376,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPCEBD~1_0: 635160768
+      SPCEBD~1_1: -199907703
+      SPCEBD~1_10: -801175571
+      SPCEBD~1_2: 1549938115
+      SPCEBD~1_3: 1807536954
+      SPCEBD~1_4: 42372317
+      SPCEBD~1_5: 170157538
+      SPCEBD~1_6: 1067385372
+      SPCEBD~1_7: 1589945245
+      SPCEBD~1_8: -1003271207
+      SPCEBD~1_9: -568159794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

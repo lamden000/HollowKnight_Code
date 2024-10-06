@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SPF4D9~1_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2033
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38578d9f96137b749aa82b59aaf6cf24
+      internalID: 1825451513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1827
+        width: 542
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a733f1069f9d34e851897ecd2b80de
+      internalID: 1366289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1359
+        width: 295
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a04403f202232c49a59a2d03468028b
+      internalID: -429518284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1758
+        width: 118
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0308cdf17cad2c444990a5c03ce8f3be
+      internalID: -1582726256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_4
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1636
+        width: 115
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e87ec64198cb7245ac0b0a8a2dc39e5
+      internalID: 1161121342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1651
+        width: 197
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c89b1d314170d459410515dfac5438
+      internalID: 202068998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_6
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1411
+        width: 145
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a13d2b5226f1804f9ad08978d71219b
+      internalID: -679730404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_7
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1622
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20590cb35e2518b4e8b37776eaf7941d
+      internalID: 1034698231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1306
+        width: 520
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804267982cc05cb42bfb907af9fddb06
+      internalID: 1954315087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_9
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1370
+        width: 160
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4efa5ba3fc62b49b368bbc0d4e9109
+      internalID: -217445185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2
+        width: 431
+        height: 1334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143ed666c2a165140bea7c315b83ca05
+      internalID: 1912988556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_11
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1313
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617081a4c0bcda9418b5ae49805d2258
+      internalID: -585831705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1249
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2071dcfe9dd1be6408190e75279d877f
+      internalID: -1283951799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 224
+        height: 1242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0544a037a1e032a45bd38708d62a9bcb
+      internalID: -1286414554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_14
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1144
+        width: 171
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466ff639f9b13bf47a713fdf960fdf61
+      internalID: -1407771551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_15
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 973
+        width: 325
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1311dc980db63468010159396e94b9
+      internalID: -137608852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_16
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 624
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e403c228e15746d4b970b28815664a7c
+      internalID: 1975770598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_17
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 589
+        width: 258
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb576b7c3fadbb4488fb614ad020d40
+      internalID: 90167477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPF4D9~1_18
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 80
+        width: 571
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29f2e3dcf912344186303ef1095be6a
+      internalID: -1243825473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +544,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPF4D9~1_0: 1825451513
+      SPF4D9~1_1: 1366289
+      SPF4D9~1_10: 1912988556
+      SPF4D9~1_11: -585831705
+      SPF4D9~1_12: -1283951799
+      SPF4D9~1_13: -1286414554
+      SPF4D9~1_14: -1407771551
+      SPF4D9~1_15: -137608852
+      SPF4D9~1_16: 1975770598
+      SPF4D9~1_17: 90167477
+      SPF4D9~1_18: -1243825473
+      SPF4D9~1_2: -429518284
+      SPF4D9~1_3: -1582726256
+      SPF4D9~1_4: 1161121342
+      SPF4D9~1_5: 202068998
+      SPF4D9~1_6: -679730404
+      SPF4D9~1_7: 1034698231
+      SPF4D9~1_8: 1954315087
+      SPF4D9~1_9: -217445185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
