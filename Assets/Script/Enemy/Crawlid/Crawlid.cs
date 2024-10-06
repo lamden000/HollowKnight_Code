@@ -9,32 +9,94 @@ public class Crawlid : EnemyBase
     // Start is called before the first frame update
     void Start()
     {
-        health = 50; // Crawlid có ít máu h?n so v?i Zombie ho?c Alien
-        attackPower = 5; // Crawlid có s?c m?nh t?n công y?u h?n
+        base.Start();
+        health = 50;
+        attackPower = 5;
+        SetState(0); // Walk left
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
+        Render();
     }
+    public override void Render()
+    {
+        switch (state)
+        {
+            case 0:
+                spriteRenderer.flipX = false;
+                animator.SetBool("Walk_left", true);
+                break;
+            case 1:
+                spriteRenderer.flipX = true;
+                animator.SetBool("Walk_left", true);
+                break;
+            case 2:
+                nx = -1;
+                break;
+            case 3:
 
+                break;
+            case -1:
+
+                break;
+        }
+    }
+    public void SetState(int state)
+    {
+        /*
+            WALK_LEFT == 0
+            WALK_RIGHT == 1
+            WAS ATTACK LEFT == 2
+            WAS ATTACK RIGHT == 3
+            DEAD == -1
+        */
+        switch (state)
+        {
+            case 0:
+                nx = -1;
+                break;
+            case 1:
+                nx = 1;
+                break;
+            case 2:
+                nx = -1;
+                break;
+            case 3:
+                nx = 1;
+                break;
+            case -1:
+                
+                break;
+            default:
+                Debug.Log("Error SetState Crawlid");
+                break;
+        }
+
+        base.SetState(state);
+    }
     public override void Move()
     {
-        // Crawlid di chuy?n ch?m trên m?t ??t
-        Debug.Log("Crawlid is crawling.");
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        transform.Translate(Vector2.right * nx * speed * Time.deltaTime);
     }
 
     public override void Attack()
     {
-        // Crawlid có th? t?n công b?ng cách va ch?m v?i nhân v?t chính
         Debug.Log("Crawlid attacks by colliding with the player.");
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player"))
         {
+            if (nx == -1)
+            {
+                SetState(1);
+            }
+            else if (nx == 1)
+            {
+                SetState(0);
+            }
             Debug.Log("Crawlid was attack");
         }
     }
