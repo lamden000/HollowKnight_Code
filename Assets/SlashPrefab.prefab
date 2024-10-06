@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -48,9 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - key: NormalAttack0
-    value: {fileID: -381357205, guid: f5be1b93822df3048ba444dcf14a92de, type: 3}
+    value: {fileID: -324332146, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
   - key: NormalAttack1
-    value: {fileID: -461098789, guid: f5be1b93822df3048ba444dcf14a92de, type: 3}
+    value: {fileID: 1481540751, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
   spinSpeed: 100
   attackSound: {fileID: 8300000, guid: b2c0169c2746a3d4ba80c230f9395f75, type: 3}
 --- !u!212 &6579443962551962566

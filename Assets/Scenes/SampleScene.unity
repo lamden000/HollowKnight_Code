@@ -2659,12 +2659,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2595506932523182385, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595506932523182385, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3500147
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595506932523182385, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1401285328, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
+    - target: {fileID: 2595506932523182385, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
       propertyPath: m_SortingLayer
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2595506932523182385, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
       propertyPath: m_SortingLayerID
       value: 1976565951
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595506932523182385, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4449695794235841047, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
       propertyPath: slashPrefab
