@@ -24,6 +24,7 @@ public class ParrallaxEffect : MonoBehaviour
         Vector3 cameraMovement = player.position - lastPlayerPosition;
         transform.position += (cameraMovement-new Vector3(0,cameraMovement.y,0)) * parallaxFactor;
         lastPlayerPosition = player.position;
-
+       
     }
+
 }

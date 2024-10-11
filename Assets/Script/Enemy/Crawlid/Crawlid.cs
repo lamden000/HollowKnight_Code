@@ -1,12 +1,23 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Crawlid : EnemyBase
 {
     private float speed = 2.0f;
-
+    public float deathForce = 200f;
+    private Vector2 attackedDirection;
     // Start is called before the first frame update
+    enum CrawlidState
+    {
+        Walking_left =0, 
+        Walking_right =1,
+        Dead =-1,
+
+    }
+
     void Start()
     {
         base.Start();
@@ -17,6 +28,11 @@ public class Crawlid : EnemyBase
 
     void Update()
     {
+        
+        if (GetState() == -1)
+        {
+            return;
+        }
         Move();
         Render();
     }
@@ -39,7 +55,8 @@ public class Crawlid : EnemyBase
 
                 break;
             case -1:
-
+                animator.SetTrigger("Dead");
+                //StartCoroutine(WaitForAnimation(animator, "Dead"));
                 break;
         }
     }
@@ -54,10 +71,10 @@ public class Crawlid : EnemyBase
         */
         switch (state)
         {
-            case 0:
+            case (int)CrawlidState.Walking_left:
                 nx = -1;
                 break;
-            case 1:
+            case (int)CrawlidState.Walking_right:
                 nx = 1;
                 break;
             case 2:
@@ -66,8 +83,8 @@ public class Crawlid : EnemyBase
             case 3:
                 nx = 1;
                 break;
-            case -1:
-                
+            case (int)CrawlidState.Dead:
+                Render();
                 break;
             default:
                 Debug.Log("Error SetState Crawlid");
@@ -75,6 +92,13 @@ public class Crawlid : EnemyBase
         }
 
         base.SetState(state);
+    }
+    protected override void Die(Vector2 attackDirection)
+    {
+        rb.AddForce(attackDirection.normalized * deathForce);
+        animator.SetTrigger("Dead");
+        SetState((int)CrawlidState.Dead);
+        Destroy(gameObject, 2);
     }
     public override void Move()
     {
@@ -87,17 +111,10 @@ public class Crawlid : EnemyBase
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Player"))
+        if(GetState() == -1)
         {
-            if (nx == -1)
-            {
-                SetState(1);
-            }
-            else if (nx == 1)
-            {
-                SetState(0);
-            }
-            Debug.Log("Crawlid was attack");
+            return;
         }
+       
     }
 }

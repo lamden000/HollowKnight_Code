@@ -9,9 +9,12 @@ public class PlayerScript : MonoBehaviour
         left = -1
     }
 
+    Rigidbody2D rb;
+
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
     private float lastAttackTime = -1.0f;    // Lưu lại thời điểm tấn công gần nhất
     public float moveSpeed = 5f;
+    public float attackBounceForce=20f;
     Vector2 velocity;
     Animator animator;
     public GameObject slashPrefab;
@@ -20,6 +23,7 @@ public class PlayerScript : MonoBehaviour
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         direction = Direction.right;
         animator = GetComponent<Animator>();
     }
@@ -89,4 +93,8 @@ public class PlayerScript : MonoBehaviour
     {
         return velocity;
     }    
+    public void AttackBounceBack(Vector2 direction)
+    {
+        rb.velocity.Set(direction.x*attackBounceForce, rb.velocity.y);
+    }
 }
