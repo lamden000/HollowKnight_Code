@@ -95,7 +95,6 @@ public class Crawlid : EnemyBase
     }
     protected override void Die(Vector2 attackDirection)
     {
-        rb.AddForce(attackDirection.normalized * deathForce);
         animator.SetTrigger("Dead");
         SetState((int)CrawlidState.Dead);
         Destroy(gameObject, 2);

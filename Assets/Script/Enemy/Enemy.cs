@@ -44,11 +44,16 @@ public abstract class EnemyBase : MonoBehaviour, IEnemy
     public abstract void Render();
     public virtual void TakeDamage(int amount,Vector2 direction)
     {
+        Knockback(direction, -5f);
         health -= amount;
         if (health <= 0)
         {
             Die(direction);
         }
+    }
+    public void Knockback(Vector2 hitDirection, float knockbackForce)
+    {
+        rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
     }
 
     protected virtual void Die(Vector2 direction)

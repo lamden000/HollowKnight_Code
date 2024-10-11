@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     Rigidbody2D rb;
-
+    public float jumpForce = 5f;
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
     private float lastAttackTime = -1.0f;    // Lưu lại thời điểm tấn công gần nhất
     public float moveSpeed = 5f;
@@ -45,7 +45,7 @@ public class PlayerScript : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         // Tạo vector di chuyển
-        velocity = new Vector2(horizontal, vertical) * moveSpeed * Time.deltaTime;
+        velocity = new Vector2(horizontal, 0) * moveSpeed * Time.deltaTime;
  
         if (velocity.magnitude > 0)
         {
@@ -76,7 +76,11 @@ public class PlayerScript : MonoBehaviour
                 NormalAttack(1);
             }
         }
-        
+        if (Input.GetKeyDown(KeyCode.Space)) // Nhấn phím Space để nhảy
+        {
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
+
         transform.Translate(velocity);
     }
 

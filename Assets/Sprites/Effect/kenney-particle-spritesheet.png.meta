@@ -1,0 +1,3251 @@
+fileFormatVersion: 2
+guid: 1da92c8cb7c161542801365a97bc196b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2321
+        width: 223
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e268849a6417eb458c3e274decd62d9
+      internalID: 281130550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2310
+        width: 243
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d07d96b66bb4647bc7474e120aca3e
+      internalID: 627309853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2315
+        width: 233
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145a4ac98ea3a4247959d2fa34a22347
+      internalID: 2054965309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2312
+        width: 232
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df510515910864c88565f51dae48b9
+      internalID: 174203244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 2305
+        width: 243
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bc07fdc45f3bb4e9364e2ecf7c3040
+      internalID: -478729677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 2542
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0263026329efb1a43a8a01f20685deb9
+      internalID: -1449131531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 2317
+        width: 238
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef74b9dc4ebfce448c083d649d0ff86
+      internalID: 1761707991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2305
+        width: 102
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693a6e2e2665f8c40a71f0d723813ec0
+      internalID: -25220274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2335
+        width: 193
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea4ca3f2f15a624390de6de533123db
+      internalID: -1908500349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 2518
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b28fde1d725474788bd68a1978d8d3
+      internalID: 683648636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 2524
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3539ecbd8d9853b45ac0e8fde7c968cc
+      internalID: -2118497872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 2521
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a506afa824af08649b02f265de92c8f0
+      internalID: 1225251704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2518
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f6465c0c4102a498391bfeae649f8f
+      internalID: 1206406173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2511
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6879bcd9e9bbc429b14bb0911558aa
+      internalID: -1975661690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2351
+        width: 156
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942ff103669fcb54abfbe26693a27c15
+      internalID: 400138000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2511
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abda2d37b05d7540a6ba81736be410f
+      internalID: 685946900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2501
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a661a3291213408a46041d012361d
+      internalID: -487278334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 2348
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a887d65a15c82b42b028e4f9a9e607e
+      internalID: -651895575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2487
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdedae5ae8eb3343b566f7d7ab3439e
+      internalID: -1925847960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2466
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2595650fbf701ff44acebcbec7e26589
+      internalID: -1909303399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2451
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62336c143d149ab4698fe8121e6caf2f
+      internalID: -1328008286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 2453
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ded756f6d1d40840a5d13b018f0b5c8
+      internalID: -2086478914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 2426
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e10bc483c80df14ea34c6841084e4e0
+      internalID: -1863336448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2443
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dde15e79c80b94eb2bb8697dbe8077
+      internalID: 300353690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 2444
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4268eebcae7b71342b3564ccd6bb986f
+      internalID: -250744343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2429
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093dcdf1534d67e4fae77d6e1c2298e6
+      internalID: 1255497591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2423
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e2d7ec6cd557429c7053c2cb53485
+      internalID: -1050090659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 2418
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34211eb62f5d7242b7567f494bb7e28
+      internalID: -316873703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2409
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c1c9f103d91dc44bf6b1c0f6119371
+      internalID: -1503879505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2398
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6801ded415724bf40aba4735b054fca0
+      internalID: 1623471388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 2396
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862e4e6f2f50ea440b2c222c12273b04
+      internalID: 569193211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2397
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa6f3652e31b24ea64a4ae636b5b11
+      internalID: -1490998133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 2389
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d160cf29c826c41a9190436d502606
+      internalID: -1564144156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2378
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7914d2446281cf4dad4c1a2b20a5d32
+      internalID: -1808714079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 2369
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd514e2754dfacc4194bf26f5fd8bab0
+      internalID: 1175749068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2375
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079bcb5c911154d41b5fee70cc83944c
+      internalID: -39661928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 2367
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0cdbbd80849c4a99c1365533694a7
+      internalID: -66571724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2341
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6373cbc092aa1004abe7f0fa57419733
+      internalID: -1503525720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2342
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38add01df83bd64683129d782f568de
+      internalID: -1325763774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 2332
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0badbf7a8c27c2498d36c38f708428a
+      internalID: 215499095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2336
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c82c5bf2c29a943aacb8e2585c318b
+      internalID: -1005099954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 2334
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2401b19ec41dcf4bb83b8f5b5122e6e
+      internalID: -1430658052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 2326
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc58bb4d227a234b87aaee71f97c44a
+      internalID: -704844102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2321
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312c5c82243f0f428839d1d5c6cf555
+      internalID: 1566800180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2318
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d2183ad62d4e94d96111ff3d03155f
+      internalID: -1675880790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 2303
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb555d47baacaff41a470f993d91d35d
+      internalID: 763849153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 2302
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c78fd3674c5f54a811673baca814d1
+      internalID: -192443026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2065
+        width: 235
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff3282dc220d3a4b89b579f51ab017c
+      internalID: 2059424696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2067
+        width: 184
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc60162cf2cf14ead900a9140e0816
+      internalID: -768398712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 2061
+        width: 211
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7407042f314a147b038f2789e9e09d
+      internalID: -1473895532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2068
+        width: 207
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe2a859919d89340afa02735ab7ca03
+      internalID: -184408966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2112
+        width: 62
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d98a8585d958a408ecde3b48bfe21a
+      internalID: 131256904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 2251
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2077391cf5f182042903759f4e925e6e
+      internalID: -1035152877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2067
+        width: 156
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a0c22aff0abf34588015446e73276a
+      internalID: -381653127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2112
+        width: 51
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ee76111fc4d8949bfd5c9dcb4f13f7
+      internalID: 330290359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 2149
+        width: 136
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb518ca91e244e549a63eb6ba4aacc1d
+      internalID: 344210089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2141
+        width: 153
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c434d530e7e2e47991f2aba0efcf86
+      internalID: -1172510811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2199
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5118234ec4d5ffd42863d6a2a7ba4a07
+      internalID: -1728094203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 2126
+        width: 255
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84bb92780ea1f4458e4fbfd83bc9bcf
+      internalID: 167157630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 2147
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b392f218c41b6364aa879bc00fe61603
+      internalID: 2051889129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 2154
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c827b22e37ca7042a73bd2eacfcf29b
+      internalID: 1949047878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2062
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4993240378320f4cb70b9c37ab95bd2
+      internalID: 194931710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1827
+        width: 184
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e1ed838bdd61147aad77df25100cf7
+      internalID: 1888553764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1795
+        width: 249
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882c384c758ab164d93ecae62c3639f3
+      internalID: 360981268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1794
+        width: 249
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5a1e8d6166c1448b17da9775ae39b
+      internalID: -329091012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1795
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dedfd124f03bb4ead0cf4acc8349e1
+      internalID: -1543833772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1809
+        width: 222
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6448f471a99c64284955ffc57782c9
+      internalID: 1574359624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1809
+        width: 219
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7a753e607727347b03a4017fe6f83d
+      internalID: 1986617858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1796
+        width: 247
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337dc8ed5f3726b4ea9368fc61ece587
+      internalID: -840522542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1799
+        width: 235
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9605aeaf1900dc41929ef2c9bbd67c7
+      internalID: 1968091408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1797
+        width: 240
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159d5685b69c48f419e34a14c2aaf150
+      internalID: 27760271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1792
+        width: 107
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf9c3dc1d36d1c48aad45da4c5c1a1e
+      internalID: -1116651522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1535
+        width: 245
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040222074d2025447b45304bae1eba4d
+      internalID: -2017338115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1548
+        width: 258
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac15454393d4cf4cae86cd126bede11
+      internalID: -1323852063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1536
+        width: 154
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3970d8ca6a7e3d54b9de688e9491b61a
+      internalID: 1131951367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1587
+        width: 258
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dc4d247d00fcc4d82af27df03f4378
+      internalID: -293478248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1536
+        width: 151
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d75e962ed0aa54eaafa3d52c382976
+      internalID: 505342636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1599
+        width: 257
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611086675e3bf4c4f9bf230fd60e230c
+      internalID: -1618306483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1536
+        width: 140
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008690572be976e47970edae5469814d
+      internalID: -2130742724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1592
+        width: 258
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8a5464107f9a4f8833fe0084dccdc
+      internalID: 459436605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 1536
+        width: 153
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01e60f5458ae074085d7a78b1d77141
+      internalID: 1059919251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1610
+        width: 256
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f476ef88dddb4f816c526159769a9
+      internalID: 1346346251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1329
+        width: 257
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ec38e9c20cf884c97c92dfd78f3ad4
+      internalID: -1372579058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1306
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b85d9c5d5305d4eb325572ce76f7fc
+      internalID: 1184166703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1290
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6740caaeea3ab5e438139625325b3d26
+      internalID: -1454778668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1289
+        width: 236
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812160bc991c7f149bbbb75122cf919c
+      internalID: -1556406490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1286
+        width: 242
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25fee3be9d68ff4292448f252d8b389
+      internalID: 946764672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1317
+        width: 162
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99f324ce922c2f489895a5d33254af0
+      internalID: -935137548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1280
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76270168cdcaf841b67e9c86023ec9d
+      internalID: -472558086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1298
+        width: 64
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5e8bb097198848a0d2b57d59137d8
+      internalID: -1462731219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1370
+        width: 233
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1d9dd4df2718642ab685af4d8d98cd
+      internalID: -1147629669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 1292
+        width: 102
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf71403500ef654a82db0d7e3e62571
+      internalID: 263240020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1037
+        width: 230
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380d13df6afff40499d3323b2acb0089
+      internalID: -1616794074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1040
+        width: 228
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b4a515ed264ac44a387e4b9e1337ab
+      internalID: -1618604848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1083
+        width: 124
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab8bcb8cd2fdb748868c622ecfed9ad
+      internalID: 291391930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1202
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06f5f94aef64ad4e8d15b3101b92fca
+      internalID: -173716913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1035
+        width: 230
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419db8945a791634fa9f39ca8dc5db5b
+      internalID: 1001850050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1046
+        width: 205
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ed50ee97d189d42b91fecdc5179e9d
+      internalID: -2005680322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1060
+        width: 180
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1b1a84697435a4189986d8043825ba
+      internalID: -2107230429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1069
+        width: 216
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc40b7cf5cfc8bb4bb12a92051b20358
+      internalID: 527010638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1062
+        width: 211
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64873748ba38c6049ae6d007c3c33c69
+      internalID: -791653356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 1058
+        width: 194
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7629cee37070e1643a5e049846c0a9a3
+      internalID: -667002745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1101
+        width: 232
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f113e9ac5287a64faa86212c8e557b0
+      internalID: 1141230321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1147
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37b9456902ef44bb20dfeeb00f0471
+      internalID: 709817721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 801
+        width: 200
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eca30e6946b7e0448e4416b74d6b9e3
+      internalID: -807044649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 782
+        width: 237
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4fb3d89332b914289f81faddc86077
+      internalID: -1811368829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 512
+        width: 251
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c9826fd3ceeda4a97247cf9e2db7fc
+      internalID: 1108179702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 771
+        width: 235
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c72b6f8a64fec48bb1fe41c7b55329
+      internalID: 272660222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 793
+        width: 245
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab519c6696188e841862e0b76f2eb4bd
+      internalID: 902112816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 767
+        width: 158
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c0699b1f3e454448a5996c696d664e
+      internalID: -53675732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 822
+        width: 259
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c4b6b87a52f49489157ce30d0b899c
+      internalID: 1953044097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 767
+        width: 82
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b028a385495844c990c30ab585d779
+      internalID: -411324224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 857
+        width: 259
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d25a0272bd4249877db96c97caa55
+      internalID: -1389281235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 767
+        width: 71
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ced088062768c545b2e945be2bd5c0b
+      internalID: 1389611063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 775
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb511befe65524e84547a67aa0f12d
+      internalID: 738422170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 786
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7f1dc35ddd84443be3f806b0cb6397
+      internalID: 500728108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 257
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcedd2e1a0289f04faa76f5debd8823e
+      internalID: -89546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 512
+        width: 249
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e27bb89239c1141ae83b1b2b1fa299
+      internalID: -839921431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 259
+        width: 258
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a7e341538cb8e47b0a65e1dbd20afe
+      internalID: 2047870131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 543
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566d74994ef4a7f45948e1334a9029bb
+      internalID: 1835340832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 527
+        width: 218
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee246331c3c556146b6df4b284a3a1af
+      internalID: -52924980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 512
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aafa8f8965a794383900712ebf903d
+      internalID: 1286753747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 522
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26cd26e2bf318647b460ced8a79c6d5
+      internalID: 305284544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 550
+        width: 182
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d97fd2ebcabd6459f3ebfc404c2224
+      internalID: -473087354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 605
+        width: 257
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbcbb8c3dbc537489ffd2e495bfb041
+      internalID: 1841282773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 259
+        width: 217
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b475ce553f9c44af76d74e57f19fe
+      internalID: 2031910698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 339
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11959e2a18eb6bb478cccb55850dc598
+      internalID: 1205907319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 341
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd60023e9cbca9245ae7467cc7b9cd2d
+      internalID: -124418360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 334
+        width: 252
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dabcbf4c89abd41aa7e035e2885337
+      internalID: -2082691164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 257
+        width: 102
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad908ec090b174d903ee8c80ed103a
+      internalID: -476936602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 334
+        width: 256
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933b9a4640673b449a6ccee2a60be5b
+      internalID: 1644721233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 255
+        width: 106
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045ec1342c4874341aca9aeabc0efdd1
+      internalID: 1555438772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 331
+        width: 258
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fa8a2dbe58b5d4f9349a30ce9a7195
+      internalID: -221469667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 0
+        width: 233
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a078e6d425436f43aa21813bc5262d4
+      internalID: 224460476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 253
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f8146d75514664ca4005932fc1a3e1
+      internalID: -1673515991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 253
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911418c5e32955e40aea792d4d301855
+      internalID: 1255842119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 15
+        width: 166
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80c2bb14e8a9a44f87ee262fc4b1a0b
+      internalID: 1320710959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 15
+        width: 177
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435b556e2dc40ca499a980f5407b90a4
+      internalID: 2066831295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 90
+        width: 184
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c091d79aaf7934f8e8e23fc5089275
+      internalID: 1031922976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1
+        width: 252
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dc98a8d1f35d64c81f1bd16ecc8f3b
+      internalID: 617926242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 515
+        width: 265
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed4f6e735f14c42a2effb405017304
+      internalID: -1646318282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kenney-particle-spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 763
+        width: 238
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f54824619ded046b003374a2f193a8
+      internalID: -1365768370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kenney-particle-spritesheet_0: 281130550
+      kenney-particle-spritesheet_1: 627309853
+      kenney-particle-spritesheet_10: -2118497872
+      kenney-particle-spritesheet_100: -791653356
+      kenney-particle-spritesheet_101: -667002745
+      kenney-particle-spritesheet_102: 1141230321
+      kenney-particle-spritesheet_103: 709817721
+      kenney-particle-spritesheet_104: -807044649
+      kenney-particle-spritesheet_105: -1811368829
+      kenney-particle-spritesheet_106: 1108179702
+      kenney-particle-spritesheet_107: 272660222
+      kenney-particle-spritesheet_108: 902112816
+      kenney-particle-spritesheet_109: -53675732
+      kenney-particle-spritesheet_11: 1225251704
+      kenney-particle-spritesheet_110: 1953044097
+      kenney-particle-spritesheet_111: -411324224
+      kenney-particle-spritesheet_112: -1389281235
+      kenney-particle-spritesheet_113: 1389611063
+      kenney-particle-spritesheet_114: 738422170
+      kenney-particle-spritesheet_115: 500728108
+      kenney-particle-spritesheet_116: -89546
+      kenney-particle-spritesheet_117: -839921431
+      kenney-particle-spritesheet_118: 2047870131
+      kenney-particle-spritesheet_119: 1835340832
+      kenney-particle-spritesheet_12: 1206406173
+      kenney-particle-spritesheet_120: -52924980
+      kenney-particle-spritesheet_121: 1286753747
+      kenney-particle-spritesheet_122: 305284544
+      kenney-particle-spritesheet_123: -473087354
+      kenney-particle-spritesheet_124: 1841282773
+      kenney-particle-spritesheet_125: 2031910698
+      kenney-particle-spritesheet_126: 1205907319
+      kenney-particle-spritesheet_127: -124418360
+      kenney-particle-spritesheet_128: -2082691164
+      kenney-particle-spritesheet_129: -476936602
+      kenney-particle-spritesheet_13: -1975661690
+      kenney-particle-spritesheet_130: 1644721233
+      kenney-particle-spritesheet_131: 1555438772
+      kenney-particle-spritesheet_132: -221469667
+      kenney-particle-spritesheet_133: 224460476
+      kenney-particle-spritesheet_134: -1673515991
+      kenney-particle-spritesheet_135: 1255842119
+      kenney-particle-spritesheet_136: 1320710959
+      kenney-particle-spritesheet_137: 2066831295
+      kenney-particle-spritesheet_138: 1031922976
+      kenney-particle-spritesheet_139: 617926242
+      kenney-particle-spritesheet_14: 400138000
+      kenney-particle-spritesheet_140: -1646318282
+      kenney-particle-spritesheet_141: -1365768370
+      kenney-particle-spritesheet_15: 685946900
+      kenney-particle-spritesheet_16: -487278334
+      kenney-particle-spritesheet_17: -651895575
+      kenney-particle-spritesheet_18: -1925847960
+      kenney-particle-spritesheet_19: -1909303399
+      kenney-particle-spritesheet_2: 2054965309
+      kenney-particle-spritesheet_20: -1328008286
+      kenney-particle-spritesheet_21: -2086478914
+      kenney-particle-spritesheet_22: -1863336448
+      kenney-particle-spritesheet_23: 300353690
+      kenney-particle-spritesheet_24: -250744343
+      kenney-particle-spritesheet_25: 1255497591
+      kenney-particle-spritesheet_26: -1050090659
+      kenney-particle-spritesheet_27: -316873703
+      kenney-particle-spritesheet_28: -1503879505
+      kenney-particle-spritesheet_29: 1623471388
+      kenney-particle-spritesheet_3: 174203244
+      kenney-particle-spritesheet_30: 569193211
+      kenney-particle-spritesheet_31: -1490998133
+      kenney-particle-spritesheet_32: -1564144156
+      kenney-particle-spritesheet_33: -1808714079
+      kenney-particle-spritesheet_34: 1175749068
+      kenney-particle-spritesheet_35: -39661928
+      kenney-particle-spritesheet_36: -66571724
+      kenney-particle-spritesheet_37: -1503525720
+      kenney-particle-spritesheet_38: -1325763774
+      kenney-particle-spritesheet_39: 215499095
+      kenney-particle-spritesheet_4: -478729677
+      kenney-particle-spritesheet_40: -1005099954
+      kenney-particle-spritesheet_41: -1430658052
+      kenney-particle-spritesheet_42: -704844102
+      kenney-particle-spritesheet_43: 1566800180
+      kenney-particle-spritesheet_44: -1675880790
+      kenney-particle-spritesheet_45: 763849153
+      kenney-particle-spritesheet_46: -192443026
+      kenney-particle-spritesheet_47: 2059424696
+      kenney-particle-spritesheet_48: -768398712
+      kenney-particle-spritesheet_49: -1473895532
+      kenney-particle-spritesheet_5: -1449131531
+      kenney-particle-spritesheet_50: -184408966
+      kenney-particle-spritesheet_51: 131256904
+      kenney-particle-spritesheet_52: -1035152877
+      kenney-particle-spritesheet_53: -381653127
+      kenney-particle-spritesheet_54: 330290359
+      kenney-particle-spritesheet_55: 344210089
+      kenney-particle-spritesheet_56: -1172510811
+      kenney-particle-spritesheet_57: -1728094203
+      kenney-particle-spritesheet_58: 167157630
+      kenney-particle-spritesheet_59: 2051889129
+      kenney-particle-spritesheet_6: 1761707991
+      kenney-particle-spritesheet_60: 1949047878
+      kenney-particle-spritesheet_61: 194931710
+      kenney-particle-spritesheet_62: 1888553764
+      kenney-particle-spritesheet_63: 360981268
+      kenney-particle-spritesheet_64: -329091012
+      kenney-particle-spritesheet_65: -1543833772
+      kenney-particle-spritesheet_66: 1574359624
+      kenney-particle-spritesheet_67: 1986617858
+      kenney-particle-spritesheet_68: -840522542
+      kenney-particle-spritesheet_69: 1968091408
+      kenney-particle-spritesheet_7: -25220274
+      kenney-particle-spritesheet_70: 27760271
+      kenney-particle-spritesheet_71: -1116651522
+      kenney-particle-spritesheet_72: -2017338115
+      kenney-particle-spritesheet_73: -1323852063
+      kenney-particle-spritesheet_74: 1131951367
+      kenney-particle-spritesheet_75: -293478248
+      kenney-particle-spritesheet_76: 505342636
+      kenney-particle-spritesheet_77: -1618306483
+      kenney-particle-spritesheet_78: -2130742724
+      kenney-particle-spritesheet_79: 459436605
+      kenney-particle-spritesheet_8: -1908500349
+      kenney-particle-spritesheet_80: 1059919251
+      kenney-particle-spritesheet_81: 1346346251
+      kenney-particle-spritesheet_82: -1372579058
+      kenney-particle-spritesheet_83: 1184166703
+      kenney-particle-spritesheet_84: -1454778668
+      kenney-particle-spritesheet_85: -1556406490
+      kenney-particle-spritesheet_86: 946764672
+      kenney-particle-spritesheet_87: -935137548
+      kenney-particle-spritesheet_88: -472558086
+      kenney-particle-spritesheet_89: -1462731219
+      kenney-particle-spritesheet_9: 683648636
+      kenney-particle-spritesheet_90: -1147629669
+      kenney-particle-spritesheet_91: 263240020
+      kenney-particle-spritesheet_92: -1616794074
+      kenney-particle-spritesheet_93: -1618604848
+      kenney-particle-spritesheet_94: 291391930
+      kenney-particle-spritesheet_95: -173716913
+      kenney-particle-spritesheet_96: 1001850050
+      kenney-particle-spritesheet_97: -2005680322
+      kenney-particle-spritesheet_98: -2107230429
+      kenney-particle-spritesheet_99: 527010638
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
