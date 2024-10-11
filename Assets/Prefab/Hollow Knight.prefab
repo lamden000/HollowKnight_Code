@@ -84,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 0.71999997, y: 1.3401612}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &1288356936122084387
@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32496990b7203f64697b2880dcee1ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackCooldown: 0.03
   moveSpeed: 5
   slashPrefab: {fileID: 0}
 --- !u!50 &5606407862694141201
@@ -172,4 +173,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 1

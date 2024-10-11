@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9833669599fac7c4eb685bb4bf0b8080
+      internalID: 32674209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 424
+        width: 96
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ae0e6545daf04aa99110a806f2328
+      internalID: -756027700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 340
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcd3723bd813684695262bdf6b9ce10
+      internalID: 1988424778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 75
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aea232325452d44a6956671ea59c65
+      internalID: -1970990501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 312
+        width: 185
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6f65969ef6b8048b981aff2b2fd443
+      internalID: 1363833290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_5
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 328
+        width: 112
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73b142c84926a5499606fc1aa17d2e0
+      internalID: 2043238020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_6
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 326
+        width: 134
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55e78cf7048336408aa7fea15dadd14
+      internalID: 439781816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_7
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 350
+        width: 114
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e24cb05bd60df48b2d3012f869442c
+      internalID: -1471227625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 276
+        width: 105
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63546a8cd923ffa4eb4a98185d812325
+      internalID: -1109501200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 384
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cda6bae42ee1d45b492ea29347c33c
+      internalID: 2121361479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 250
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214e48f65b9076140be4fff6ebd95465
+      internalID: -1814593863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 100
+        width: 396
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b3ea542a2854f4584360190a832122
+      internalID: 539397304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 91
+        width: 170
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89329252b62d24243972459302193229
+      internalID: 1542909812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_13
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 172
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04721a58819bda24da75530d7efe97cc
+      internalID: -1858821706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_14
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 8
+        width: 148
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c44d19e313ffeb4f8ee7007a6408a78
+      internalID: 1633172811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_15
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 116
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8acadcd4c412b43977d3c292a42cb7
+      internalID: -545488458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 766
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c25abfe55a7072449c196c012fa418e
+      internalID: -74669401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 61
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d262b8d69547f4b9350db6f28c3a8f
+      internalID: -1575650109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-Rubble-1024x1024-fmt12_18
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6259f2503a5612a449d5aa3250c031a7
+      internalID: -1788881828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +544,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_0: 32674209
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_1: -756027700
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_10: -1814593863
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_11: 539397304
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_12: 1542909812
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_13: -1858821706
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_14: 1633172811
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_15: -545488458
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_16: -74669401
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_17: -1575650109
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_18: -1788881828
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_2: 1988424778
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_3: -1970990501
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_4: 1363833290
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_5: 2043238020
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_6: 439781816
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_7: -1471227625
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_8: -1109501200
+      SpriteAtlasTexture-Rubble-1024x1024-fmt12_9: 2121361479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

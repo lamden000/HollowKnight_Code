@@ -30,12 +30,6 @@ public class SlashPrefab : MonoBehaviour
         {
             sprites[kv.key] = kv.value;
         }
-
-        // Kiểm tra giá trị trong Dictionary
-        foreach (var kvp in sprites)
-        {
-            Debug.Log("Key: " + kvp.Key + " - Value: " + kvp.Value);
-        }
     }
 
     private void Update()

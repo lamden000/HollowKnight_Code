@@ -139,9 +139,9 @@ TextureImporter:
       name: SPCEBD~1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 346
+        x: 2
+        y: 46
+        width: 377
         height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: SPCEBD~1_1
       rect:
         serializedVersion: 2
-        x: 310
-        y: 624
-        width: 247
-        height: 371
+        x: 414
+        y: 718
+        width: 260
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: SPCEBD~1_2
       rect:
         serializedVersion: 2
-        x: 524
-        y: 626
-        width: 168
-        height: 167
+        x: 759
+        y: 684
+        width: 257
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: SPCEBD~1_3
       rect:
         serializedVersion: 2
-        x: 671
-        y: 744
-        width: 154
-        height: 187
+        x: 1048
+        y: 841
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: SPCEBD~1_4
       rect:
         serializedVersion: 2
-        x: 763
-        y: 646
-        width: 121
-        height: 139
+        x: 1190
+        y: 682
+        width: 189
+        height: 253
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: SPCEBD~1_5
       rect:
         serializedVersion: 2
-        x: 287
-        y: 5
-        width: 262
-        height: 633
+        x: 1458
+        y: 795
+        width: 153
+        height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: SPCEBD~1_6
       rect:
         serializedVersion: 2
-        x: 477
-        y: 0
-        width: 268
-        height: 419
+        x: 519
+        y: 36
+        width: 261
+        height: 633
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: SPCEBD~1_7
       rect:
         serializedVersion: 2
-        x: 525
-        y: 353
-        width: 258
-        height: 346
+        x: 860
+        y: 494
+        width: 237
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: SPCEBD~1_8
       rect:
         serializedVersion: 2
-        x: 745
-        y: 0
-        width: 138
-        height: 354
+        x: 1599
+        y: 603
+        width: 109
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: SPCEBD~1_9
       rect:
         serializedVersion: 2
-        x: 762
-        y: 344
-        width: 188
-        height: 253
+        x: 792
+        y: 75
+        width: 266
+        height: 419
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: SPCEBD~1_10
       rect:
         serializedVersion: 2
-        x: 821
-        y: 0
-        width: 142
-        height: 125
+        x: 1243
+        y: 363
+        width: 4
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,6 +362,69 @@ TextureImporter:
       bones: []
       spriteID: 552f82fceb7e20343ae336c1d61f624a
       internalID: -801175571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_11
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 235
+        width: 195
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541442f42961e14499ae00cd3ac97aea
+      internalID: 671710517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_12
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 241
+        width: 101
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20872575a5fc60540bb0499860037ed0
+      internalID: 1540849718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPCEBD~1_13
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 46
+        width: 140
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c126bddf4e8f6d4a94d23eb167bafcb
+      internalID: 684913575
       vertices: []
       indices: 
       edges: []
@@ -380,6 +443,9 @@ TextureImporter:
       SPCEBD~1_0: 635160768
       SPCEBD~1_1: -199907703
       SPCEBD~1_10: -801175571
+      SPCEBD~1_11: 671710517
+      SPCEBD~1_12: 1540849718
+      SPCEBD~1_13: 684913575
       SPCEBD~1_2: 1549938115
       SPCEBD~1_3: 1807536954
       SPCEBD~1_4: 42372317

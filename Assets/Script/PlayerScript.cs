@@ -38,9 +38,10 @@ public class PlayerScript : MonoBehaviour
         }
         // Lấy input từ bàn phím
         float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
         // Tạo vector di chuyển
-        velocity = new Vector2(horizontal, 0) * moveSpeed * Time.deltaTime;
+        velocity = new Vector2(horizontal, vertical) * moveSpeed * Time.deltaTime;
  
         if (velocity.magnitude > 0)
         {
