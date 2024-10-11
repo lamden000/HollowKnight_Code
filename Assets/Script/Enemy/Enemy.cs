@@ -6,7 +6,7 @@ public interface IEnemy
 {
     void Move();
     void Attack();
-    void TakeDamage(int amount);
+    void TakeDamage(int amount,Vector2 direction);
     void SetState(int state);
     void Render();
 }
@@ -23,12 +23,15 @@ public abstract class EnemyBase : MonoBehaviour, IEnemy
     protected int ny;
     protected Animator animator; // Tham chiếu đến Animator
     protected SpriteRenderer spriteRenderer;
+    protected Rigidbody2D rb;
     protected virtual void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>(); // Lấy component Animator
+        rb = GetComponent<Rigidbody2D>();
     }
-    public virtual void SetState(int state){
+    public virtual void SetState(int state)
+    {
         this.state = state;
     }
     public int GetState()
@@ -39,19 +42,17 @@ public abstract class EnemyBase : MonoBehaviour, IEnemy
 
     public abstract void Attack();
     public abstract void Render();
-    public virtual void TakeDamage(int amount)
+    public virtual void TakeDamage(int amount,Vector2 direction)
     {
         health -= amount;
         if (health <= 0)
         {
-            Die();
+            Die(direction);
         }
     }
 
-    protected void Die()
+    protected virtual void Die(Vector2 direction)
     {
         Debug.Log($"{this.GetType().Name} has died.");
-        // Logic for enemy death
     }
 }
-

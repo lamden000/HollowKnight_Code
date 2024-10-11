@@ -1303,7 +1303,7 @@ GameObject:
   - component: {fileID: 695304563}
   m_Layer: 0
   m_Name: Crawlid
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1480,6 +1480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07356c960f4b4554599096b9b81a7c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathForce: 250
 --- !u!1 &812983921
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,7 +3731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5606407862694141201, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6025508528053658096, guid: 8e78410038514be4f93e18529c2be4b2, type: 3}
       propertyPath: m_LocalPosition.x

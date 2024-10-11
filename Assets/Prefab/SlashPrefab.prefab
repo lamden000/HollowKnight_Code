@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 737991935678751254}
   - component: {fileID: 6579443962551962566}
   - component: {fileID: -5717678163043706259}
+  - component: {fileID: -7387212774605846274}
   m_Layer: 0
   m_Name: SlashPrefab
-  m_TagString: Untagged
+  m_TagString: Slash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,9 +49,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - key: NormalAttack0
-    value: {fileID: -324332146, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
+    sprite: {fileID: -324332146, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
+    damage: 25
   - key: NormalAttack1
-    value: {fileID: 1481540751, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
+    sprite: {fileID: 1481540751, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
+    damage: 25
   spinSpeed: 100
   attackSound: {fileID: 8300000, guid: b2c0169c2746a3d4ba80c230f9395f75, type: 3}
 --- !u!212 &6579443962551962566
@@ -201,3 +204,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &-7387212774605846274
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4982645954164195842}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 1}
+  m_Direction: 0

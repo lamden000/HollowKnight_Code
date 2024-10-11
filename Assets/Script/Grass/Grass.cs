@@ -14,7 +14,7 @@ public class Grass : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>(); // Lấy Animator
         originalRotation = transform.localEulerAngles; // Lưu vị trí gốc
-       
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -52,7 +52,7 @@ public class Grass : MonoBehaviour
             spriteRenderer.sprite = grassSprites[currentFrame];
 
             // Chuyển tới frame tiếp theo
-            currentFrame = currentFrame + 1 ;
+            currentFrame = currentFrame + 1;
             if (currentFrame % grassSprites.Length == 1 && currentFrame > 3)
             {
                 loop = true;
@@ -64,7 +64,7 @@ public class Grass : MonoBehaviour
     }
     private IEnumerator Sway(bool hitLeft)
     {
-        
+
         isSwaying = true;
 
         // Tạm dừng Animator
@@ -94,15 +94,16 @@ public class Grass : MonoBehaviour
             yield return null;
         }
 
-        isSwaying = false;
+        
 
         // Bật lại Animator
         if (animator != null)
         {
             animator.enabled = true;
+            yield return new WaitForSeconds(0.2f);
         }
+        isSwaying = false;
     }
 
 
 }
-
