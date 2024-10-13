@@ -5220,10 +5220,10 @@ GameObject:
   m_Component:
   - component: {fileID: 288006448}
   - component: {fileID: 288006450}
-  - component: {fileID: 288006449}
   - component: {fileID: 288006451}
+  - component: {fileID: 288006449}
   m_Layer: 0
-  m_Name: Layer  2
+  m_Name: Layer-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5343,7 +5343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
   parallaxFactor: 0
 --- !u!1 &342288837
 GameObject:
@@ -5521,10 +5520,11 @@ GameObject:
   m_Component:
   - component: {fileID: 430138864}
   - component: {fileID: 430138866}
+  - component: {fileID: 430138868}
   - component: {fileID: 430138865}
   - component: {fileID: 430138867}
   m_Layer: 6
-  m_Name: Layer -2
+  m_Name: Layer-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5678,8 +5678,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
-  parallaxFactor: 0.3
+  parallaxFactor: 0
+--- !u!114 &430138868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430138863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.2
 --- !u!1 &507865119
 GameObject:
   m_ObjectHideFlags: 0
@@ -10665,6 +10677,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10806,8 +10819,20 @@ MonoBehaviour:
   smoothSpeed: 0.1
   offset: {x: 0, y: 0, z: 0}
   yThreshold: 1
-  minBoundary: {x: 0, y: 0}
-  maxBoundary: {x: 0, y: 0}
+  minBoundary: {x: -100, y: -100}
+  maxBoundary: {x: 100, y: 100}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7184c247bb374f045ad4cde68d258dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -11594,10 +11619,11 @@ GameObject:
   m_Component:
   - component: {fileID: 882614748}
   - component: {fileID: 882614750}
+  - component: {fileID: 882614752}
   - component: {fileID: 882614749}
   - component: {fileID: 882614751}
   m_Layer: 6
-  m_Name: Layer -4
+  m_Name: Layer-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11751,8 +11777,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
-  parallaxFactor: 0.5
+  parallaxFactor: 0
+--- !u!114 &882614752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882614747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.4
 --- !u!1 &929218895
 GameObject:
   m_ObjectHideFlags: 0
@@ -11931,10 +11969,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1042125757}
   - component: {fileID: 1042125759}
-  - component: {fileID: 1042125758}
   - component: {fileID: 1042125760}
+  - component: {fileID: 1042125758}
   m_Layer: 0
-  m_Name: Layer  3
+  m_Name: Layer-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12054,7 +12092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
   parallaxFactor: 0
 --- !u!1 &1261335195
 GameObject:
@@ -12066,10 +12103,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1261335196}
   - component: {fileID: 1261335198}
-  - component: {fileID: 1261335197}
   - component: {fileID: 1261335199}
+  - component: {fileID: 1261335197}
   m_Layer: 0
-  m_Name: Layer 4
+  m_Name: Layer-8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12189,7 +12226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
   parallaxFactor: 0
 --- !u!1 &1265737550
 GameObject:
@@ -12201,10 +12237,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1265737551}
   - component: {fileID: 1265737553}
-  - component: {fileID: 1265737552}
   - component: {fileID: 1265737554}
+  - component: {fileID: 1265737552}
   m_Layer: 6
-  m_Name: Layer -1
+  m_Name: Layer-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12358,8 +12394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
-  parallaxFactor: 0.15
+  parallaxFactor: 0
 --- !u!1 &1313454607
 GameObject:
   m_ObjectHideFlags: 0
@@ -12441,10 +12476,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1390445341}
   - component: {fileID: 1390445343}
+  - component: {fileID: 1390445345}
   - component: {fileID: 1390445342}
   - component: {fileID: 1390445344}
   m_Layer: 0
-  m_Name: Layer 0
+  m_Name: Layer-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12711,6 +12747,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16.75, y: 0.7978841}
   m_EdgeRadius: 0
+--- !u!114 &1390445345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390445340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0
 --- !u!1 &1524945491
 GameObject:
   m_ObjectHideFlags: 0
@@ -12721,6 +12770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524945493}
   - component: {fileID: 1524945492}
+  - component: {fileID: 1524945494}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -12764,6 +12814,19 @@ Transform:
   - {fileID: 1261335196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1524945494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524945491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bacc0190d450993469a2a52e38e1bbea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxCamera: {fileID: 519420034}
 --- !u!1 &1564777517
 GameObject:
   m_ObjectHideFlags: 0
@@ -12774,10 +12837,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1564777518}
   - component: {fileID: 1564777520}
+  - component: {fileID: 1564777522}
   - component: {fileID: 1564777519}
   - component: {fileID: 1564777521}
   m_Layer: 6
-  m_Name: Layer -3
+  m_Name: Layer-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12935,8 +12999,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
-  parallaxFactor: 0.4
+  parallaxFactor: 0
+--- !u!114 &1564777522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564777517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxFactor: 0.3
 --- !u!1 &1717923371
 GameObject:
   m_ObjectHideFlags: 0
@@ -22974,10 +23050,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1936953618}
   - component: {fileID: 1936953620}
-  - component: {fileID: 1936953619}
   - component: {fileID: 1936953621}
+  - component: {fileID: 1936953619}
   m_Layer: 0
-  m_Name: Layer  1
+  m_Name: Layer-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23097,7 +23173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dfe7d94495ce1f49b69e549ff6b3b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1731515882}
   parallaxFactor: 0
 --- !u!1 &2002435112
 GameObject:

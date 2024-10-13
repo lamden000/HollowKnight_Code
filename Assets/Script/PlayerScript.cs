@@ -78,7 +78,7 @@ public class PlayerScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space)) // Nhấn phím Space để nhảy
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * jumpForce * 3, ForceMode2D.Impulse);
         }
 
         transform.Translate(velocity);
