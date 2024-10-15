@@ -19,6 +19,14 @@ public class PlayerScript : MonoBehaviour
     Animator animator;
     public GameObject slashPrefab;
 
+
+
+    [Header("Ground Check Settings:")]
+    [SerializeField] private Transform groundCheckPoint;
+    [SerializeField] private float groundCheckY = 0.2f;
+    [SerializeField] private float groundCheckX = 0.5f;
+    [SerializeField] private LayerMask whatIsGround;
+
     Direction direction;
 
     private void Start()
@@ -76,14 +84,30 @@ public class PlayerScript : MonoBehaviour
                 NormalAttack(1);
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space)) // Nhấn phím Space để nhảy
+        if (Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0)
         {
-            rb.AddForce(Vector2.up * jumpForce * 3, ForceMode2D.Impulse);
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && Ground()) // Nhấn phím Space để nhảy
+        {
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce);
         }
 
         transform.Translate(velocity);
     }
-
+    public bool Ground()
+    {
+        if (Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
+            || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0), Vector2.down, groundCheckY, whatIsGround)
+            || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0), Vector2.down, groundCheckY, whatIsGround))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     private void NormalAttack(int type)
     {
         GameObject effect = Instantiate(slashPrefab, transform.position + new Vector3(1 * (int)direction, 0, 0), transform.rotation);
