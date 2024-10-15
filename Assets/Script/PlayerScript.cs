@@ -19,7 +19,9 @@ public class PlayerScript : MonoBehaviour
     Animator animator;
     public GameObject slashPrefab;
 
-
+    private float jumpTimecounter;
+    public float jumpTime;
+    private bool isJumping;
 
     [Header("Ground Check Settings:")]
     [SerializeField] private Transform groundCheckPoint;
@@ -90,9 +92,26 @@ public class PlayerScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && Ground()) // Nhấn phím Space để nhảy
         {
+            isJumping = true;
+            jumpTimecounter = jumpTime;
             rb.velocity = new Vector3(rb.velocity.x, jumpForce);
         }
-
+        if (Input.GetKey(KeyCode.Space) && isJumping)
+        {
+            if(jumpTimecounter > 0)
+            {
+                rb.velocity = Vector2.up * jumpForce;
+                jumpTimecounter -= Time.deltaTime;
+            }
+            else
+            {
+                isJumping = false;
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            isJumping = false;
+        }
         transform.Translate(velocity);
     }
     public bool Ground()
