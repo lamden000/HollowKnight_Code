@@ -18,7 +18,7 @@ public class Crawlid : EnemyBase
 
     }
 
-    void Start()
+    protected override void Start()
     {
         base.Start();
         health = 50;
@@ -60,7 +60,7 @@ public class Crawlid : EnemyBase
                 break;
         }
     }
-    public void SetState(int state)
+    public override void SetState(int state)
     {
         /*
             WALK_LEFT == 0
@@ -96,6 +96,7 @@ public class Crawlid : EnemyBase
     protected override void Die(Vector2 attackDirection)
     {
         animator.SetTrigger("Dead");
+        rb.AddForce(attackDirection.normalized*deathForce);
         SetState((int)CrawlidState.Dead);
         Destroy(gameObject, 2);
     }
