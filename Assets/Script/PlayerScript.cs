@@ -44,6 +44,10 @@ public class PlayerScript : MonoBehaviour
         // Cập nhật vị trí của nhân vật
     }
 
+    private void FixedUpdate()
+    {
+        
+    }
     void HandleKeyInput()
     {
         string[] bools = { "isRunning", "idle","isWalking" };
@@ -71,11 +75,12 @@ public class PlayerScript : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 direction = Direction.left;
             }
+            rb.velocity = velocity;
         }
         else {
             animator.SetBool("idle", true);
         }
-
+        
         if (Input.GetMouseButtonDown(0)) {
             if (Time.time >= lastAttackTime + attackCooldown+0.1)
             {
