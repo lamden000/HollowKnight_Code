@@ -15,7 +15,7 @@ public class PlayerScript : MonoBehaviour
     private float lastAttackTime = -1.0f;    // Lưu lại thời điểm tấn công gần nhất
     public float moveSpeed = 5f;
     public float attackBounceForce=20f;
-    Vector2 velocity;
+    public Vector2 velocity;
     Animator animator;
     public GameObject slashPrefab;
 
@@ -59,26 +59,27 @@ public class PlayerScript : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         // Tạo vector di chuyển
-        velocity = new Vector2(horizontal, 0) * moveSpeed * Time.deltaTime;
- 
+        velocity = new Vector2(horizontal * moveSpeed, rb.velocity.y);
+
         if (velocity.magnitude > 0)
         {
             animator.SetBool("isWalking", true);
-            if (horizontal > 0)
+
+            if (horizontal > 0) 
             {
                 transform.rotation = Quaternion.Euler(0f, 180f, 0f);
                 direction = Direction.right;
-                velocity.x = -velocity.x;
             }
-            else if (horizontal < 0)
+            else if (horizontal < 0) 
             {
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 direction = Direction.left;
             }
-            rb.velocity = velocity;
+            rb.velocity = new Vector2(horizontal * moveSpeed, rb.velocity.y);
         }
         else {
             animator.SetBool("idle", true);
+            rb.velocity = new Vector2(0, rb.velocity.y);
         }
         
         if (Input.GetMouseButtonDown(0)) {
@@ -99,13 +100,13 @@ public class PlayerScript : MonoBehaviour
         {
             isJumping = true;
             jumpTimecounter = jumpTime;
-            rb.velocity = new Vector3(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
         if (Input.GetKey(KeyCode.Space) && isJumping)
         {
             if(jumpTimecounter > 0)
             {
-                rb.velocity = Vector2.up * jumpForce;
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
                 jumpTimecounter -= Time.deltaTime;
             }
             else
@@ -117,7 +118,7 @@ public class PlayerScript : MonoBehaviour
         {
             isJumping = false;
         }
-        transform.Translate(velocity);
+        //transform.Translate(velocity);
     }
     public bool Ground()
     {
