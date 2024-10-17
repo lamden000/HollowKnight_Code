@@ -15905,7 +15905,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &695304564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27643,8 +27643,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.06635, y: 0.010600001, z: 0}
-    m_Extent: {x: 0.55005, y: 0.56500006, z: 0}
+    m_Center: {x: -0.07649998, y: -0.00095000863, z: 0}
+    m_Extent: {x: 0.5437, y: 0.56295, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -28008,6 +28008,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementParticle: {fileID: 7003533}
+  fallParticle: {fileID: 929539910}
+  touchParticle: {fileID: 417964901}
   occurAfterVelocity: 0.05
   dustFormationPeriod: 0.052
   playerrb: {fileID: 1731515898}
