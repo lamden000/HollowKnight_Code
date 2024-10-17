@@ -72,6 +72,7 @@ public class PlayerScript : MonoBehaviour
             }
             else if (horizontal < 0) 
             {
+
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 direction = Direction.left;
             }

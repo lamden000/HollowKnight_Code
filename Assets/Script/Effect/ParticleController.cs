@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ParticleController : MonoBehaviour
 {
+    [Header("Movement Particle")]
     [SerializeField] ParticleSystem movementParticle;
-
+    [Header("")]
+    [SerializeField] ParticleSystem fallParticle;
+    [SerializeField] ParticleSystem touchParticle;
     [Range(0, 10)]
     [SerializeField] float occurAfterVelocity;
 
@@ -30,10 +33,16 @@ public class ParticleController : MonoBehaviour
         }
     }
 
+    public void PlayTouchParticle()
+    {
+        touchParticle.Play();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ground"))
         {
+            fallParticle.Play();
             isGround = true;
         }
     }
