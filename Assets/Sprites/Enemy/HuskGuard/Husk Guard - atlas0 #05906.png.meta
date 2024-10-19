@@ -1,0 +1,2793 @@
+fileFormatVersion: 2
+guid: 3c942888c70fa3c438c2dfd5d402879e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3683
+        width: 422
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b80bda32058839469426e564ef2b205
+      internalID: 1504261378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_1
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 3700
+        width: 434
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa82d78b9af4a240a3beb858b55f23e
+      internalID: 811692317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_2
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 3722
+        width: 440
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7d12bc1b8573d41876a1625ca7fe3d
+      internalID: -855826432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_3
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 3903
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4df56091167a445a0917c433381cfa
+      internalID: -1244488324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_4
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 3467
+        width: 429
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e1dfa3015eab44b6726dd02320ac2
+      internalID: -1533217321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_5
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 3793
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2ad5350544c8443ad0c6a74305f0c3
+      internalID: -1329075044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_6
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 3800
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dd12e6df09821429dd5121acff6b20
+      internalID: 536871814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_7
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3428
+        width: 431
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623ff857f47f98849bbcb7dceb1ce211
+      internalID: 765352634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_8
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 3431
+        width: 418
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdc704b94577bf4bac31aba080ef3a0
+      internalID: -2019436866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_9
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3718
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f2fe101f5c8148a792feac2dbefc6
+      internalID: 616803923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_10
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 3467
+        width: 420
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126fe233a6e33f44a91344c1cf8494e0
+      internalID: -1933868815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_11
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 3458
+        width: 415
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b6222e1a73314489f90f195b630e2
+      internalID: 1201821321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_12
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3706
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e065e85f796a554fad625576b33aeee
+      internalID: 632894626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3345
+        width: 427
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0e85efd86da294bbf2ce42f9782e1c
+      internalID: -1171576031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3476
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd4a65e4718b6047a43e1d1bbf56812
+      internalID: -261338990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 3295
+        width: 390
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa77400532af2d4787bc12b12e4761a
+      internalID: 1951628662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_16
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 3312
+        width: 432
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3455b3b92bae09f4cbc4b4f44f4f08a6
+      internalID: 1863705341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_17
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 3429
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6209eaee6aea548befe0a03fbe309e
+      internalID: 1469266417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_18
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 3095
+        width: 438
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9746d40df7ec4a84486533a101a80b2a
+      internalID: 2005063566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_19
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 3381
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edeb12e64b67dde4188a07edd2b2b316
+      internalID: 635334370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_20
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 3083
+        width: 435
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465005a1854d7eb408e4cd2a08030dc5
+      internalID: 1293956396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 3302
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7e7348227d36a45b2dec01b42a2cda
+      internalID: 833521109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_22
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 3052
+        width: 419
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ae771855bd92e43a9e4b032b5cbc75
+      internalID: -1621918927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_23
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 3056
+        width: 421
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a38bc6aea13547b7fd6188856067f
+      internalID: -1466314091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3038
+        width: 310
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a44f66b5c8a567468c6fa99a783f80e
+      internalID: 1299470809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_25
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2918
+        width: 305
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f115cbd6832153f4a8c933041daf6f85
+      internalID: -464300880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_26
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2978
+        width: 428
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2f30ac2ca915f48b4fb02982abaf05
+      internalID: 1795489991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_27
+      rect:
+        serializedVersion: 2
+        x: 4309
+        y: 2818
+        width: 429
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6297b05a4b2ae5c44aca78c954d54998
+      internalID: 1964451579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_28
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 3148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b48d816c99cb41b792654fffbb00a
+      internalID: 838988613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_29
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2773
+        width: 388
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ac77d05cd1d564da56b01f58fb52f2
+      internalID: -1613279014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_30
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 2980
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd2f6423e9b58c4482c2d2ccc5e6c43
+      internalID: 1581467366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_31
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 2734
+        width: 436
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dbf72c01cc06146a3f20ddf70a5f21
+      internalID: -1494774241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2604
+        width: 424
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51bcf1f45a6dc4a8ce5e3dae4a19d0
+      internalID: -822876472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_33
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2649
+        width: 279
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af87ca89e847e7c4bb570b4882066549
+      internalID: 972614883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_34
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 2926
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7729db26a133ea54983e634cd002ff9c
+      internalID: -850335671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_35
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 2587
+        width: 419
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e027b7c477b97dd49be1ea6ccb23b418
+      internalID: -1072777768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_36
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 2915
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11acb600d0015b140b869864bb57bd29
+      internalID: 1268915611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_37
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2432
+        width: 374
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d60b625215cf9d43995f7f41cea060f
+      internalID: 912546318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_38
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 2609
+        width: 326
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5da2a849dc19b8499d2b175820e62fd
+      internalID: 655469866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_39
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 2426
+        width: 296
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e3f16c97947224fa6275fe9953c1a2
+      internalID: 1823373069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_40
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2292
+        width: 256
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b105a49088dbc48b7a87dc11401cc7
+      internalID: -2112105128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_41
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 2492
+        width: 448
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b123dc188141cd49b1322079ef778f2
+      internalID: 1151613764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_42
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 2590
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7937ba183213947bfb5c553535a161
+      internalID: 1022612965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_43
+      rect:
+        serializedVersion: 2
+        x: 4090
+        y: 2592
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ca26d0201eafc439e0553a240a0329
+      internalID: 665983511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_44
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2172
+        width: 403
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8678070bd33def641b2dba7c0d18437a
+      internalID: -1146459632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_45
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2485
+        width: 38
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1529100c687034cb42c4b20a353dfc
+      internalID: 158657749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_46
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2289
+        width: 405
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21236f853568cd646b3a808d25afc4e1
+      internalID: 2019128549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_47
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 2246
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6e8a578dca4b45bd8d310bf7b3172
+      internalID: -437861792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_48
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 2474
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887955864b6d67043a456c1e914ae90b
+      internalID: -635811750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_49
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2377
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec97c0c51a469249afa77596096b0e4
+      internalID: -1385336203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_50
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 2177
+        width: 285
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e84276a392a1a438e4068edcc060a7
+      internalID: 1883083373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_51
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 2108
+        width: 426
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a6f6f8980db3e48b581815ad88f77b
+      internalID: 1542408101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_52
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2094
+        width: 298
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32836f180c41a648a2ac59eb27293e7
+      internalID: -1029174407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_53
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 2056
+        width: 293
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6479dc5f71342ac439468648d3f5abd4
+      internalID: 1155253219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_54
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 2310
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d9ceb45cdff354fb67e33a933e318e
+      internalID: 1393942175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_55
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 2075
+        width: 370
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a928cf75a448da46b587eed6ebe427e
+      internalID: -1130967904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_56
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2280
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73912c3aefe40bc4aa6e4dce95393c50
+      internalID: -1591277434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_57
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1910
+        width: 424
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d3010f18403a14799f46bc9b6bf387
+      internalID: 1375485443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_58
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 2108
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f42153607cb5441a152fbcec28a412
+      internalID: 1197795454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_59
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2006
+        width: 350
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce63031512edf11448b1b01c61e74cf6
+      internalID: -1568181105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_60
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 1855
+        width: 330
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9331f9566551774dac6dc829fcd4acb
+      internalID: 638451596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_61
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1605
+        width: 396
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7639c5eddfd3e24180b89ecc42c98b9
+      internalID: -1207625997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_62
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1646
+        width: 384
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a415e10b64877c41963787add664409
+      internalID: 1488349774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_63
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 1677
+        width: 354
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d155d6d4856024fb878f47a7ffd0d7
+      internalID: 1058799710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_64
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1854
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59699d3493bec054b97447e8f575bfab
+      internalID: 210734504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_65
+      rect:
+        serializedVersion: 2
+        x: 4243
+        y: 1751
+        width: 493
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd16909a46360046ad0751b90004032
+      internalID: -1637620945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_66
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1488
+        width: 402
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6defdd142b86744bbeb5bc89653522
+      internalID: 1379120746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_67
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1496
+        width: 404
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b809b61823a88744b9b6d5a236ec5c8f
+      internalID: 260850937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_68
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 1797
+        width: 69
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d981cc751fa9d4192944388b18531f
+      internalID: 1720061589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_69
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1355
+        width: 396
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e23c1d61260f7445a63d4c3903e9f0c
+      internalID: -1984287431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_70
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 1534
+        width: 386
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc0fc35fba6405459b1ade3b3fc6255
+      internalID: 1861757721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_71
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 1462
+        width: 319
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b85fec91420fe4b962f765cae09d1c
+      internalID: -1005259197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_72
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 1695
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2489862b7b2a6847b71c985fa1f1542
+      internalID: -1530569051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_73
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 1665
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199d9534ef7d1314e8eac4e6bd1145d7
+      internalID: 751656046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_74
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 1202
+        width: 421
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef9d787049aa924abbd0705bf521b6a
+      internalID: -1473803055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_75
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 1523
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a022233d128d7c4389234c56af8e0a8
+      internalID: 1646964425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_76
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 1386
+        width: 391
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d608c7cc582664e9f9c4cad8c877b7
+      internalID: -1818670787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_77
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1500
+        width: 54
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b68624dc16dce428aa78763982bda6
+      internalID: -1179075229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_78
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1255
+        width: 368
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b6409b7d8226d4585180ccca21daf3
+      internalID: 543311137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_79
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 1477
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc0fca25ad94c54089270b67eaa93eb
+      internalID: 2052626364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_80
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 1155
+        width: 295
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76b2d106eb73ce428e5c59d7bf9c683
+      internalID: 562097837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_81
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 981
+        width: 395
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937c29144bd26eb4f8349efbb50d963b
+      internalID: 1587103537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_82
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab885e5f59bdb644887a7d0958f1cfc
+      internalID: 482621654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_83
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1126
+        width: 424
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e2282fb4a10e249a7d7f5edaa3a6b0
+      internalID: -697465342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_84
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 971
+        width: 398
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebe7f0fc35a4734fbc803dc4b5162d2
+      internalID: 962228223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_85
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1186
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d1d825d0fc5d34d982f6c48be9a6a6
+      internalID: -1977020031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_86
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1158
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ce44cfe845b7d469fcfda1082376ae
+      internalID: -1774008740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_87
+      rect:
+        serializedVersion: 2
+        x: 4064
+        y: 1150
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d48f6c2c2b668242b116ca68e3f05a0
+      internalID: 1647311566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_88
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1135
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d590f1e05e014647ae7fd46c46e2949
+      internalID: -502352864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_89
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 823
+        width: 433
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bc82a07e4ddf74aab99268510f110f
+      internalID: 1109466094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_90
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 773
+        width: 396
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc63f989db29e40a87ea21755c7576
+      internalID: -1885999518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_91
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 726
+        width: 396
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c568f8cb1f2e2459ec9b5f7b52ef0f
+      internalID: -1243455608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_92
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 700
+        width: 418
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90976f8b02546e41b748ab5e51f1aec
+      internalID: 1778807526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_93
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1031
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c5f9a57e43d2d45bca610d926ae1db
+      internalID: 211317442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_94
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 675
+        width: 417
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5541011a93e644f82e512fa1f21158
+      internalID: 789930317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_95
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 974
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0046d39a28a830049aaf2b2df1c2d683
+      internalID: 1207020552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_96
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 940
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d875ec289cf814e811ab8cc59bb083
+      internalID: 1396626966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 409
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee94fcef9b24c324cb13be277b5aadc0
+      internalID: 586507876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 869
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7323365a03329a94ea2e7f4ffc1fc9e8
+      internalID: -833580142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_99
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 628
+        width: 578
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351e42c9266415c4cb69c85501f07250
+      internalID: -969433703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_100
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 459
+        width: 410
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238343deba5847445bad6c5b17fcb0a4
+      internalID: 1990569929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_101
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 454
+        width: 419
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e0c36017de49d49afdaee8b1bc3d21
+      internalID: 1289979510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_102
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 721
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510d12aedcdc9244991a159b38ecf37c
+      internalID: -1610633550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_103
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 435
+        width: 421
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76255f0207fb09a4b8be69d06cade6a5
+      internalID: -233604430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_104
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 359
+        width: 428
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91093ee4fd90264eb6fefbc9925a16a
+      internalID: -232370039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_105
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 696
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3d78fb830ef614ba6724768b109b0c
+      internalID: -1301770835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_106
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 607
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73546be38478d45478e8819735c69da3
+      internalID: -2045314829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_107
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 597
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517904eec97ca8c4ca238376d078eb35
+      internalID: 468610892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_108
+      rect:
+        serializedVersion: 2
+        x: 4569
+        y: 597
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfd24cb4b99338458b481060c419b44
+      internalID: -614975599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_109
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 232
+        width: 426
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cb0e9e019156c438ccead8ccccbdf1
+      internalID: -1677876242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_110
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 526
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc86eb2db51f1854bb3cc5b02d37122e
+      internalID: -15816863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_111
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 271
+        width: 433
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a4f69ae335c7746a0a2da4def25172
+      internalID: 957807729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 465
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad51ae9a6e68814b97fc97c9940e710
+      internalID: 471364915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_113
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 2
+        width: 543
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b63c518c88f5942be61c9c45947288
+      internalID: 2108183537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_114
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 540
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e143284fd8c5c67499b55dcd6c134327
+      internalID: -1456773800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_115
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 37
+        width: 338
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b329351c7966e4a854a9df7094df27
+      internalID: 583815113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_116
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 383
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f9561d050d5a4e946f38ccb1d0b95
+      internalID: 1623511869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_117
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 0
+        width: 485
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b6c080a36930d4f8b97583ceda87c1
+      internalID: 2017488274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_118
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1
+        width: 476
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c3627f162fd7b46bf9816b6bf855db
+      internalID: -1488114001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Husk Guard - atlas0 #05906_119
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 0
+        width: 438
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deabb93f77475f44b295c3fc2829177
+      internalID: 368160867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Husk Guard - atlas0 #05906_0: 1504261378
+      Husk Guard - atlas0 #05906_1: 811692317
+      Husk Guard - atlas0 #05906_10: -1933868815
+      Husk Guard - atlas0 #05906_100: 1990569929
+      Husk Guard - atlas0 #05906_101: 1289979510
+      Husk Guard - atlas0 #05906_102: -1610633550
+      Husk Guard - atlas0 #05906_103: -233604430
+      Husk Guard - atlas0 #05906_104: -232370039
+      Husk Guard - atlas0 #05906_105: -1301770835
+      Husk Guard - atlas0 #05906_106: -2045314829
+      Husk Guard - atlas0 #05906_107: 468610892
+      Husk Guard - atlas0 #05906_108: -614975599
+      Husk Guard - atlas0 #05906_109: -1677876242
+      Husk Guard - atlas0 #05906_11: 1201821321
+      Husk Guard - atlas0 #05906_110: -15816863
+      Husk Guard - atlas0 #05906_111: 957807729
+      Husk Guard - atlas0 #05906_112: 471364915
+      Husk Guard - atlas0 #05906_113: 2108183537
+      Husk Guard - atlas0 #05906_114: -1456773800
+      Husk Guard - atlas0 #05906_115: 583815113
+      Husk Guard - atlas0 #05906_116: 1623511869
+      Husk Guard - atlas0 #05906_117: 2017488274
+      Husk Guard - atlas0 #05906_118: -1488114001
+      Husk Guard - atlas0 #05906_119: 368160867
+      Husk Guard - atlas0 #05906_12: 632894626
+      Husk Guard - atlas0 #05906_13: -1171576031
+      Husk Guard - atlas0 #05906_14: -261338990
+      Husk Guard - atlas0 #05906_15: 1951628662
+      Husk Guard - atlas0 #05906_16: 1863705341
+      Husk Guard - atlas0 #05906_17: 1469266417
+      Husk Guard - atlas0 #05906_18: 2005063566
+      Husk Guard - atlas0 #05906_19: 635334370
+      Husk Guard - atlas0 #05906_2: -855826432
+      Husk Guard - atlas0 #05906_20: 1293956396
+      Husk Guard - atlas0 #05906_21: 833521109
+      Husk Guard - atlas0 #05906_22: -1621918927
+      Husk Guard - atlas0 #05906_23: -1466314091
+      Husk Guard - atlas0 #05906_24: 1299470809
+      Husk Guard - atlas0 #05906_25: -464300880
+      Husk Guard - atlas0 #05906_26: 1795489991
+      Husk Guard - atlas0 #05906_27: 1964451579
+      Husk Guard - atlas0 #05906_28: 838988613
+      Husk Guard - atlas0 #05906_29: -1613279014
+      Husk Guard - atlas0 #05906_3: -1244488324
+      Husk Guard - atlas0 #05906_30: 1581467366
+      Husk Guard - atlas0 #05906_31: -1494774241
+      Husk Guard - atlas0 #05906_32: -822876472
+      Husk Guard - atlas0 #05906_33: 972614883
+      Husk Guard - atlas0 #05906_34: -850335671
+      Husk Guard - atlas0 #05906_35: -1072777768
+      Husk Guard - atlas0 #05906_36: 1268915611
+      Husk Guard - atlas0 #05906_37: 912546318
+      Husk Guard - atlas0 #05906_38: 655469866
+      Husk Guard - atlas0 #05906_39: 1823373069
+      Husk Guard - atlas0 #05906_4: -1533217321
+      Husk Guard - atlas0 #05906_40: -2112105128
+      Husk Guard - atlas0 #05906_41: 1151613764
+      Husk Guard - atlas0 #05906_42: 1022612965
+      Husk Guard - atlas0 #05906_43: 665983511
+      Husk Guard - atlas0 #05906_44: -1146459632
+      Husk Guard - atlas0 #05906_45: 158657749
+      Husk Guard - atlas0 #05906_46: 2019128549
+      Husk Guard - atlas0 #05906_47: -437861792
+      Husk Guard - atlas0 #05906_48: -635811750
+      Husk Guard - atlas0 #05906_49: -1385336203
+      Husk Guard - atlas0 #05906_5: -1329075044
+      Husk Guard - atlas0 #05906_50: 1883083373
+      Husk Guard - atlas0 #05906_51: 1542408101
+      Husk Guard - atlas0 #05906_52: -1029174407
+      Husk Guard - atlas0 #05906_53: 1155253219
+      Husk Guard - atlas0 #05906_54: 1393942175
+      Husk Guard - atlas0 #05906_55: -1130967904
+      Husk Guard - atlas0 #05906_56: -1591277434
+      Husk Guard - atlas0 #05906_57: 1375485443
+      Husk Guard - atlas0 #05906_58: 1197795454
+      Husk Guard - atlas0 #05906_59: -1568181105
+      Husk Guard - atlas0 #05906_6: 536871814
+      Husk Guard - atlas0 #05906_60: 638451596
+      Husk Guard - atlas0 #05906_61: -1207625997
+      Husk Guard - atlas0 #05906_62: 1488349774
+      Husk Guard - atlas0 #05906_63: 1058799710
+      Husk Guard - atlas0 #05906_64: 210734504
+      Husk Guard - atlas0 #05906_65: -1637620945
+      Husk Guard - atlas0 #05906_66: 1379120746
+      Husk Guard - atlas0 #05906_67: 260850937
+      Husk Guard - atlas0 #05906_68: 1720061589
+      Husk Guard - atlas0 #05906_69: -1984287431
+      Husk Guard - atlas0 #05906_7: 765352634
+      Husk Guard - atlas0 #05906_70: 1861757721
+      Husk Guard - atlas0 #05906_71: -1005259197
+      Husk Guard - atlas0 #05906_72: -1530569051
+      Husk Guard - atlas0 #05906_73: 751656046
+      Husk Guard - atlas0 #05906_74: -1473803055
+      Husk Guard - atlas0 #05906_75: 1646964425
+      Husk Guard - atlas0 #05906_76: -1818670787
+      Husk Guard - atlas0 #05906_77: -1179075229
+      Husk Guard - atlas0 #05906_78: 543311137
+      Husk Guard - atlas0 #05906_79: 2052626364
+      Husk Guard - atlas0 #05906_8: -2019436866
+      Husk Guard - atlas0 #05906_80: 562097837
+      Husk Guard - atlas0 #05906_81: 1587103537
+      Husk Guard - atlas0 #05906_82: 482621654
+      Husk Guard - atlas0 #05906_83: -697465342
+      Husk Guard - atlas0 #05906_84: 962228223
+      Husk Guard - atlas0 #05906_85: -1977020031
+      Husk Guard - atlas0 #05906_86: -1774008740
+      Husk Guard - atlas0 #05906_87: 1647311566
+      Husk Guard - atlas0 #05906_88: -502352864
+      Husk Guard - atlas0 #05906_89: 1109466094
+      Husk Guard - atlas0 #05906_9: 616803923
+      Husk Guard - atlas0 #05906_90: -1885999518
+      Husk Guard - atlas0 #05906_91: -1243455608
+      Husk Guard - atlas0 #05906_92: 1778807526
+      Husk Guard - atlas0 #05906_93: 211317442
+      Husk Guard - atlas0 #05906_94: 789930317
+      Husk Guard - atlas0 #05906_95: 1207020552
+      Husk Guard - atlas0 #05906_96: 1396626966
+      Husk Guard - atlas0 #05906_97: 586507876
+      Husk Guard - atlas0 #05906_98: -833580142
+      Husk Guard - atlas0 #05906_99: -969433703
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

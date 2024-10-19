@@ -10,7 +10,6 @@ public class TiktikScript : EnemyBase
 	private int currentPointIndex = 0;  // Index of the current point the enemy is moving towards
 
 	public float deathForce = 200f;
-    private Vector2 attackedDirection;
 	public LayerMask surfaceLayer;
 	// Start is called before the first frame update
 	enum TiktikState
@@ -104,10 +103,11 @@ public class TiktikScript : EnemyBase
         animator.SetTrigger("Dead");
         SetState((int)TiktikState.Dead);
 
+        rb.velocity = Vector2.zero;
 		rb.AddForce(attackDirection.normalized * deathForce);
 		rb.gravityScale = 1;
 
-		Destroy(gameObject, 2);
+		Destroy(gameObject, 3);
     }
 
 	public override void Attack()
