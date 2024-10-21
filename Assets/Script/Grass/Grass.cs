@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Grass : MonoBehaviour
 {
-    [SerializeField] private Sprite[] grassSprites;
     private SpriteRenderer spriteRenderer;
     private Vector3 originalRotation; // Lưu trữ góc quay ban đầu của cỏ
     private bool isSwaying = false;
@@ -30,38 +29,12 @@ public class Grass : MonoBehaviour
     {
         if (!isSwaying)
         {
-            // Chọn ngẫu nhiên một sprite từ mảng
-            if (grassSprites.Length > 0)
-            {
-                StartCoroutine(AnimateGrass()); // Bắt đầu animation
-            }
             StartCoroutine(Sway(hitLeft));
         }
     }
 
     private float initialSwaySpeed = 2.5f; // Tốc độ ban đầu (chậm)
     private float returnSwaySpeed = 3.5f; // Tốc độ quay lại (nhanh)
-    private IEnumerator AnimateGrass()
-    {
-        int currentFrame = 0;
-        bool loop = false;
-        // Lặp lại liên tục để tạo animation
-        while (!loop)
-        {
-            // Gán sprite tương ứng với frame hiện tại
-            spriteRenderer.sprite = grassSprites[currentFrame];
-
-            // Chuyển tới frame tiếp theo
-            currentFrame = currentFrame + 1;
-            if (currentFrame % grassSprites.Length == 1 && currentFrame > 3)
-            {
-                loop = true;
-            }
-            else currentFrame = currentFrame % grassSprites.Length;
-            // Chờ trong khoảng thời gian trước khi chuyển sprite
-            yield return new WaitForSeconds(animationSpeed);
-        }
-    }
     private IEnumerator Sway(bool hitLeft)
     {
 

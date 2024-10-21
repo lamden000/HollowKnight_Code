@@ -137,11 +137,6 @@ public class PlayerScript : MonoBehaviour
     private void NormalAttack(int type)
     {
         GameObject effect = Instantiate(slashPrefab, transform.position + new Vector3(1 * (int)direction, 0, 0), transform.rotation);
-        Rigidbody2D effectRb = effect.GetComponent<Rigidbody2D>();
-        if (effectRb != null)
-        {
-            effectRb.velocity = new Vector2(rb.velocity.x, 0);
-        }
         effect.GetComponent<SlashPrefab>().Instantiate("NormalAttack" + type);
         animator.SetTrigger("normalAttack");
         Destroy(effect, 0.1f);
@@ -150,6 +145,6 @@ public class PlayerScript : MonoBehaviour
 
     public void AttackBounceBack(Vector2 direction)
     {
-        rb.velocity.Set(direction.x*attackBounceForce, rb.velocity.y);
+        rb.velocity.Set(direction.x * attackBounceForce, rb.velocity.y);
     }
 }

@@ -42,11 +42,9 @@ public class Crawlid : EnemyBase
         {
             case 0:
                 spriteRenderer.flipX = false;
-                animator.SetBool("Walk_left", true);
                 break;
             case 1:
                 spriteRenderer.flipX = true;
-                animator.SetBool("Walk_left", true);
                 break;
             case 2:
                 nx = -1;

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6579443962551962566}
   - component: {fileID: -5717678163043706259}
   - component: {fileID: -7387212774605846274}
+  - component: {fileID: 8074784103905858879}
   m_Layer: 0
   m_Name: SlashPrefab
   m_TagString: Slash
@@ -56,6 +57,9 @@ MonoBehaviour:
     damage: 25
   spinSpeed: 100
   attackSound: {fileID: 8300000, guid: b2c0169c2746a3d4ba80c230f9395f75, type: 3}
+  slashgrass: {fileID: 5225108685461490603, guid: 2ba4d40c9002de246a34dc6b93125067, type: 3}
+  slashenemy: {fileID: 6337669471245651394, guid: 780f73a6f58d2b344aebd5bdc0fc2d2c, type: 3}
+  slashwall: {fileID: 8495430031737000348, guid: e28cc5496f4e0a44eaeee0cecaa09cfc, type: 3}
 --- !u!212 &6579443962551962566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -239,3 +243,30 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
+--- !u!50 &8074784103905858879
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4982645954164195842}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
