@@ -26,6 +26,7 @@ public class HuskGuardScript : EnemyBase
 
     public Transform player;
     public Vector2 startPos;
+
     // Start is called before the first frame update
     enum HuskGuardState
     {
@@ -37,6 +38,7 @@ public class HuskGuardScript : EnemyBase
 
     protected override void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         startPos = transform.position;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         base.Start();
@@ -116,7 +118,7 @@ public class HuskGuardScript : EnemyBase
 
     public bool IsPlayerInWakeUpZone() { 
         
-        if(IsPlayerInZone(wakeUpWidth,zoneHeight,transform.position)) 
+        if(IsPlayerInZone(wakeUpWidth,zoneHeight ,transform.position + new Vector3(0, 2, 0))) 
             return true;
 
         return false;
@@ -125,7 +127,7 @@ public class HuskGuardScript : EnemyBase
     public bool IsPlayerInAttackZone()
     {
 
-        if (IsPlayerInZone(normalAttackWidth, normalAttackHeight, transform.position))
+        if (IsPlayerInZone(normalAttackWidth, normalAttackHeight, transform.position + new Vector3(0, 2, 0)))
             return true;
 
         return false;
@@ -175,11 +177,11 @@ public class HuskGuardScript : EnemyBase
 
         // Draw the wake-up zone
         Gizmos.color = wakeUpColor;
-        DrawRectangle(wakeUpWidth, zoneHeight, transform.position);
+        DrawRectangle(wakeUpWidth, zoneHeight, transform.position+new Vector3(0,2,0));
 
         //Draw the normal attack range
         Gizmos.color = normalAttackColor;
-        DrawRectangle(normalAttackWidth, normalAttackHeight, transform.position);
+        DrawRectangle(normalAttackWidth, normalAttackHeight, transform.position + new Vector3(0, 2, 0));
     }
 
     private void DrawRectangle(float width, float height, Vector3 center)

@@ -29,6 +29,14 @@ public class HuskGuardWalk : StateMachineBehaviour
             rb.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
 
+        if(guard.IsPlayerInSecurityZone())
+        {
+            animator.SetTrigger("run");
+        }
+        else if(Mathf.Abs(rb.position.x - guard.startPos.x) < 0.5f) 
+        {
+            animator.SetTrigger("idle");
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
