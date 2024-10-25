@@ -45,7 +45,7 @@ public class PlayerScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        HandleMovement();  // Xử lý chuyển động trong FixedUpdate để đồng bộ với hệ thống vật lý
+        HandleMovement(); 
     }
 
     void HandleKeyInput()
