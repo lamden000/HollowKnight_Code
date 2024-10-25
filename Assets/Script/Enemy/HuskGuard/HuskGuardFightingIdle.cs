@@ -16,7 +16,21 @@ public class HuskGuardFightingIdle : StateMachineBehaviour
     {
         if(guard.IsPlayerInSecurityZone())
         {
-            animator.SetTrigger("run");
+            if (guard.IsPlayerInAttackZone())
+            {
+                animator.SetTrigger("normalAttack");
+            }
+            else
+            {
+                if(Random.Range(0,2) == 0)
+                {
+                    animator.SetTrigger("run");
+                }
+                else
+                {
+                    animator.SetTrigger("jumpAttack");
+                }
+            }
         }
         else
         {
