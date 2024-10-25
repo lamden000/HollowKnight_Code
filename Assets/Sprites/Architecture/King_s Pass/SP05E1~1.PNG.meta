@@ -139,10 +139,10 @@ TextureImporter:
       name: SP05E1~1_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 925
-        width: 15
-        height: 5
+        x: 0
+        y: 978
+        width: 254
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: SP05E1~1_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 855
-        width: 131
-        height: 143
+        x: 350
+        y: 980
+        width: 133
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: SP05E1~1_2
       rect:
         serializedVersion: 2
-        x: 3
-        y: 762
-        width: 132
-        height: 146
+        x: 702
+        y: 1094
+        width: 13
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: SP05E1~1_3
       rect:
         serializedVersion: 2
-        x: 230
-        y: 705
-        width: 138
-        height: 136
+        x: 715
+        y: 1033
+        width: 131
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: SP05E1~1_4
       rect:
         serializedVersion: 2
-        x: 356
-        y: 808
-        width: 104
-        height: 111
+        x: 254
+        y: 1034
+        width: 9
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: SP05E1~1_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 265
-        height: 240
+        x: 335
+        y: 799
+        width: 137
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: SP05E1~1_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 235
-        width: 396
-        height: 543
+        x: 597
+        y: 841
+        width: 57
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: SP05E1~1_7
       rect:
         serializedVersion: 2
-        x: 228
-        y: 0
-        width: 243
-        height: 265
+        x: 790
+        y: 838
+        width: 104
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,6 +299,132 @@ TextureImporter:
       bones: []
       spriteID: 22e343c309a132347bc788e9adf88aff
       internalID: -850407477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP05E1~1_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 706
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65170dac7dc5f84dbe200dd6ce23919
+      internalID: 1145118724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP05E1~1_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 609
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af6e7c3ad9254d4394956c90f2b9f20
+      internalID: 530476347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP05E1~1_10
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 568
+        width: 257
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365bbe13f41ff9b41b7ea64ee7bd655a
+      internalID: 365710395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP05E1~1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 263
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d86f705b9bd2334fae184d1941c0fe6
+      internalID: -1464849628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP05E1~1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 277
+        width: 261
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab250ab9b563297499aec66a1984afc8
+      internalID: 528365325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP05E1~1_13
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 10
+        width: 241
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b172614ea45e2145841e5e17907bd98
+      internalID: 131363029
       vertices: []
       indices: 
       edges: []
@@ -316,12 +442,18 @@ TextureImporter:
     nameFileIdTable:
       SP05E1~1_0: 2107009337
       SP05E1~1_1: -610067875
+      SP05E1~1_10: 365710395
+      SP05E1~1_11: -1464849628
+      SP05E1~1_12: 528365325
+      SP05E1~1_13: 131363029
       SP05E1~1_2: -1655349870
       SP05E1~1_3: -289289506
       SP05E1~1_4: -296886547
       SP05E1~1_5: -628580074
       SP05E1~1_6: 1748719427
       SP05E1~1_7: -850407477
+      SP05E1~1_8: 1145118724
+      SP05E1~1_9: 530476347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
