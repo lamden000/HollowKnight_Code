@@ -17,7 +17,7 @@ public class HuskGuardRun : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       Vector2 target=new Vector2(player.transform.position.x,rb.transform.position.y);
+       Vector2 target=new Vector2(player.transform.position.x, rb.transform.position.y);
        Vector2 newPos=Vector2.MoveTowards(rb.transform.position, target, guard.runSpeed*Time.fixedDeltaTime);
        Vector2 direction = rb.position - target;
         rb.MovePosition(newPos);

@@ -22,13 +22,13 @@ public class HuskGuardFightingIdle : StateMachineBehaviour
             }
             else
             {
-                if(Random.Range(0,2) == 0)
+                if (Random.Range(0, 100) < 50)
                 {
-                    animator.SetTrigger("run");
+                    animator.SetTrigger("jumpAttack"); // 50% chance
                 }
                 else
                 {
-                    animator.SetTrigger("jumpAttack");
+                    animator.SetTrigger("run"); // 50% chance
                 }
             }
         }

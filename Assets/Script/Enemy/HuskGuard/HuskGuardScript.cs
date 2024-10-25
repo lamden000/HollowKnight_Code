@@ -28,13 +28,6 @@ public class HuskGuardScript : EnemyBase
     public Vector2 startPos;
 
     // Start is called before the first frame update
-    enum HuskGuardState
-    {
-        Walking_left = 0,
-        Walking_right = 1,
-        Waiting=2,
-        Dead = -1,
-    }
 
     protected override void Start()
     {
@@ -48,74 +41,14 @@ public class HuskGuardScript : EnemyBase
 
     void Update()
     {
-
-        if (GetState() == -1)
-        {
-            return;
-        }
-        Move();
-        Render();
-    }
-    public override void Render()
-    {
-        switch (state)
-        {
-            case 0:
-                spriteRenderer.flipX = false;
-                break;
-            case 1:
-                break;
-            case 2:
-                nx = -1;
-                break;
-            case 3:
-
-                break;
-            case -1:
-                animator.SetTrigger("Dead");
-                //StartCoroutine(WaitForAnimation(animator, "Dead"));
-                break;
-        }
-    }
-    public override void SetState(int state)
-    {
-        switch (state)
-        {
-            case (int)HuskGuardState.Walking_left:
-                nx = -1;
-                break;
-            case (int)HuskGuardState.Walking_right:
-                nx = 1;
-                break;
-            case 2:
-                nx = -1;
-                break;
-            case 3:
-                nx = 1;
-                break;
-            case (int)HuskGuardState.Dead:
-                Render();
-                break;
-            default:
-                Debug.Log("Error SetState Crawlid");
-                break;
-        }
-
-        base.SetState(state);
-    }
+    } 
     protected override void Die(Vector2 attackDirection)
     {
-        animator.SetTrigger("Dead");
-        SetState((int)HuskGuardState.Dead);
+        animator.SetTrigger("Dead");   
         rb.velocity = Vector2.zero;
         rb.AddForce(attackDirection.normalized * deathForce);
         Destroy(gameObject, 3);
     }
-    public override void Move()
-    {
-       
-    }
-
     public bool IsPlayerInWakeUpZone() { 
         
         if(IsPlayerInZone(wakeUpWidth,zoneHeight ,transform.position + new Vector3(0, 2, 0))) 
@@ -158,15 +91,6 @@ public class HuskGuardScript : EnemyBase
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (GetState() == -1)
-        {
-            return;
-        }
-    }
-
-    public override void Attack()
-    {
-
     }
 
     private void OnDrawGizmos()

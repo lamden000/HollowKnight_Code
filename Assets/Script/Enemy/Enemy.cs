@@ -2,53 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IEnemy
+
+public abstract class EnemyBase : MonoBehaviour
 {
-    void Move();
-    void Attack();
-    void TakeDamage(int amount,Vector2 direction);
-    void SetState(int state);
-    void Render();
-}
-public abstract class EnemyBase : MonoBehaviour, IEnemy
-{
-    protected int health;
+    public int health;
     protected int attackPower;
-    protected int state;
 
-    protected float vx;
-    protected float vy;
+    public float moveSpeedX;
+    public float moveSpeedY;
 
-    protected int nx;
-    protected int ny;
-    protected Animator animator; // Tham chiếu đến Animator
-    protected SpriteRenderer spriteRenderer;
+    protected Animator animator; 
     protected Rigidbody2D rb;
     protected virtual void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>(); // Lấy component Animator
         rb = GetComponent<Rigidbody2D>();
     }
-    public virtual void SetState(int state)
-    {
-        this.state = state;
-    }
-    public int GetState()
-    {
-        return state;
-    }
-    public abstract void Move();
-
-    public abstract void Attack();
-    public abstract void Render();
     public virtual void TakeDamage(int amount,Vector2 direction)
     {
-        Knockback(direction, -5f);
-        health -= amount;
-        if (health <= 0)
+        if(!animator.GetBool("dead"))
         {
-            Die(direction);
+            Knockback(direction, -5f);
+            health -= amount;
+            if (health <= 0)
+            {
+                Die(direction);
+                animator.SetBool("dead", true);
+            }
         }
     }
     public void Knockback(Vector2 hitDirection, float knockbackForce)

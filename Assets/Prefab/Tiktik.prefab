@@ -193,12 +193,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 083e2504ce47e0f45b7199a43a0c5cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 50
+  moveSpeedX: 1.5
+  moveSpeedY: 0
   points:
   - {x: 2.98, y: 6.63}
   - {x: 2.98, y: 5.49}
   - {x: -1.49, y: 5.63}
   - {x: -0.93, y: 6.66}
-  moveSpeed: 1.5
   deathForce: 1500
   surfaceLayer:
     serializedVersion: 2
