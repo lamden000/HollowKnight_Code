@@ -39,7 +39,7 @@ public class CameraManager : MonoBehaviour
         _normYPanAmount = _framingTransposer.m_YDamping;
     }
 
-    public void LerpYDamoino(bool isPlayerfalling)
+    public void LerpYDamping(bool isPlayerfalling)
     {
         _lerpYPanCoroutime = StartCoroutine(LerpYAction(isPlayerfalling));
     }

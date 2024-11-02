@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5836990826492636209}
   - component: {fileID: 7438213510243373746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 836537313777766969}
   - component: {fileID: 3464589654083327500}
   - component: {fileID: 8952286052973279647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4980,7 +4980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3346921127336044178}
   - component: {fileID: 1250552285540147720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Character Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5065,7 +5065,7 @@ GameObject:
   - component: {fileID: 1905667556687220543}
   - component: {fileID: 4201689459492721777}
   - component: {fileID: 4701522555253746485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5183,7 +5183,7 @@ GameObject:
   - component: {fileID: 1750922642687199730}
   - component: {fileID: 6393038042053004234}
   - component: {fileID: 4658649447226186114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5281,7 +5281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2260680129622067458}
   - component: {fileID: 172757917953305168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5337,8 +5337,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.06525001, y: 0.0037500262, z: 0}
-    m_Extent: {x: 0.54435, y: 0.56895, z: 0}
+    m_Center: {x: -0.06850001, y: 0.008850008, z: 0}
+    m_Extent: {x: 0.5404, y: 0.56614995, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5363,7 +5363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 712888888166304224}
   - component: {fileID: 3121467383094525187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Groundcheckpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5445,7 +5445,7 @@ GameObject:
   - component: {fileID: 5606407862694141201}
   - component: {fileID: 7122090500443326838}
   - component: {fileID: 6459034472130018071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hollow Knight
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5670,7 +5670,7 @@ GameObject:
   - component: {fileID: 5726429430215061067}
   - component: {fileID: 2946309222474450064}
   - component: {fileID: 2418448009999405609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10558,7 +10558,7 @@ GameObject:
   - component: {fileID: 1228950563644626580}
   - component: {fileID: 1133905799586546883}
   - component: {fileID: 5229598131028755770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

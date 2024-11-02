@@ -19,8 +19,10 @@ public class NetworkManager : MonoBehaviour
     async void Start()
     {
         // Kết nối tới SignalR hub
+        // https://hollowknightonline-dnf9g8fgfxhggrf6.eastasia-01.azurewebsites.net/gamehub
+        //https://hollowknightsever.onrender.com/gamehub
         connection = new HubConnectionBuilder()
-            .WithUrl("https://hollowknightonline-dnf9g8fgfxhggrf6.eastasia-01.azurewebsites.net/gamehub")
+            .WithUrl("https://hollowknightsever.onrender.com/gamehub")
             .Build();
 
         connection.On<string, float, float>("ReceivePlayerPosition", (playerId, x, y) =>

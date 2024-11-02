@@ -328,12 +328,12 @@ TextureImporter:
       name: NormalAttack_9
       rect:
         serializedVersion: 2
-        x: 1136
+        x: 989
         y: 134
-        width: 368
+        width: 515
         height: 538
       alignment: 9
-      pivot: {x: 0.4718346, y: 0.047250967}
+      pivot: {x: 0.61775094, y: 0.027985044}
       border: {x: 94, y: 0, z: 31, w: 145}
       outline: []
       physicsShape: []
@@ -436,10 +436,10 @@ TextureImporter:
         x: 2238
         y: 168
         width: 493
-        height: 314
+        height: 528
       alignment: 9
-      pivot: {x: 0.26873198, y: 0.19466016}
-      border: {x: 0, y: 0, z: 231, w: 0}
+      pivot: {x: 0.25296387, y: 0.11613704}
+      border: {x: 0, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0

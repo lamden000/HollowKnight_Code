@@ -1,40 +1,63 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using Unity.Properties;
+using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
+using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;        // Transform của nhân vật
-    public float smoothSpeed = 0.125f;
-    public Vector3 offset;          // Offset cho camera
-    public float yThreshold = 1.5f; // Khoảng cách Y trước khi camera di chuyển theo
+    [SerializeField] private Transform playerTransform;   
+    [SerializeField] private float flipRotationTime=0.5f;
 
-    // Giới hạn cho camera di chuyển
-    public Vector2 minBoundary;     // Giới hạn tối thiểu (minX, minY)
-    public Vector2 maxBoundary;     // Giới hạn tối đa (maxX, maxY)
+    private Coroutine turnCoroutine;
 
-    private void LateUpdate()
+    private PlayerScript playerScript;
+
+    private bool isFacingRight;
+
+    private void Awake()
     {
-        Vector3 desiredPosition;
+        playerScript = playerTransform.gameObject.GetComponent<PlayerScript>();
+        isFacingRight = playerScript.isFacingRight;
+    }
 
-        // Kiểm tra xem nhân vật có di chuyển qua ngưỡng Y không
-        if (Mathf.Abs(transform.position.y - player.position.y) > yThreshold)
+    private void Update()
+    {
+        transform.position = new Vector3(playerTransform.position.x,playerTransform.position.y,-30);
+    }
+
+    public void CallTurn()
+    {
+        turnCoroutine = StartCoroutine(FlipLerp());
+    }
+
+    private IEnumerator FlipLerp()
+    {
+        float startRotation = transform.localEulerAngles.y;
+        float endRotationAmount = DetermineEndRotation();
+        float yRotation = 0f;
+         
+        float elapsedTime = 0;
+        while (elapsedTime < flipRotationTime)
         {
-            // Vị trí mục tiêu của camera
-            desiredPosition = new Vector3(player.position.x + offset.x, player.position.y + offset.y, transform.position.z);
+            elapsedTime += Time.deltaTime;
+            yRotation =Mathf.Lerp(startRotation, endRotationAmount,elapsedTime/flipRotationTime);
+            transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+
+            yield return null;
+        }
+    }
+
+    private float DetermineEndRotation()
+    {
+        isFacingRight = !isFacingRight;
+        if (isFacingRight)
+        {
+            return 0f;
         }
         else
         {
-            desiredPosition = new Vector3(player.position.x + offset.x, transform.position.y, transform.position.z);
+            return 180f;
         }
-
-        // Giới hạn vị trí của camera trong các giá trị min/max
-        float limitedX = Mathf.Clamp(desiredPosition.x, minBoundary.x, maxBoundary.x);
-        float limitedY = Mathf.Clamp(desiredPosition.y, minBoundary.y, maxBoundary.y);
-
-        // Vị trí mới của camera sau khi áp dụng giới hạn
-        Vector3 limitedPosition = new Vector3(limitedX, limitedY, desiredPosition.z);
-
-        // Áp dụng smooth để di chuyển camera một cách mượt mà
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, limitedPosition, smoothSpeed);
-        transform.position = smoothedPosition;
     }
 }
