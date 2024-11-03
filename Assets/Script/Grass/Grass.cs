@@ -7,7 +7,6 @@ public class Grass : MonoBehaviour
     private Vector3 originalRotation; // Lưu trữ góc quay ban đầu của cỏ
     private bool isSwaying = false;
     private Animator animator; // Animator để quản lý animation
-    private float animationSpeed = 0.2f; // Tốc độ chuyển sprite
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
