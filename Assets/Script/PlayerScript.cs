@@ -56,12 +56,18 @@ public class PlayerScript : MonoBehaviour
             CameraManager.instance.LerpedFromPlayerFalling=false;
             CameraManager.instance.LerpYDamping(false);
         }
+
+        animator.SetBool("isGrounded",IsOnGround());
+        if (!IsOnGround())
+        {
+            animator.SetFloat("yVelocity",rb.velocity.y);
+        }
     }
 
     void HandleKeyInput()
     {
         // Đặt lại các animation flags
-        string[] bools = { "isRunning", "idle", "isWalking" };
+        string[] bools = { "isRunning", "idle", "isWalking","isJumping" };
         foreach (string s in bools)
         {
             animator.SetBool(s, false);
@@ -81,11 +87,12 @@ public class PlayerScript : MonoBehaviour
         }
 
         // Xử lý nhảy
-        if (Input.GetKeyDown(KeyCode.Space) && Ground()) // Nhấn phím Space để nhảy
+        if (Input.GetKeyDown(KeyCode.Space) && IsOnGround()) // Nhấn phím Space để nhảy
         {
             isJumping = true;
             jumpTimecounter = jumpTime;
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetBool("isJumping", true);
         }
 
         if (Input.GetKey(KeyCode.Space) && isJumping)
@@ -115,8 +122,10 @@ public class PlayerScript : MonoBehaviour
                 isFacingRight = !isFacingRight;
                 cameraFollowObject.CallTurn();
             }
-
-            animator.SetBool("isWalking", true);
+            if (IsOnGround())
+            {
+                animator.SetBool("isWalking", true);
+            }
 
             float direction = isFacingRight ? moveSpeed : -moveSpeed;
             rb.velocity = new Vector2(direction, rb.velocity.y);
@@ -130,7 +139,7 @@ public class PlayerScript : MonoBehaviour
     }
 
 
-    public bool Ground()
+    public bool IsOnGround()
     {
         // Kiểm tra nếu nhân vật đang đứng trên mặt đất
         return Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
