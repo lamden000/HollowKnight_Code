@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -31,6 +31,12 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private GameObject _cameraFollowGO;
     private Coroutine resetTrigerCoroutine;
     private CameraFollow cameraFollowObject;
+
+    private bool isStunned;
+    public float fallStunThreshold;
+    public float fallStunTime;
+    private float previousYVelocity;
+
 
     private void Start()
     {
@@ -73,6 +79,11 @@ public class PlayerScript : MonoBehaviour
             animator.SetBool(s, false);
         }
 
+        if (isStunned)
+        {
+            return;
+        }
+            
         // Xử lý tấn công bằng chuột trái
         if (Input.GetMouseButtonDown(0))
         {
@@ -112,7 +123,7 @@ public class PlayerScript : MonoBehaviour
             isJumping = false;
         }
 
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) )
+        if (Input.GetKey(KeyCode.A)&& !Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
             if (Input.GetKey(KeyCode.A)&& isFacingRight|| Input.GetKey(KeyCode.D) && !isFacingRight)
             {
@@ -138,6 +149,29 @@ public class PlayerScript : MonoBehaviour
 
     }
 
+    void FixedUpdate()
+    {
+        previousYVelocity = rb.velocity.y;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            if (previousYVelocity < fallStunThreshold)
+            {
+                isStunned = true;
+                StartCoroutine(Stun(fallStunTime));
+            }
+        }
+
+    }
+
+    private IEnumerator Stun(float stunTime)
+    {
+        yield return new WaitForSeconds(stunTime);
+        isStunned=false;
+    }    
 
     public bool IsOnGround()
     {

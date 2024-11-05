@@ -19,7 +19,7 @@ TagManager:
   - Background
   - platform
   - player
-  - 
+  - CameraSortingLayer
   - 
   - 
   - 
@@ -84,4 +84,7 @@ TagManager:
     locked: 0
   - name: 8
     uniqueID: 966010039
+    locked: 0
+  - name: CameraSortingLayer
+    uniqueID: 2851892651
     locked: 0
