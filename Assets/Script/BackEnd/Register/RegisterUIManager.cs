@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class RegisterUIManager : MonoBehaviour
 {
     public GameObject signInPanel;
     public GameObject signUpPanel;

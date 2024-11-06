@@ -26,7 +26,7 @@ public class SignInManager : MonoBehaviour
                 {
                     resultText.color= Color.blue;
                     resultText.text = "Sign in successful!";
-                    sceneTransitionManager.StartSceneTransition();
+                    sceneTransitionManager.StartSceneTransition("MainMenu");
                 }
                 else
                 {

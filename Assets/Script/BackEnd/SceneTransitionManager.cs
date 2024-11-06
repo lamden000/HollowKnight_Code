@@ -7,7 +7,6 @@ public class SceneTransitionManager : MonoBehaviour
 {
     public GameObject fadePanel;         // Reference to the black panel UI
     public float fadeDuration = 1.5f;    // Duration of the fade effect
-    public string targetSceneName;
 
     private Image panelImage;
 
@@ -17,7 +16,7 @@ public class SceneTransitionManager : MonoBehaviour
         fadePanel.SetActive(false);  
     }
 
-    public void StartSceneTransition()
+    public void StartSceneTransition(string targetSceneName)
     {
         PlayerPrefs.SetString("TargetScene", targetSceneName);
         PlayerPrefs.Save();
