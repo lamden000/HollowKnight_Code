@@ -1,4 +1,6 @@
+using Assets.Script.BackEnd.User;
 using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.Identity.Client;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -13,25 +15,35 @@ public class SignInManager : MonoBehaviour
     public TMP_Text resultText; // Text field for displaying results
     private SceneTransitionManager sceneTransitionManager;
 
+    enum AuthenticationResult { Success = 0, Incorrect = -1, IsActive = -2 }
+
     private void Start()
     {
         sceneTransitionManager = FindObjectOfType<SceneTransitionManager>();
         // Subscribe to the authentication result event from the connection
-        ConnectionManager.Instance.Connection.On<bool>("AuthenticationResult", (isAuthenticated) =>
+        ConnectionManager.Instance.Connection.On<int>("AuthenticationResult", (playerId) =>
         {
 
             MainThreadDispatcher.Enqueue(() =>
             {
-                if (isAuthenticated)
+                if (playerId==(int)AuthenticationResult.Incorrect)
                 {
-                    resultText.color= Color.blue;
-                    resultText.text = "Sign in successful!";
-                    sceneTransitionManager.StartSceneTransition("MainMenu");
+                    resultText.color = Color.red;
+
+                    resultText.text = "Invalid username or password.";
+                }
+                else if(playerId == (int)AuthenticationResult.IsActive)
+                {
+                    resultText.color = Color.red;
+                    resultText.text = "The account is already in use";
                 }
                 else
                 {
-                    resultText.color = Color.red;
-                    resultText.text = "Invalid username or password.";
+                    resultText.color = Color.blue;
+
+                    PlayerSession.SignIn(playerId, name);
+                    resultText.text = "Sign in successful!";
+                    sceneTransitionManager.StartSceneTransition("MainMenu");
                 }
             });
         });
