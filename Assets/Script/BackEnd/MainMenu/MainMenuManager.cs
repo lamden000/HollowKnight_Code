@@ -1,4 +1,5 @@
 using Assets.Script.BackEnd.User;
+using Microsoft.AspNetCore.SignalR.Client;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -49,8 +50,9 @@ public class MainMenuManager : MonoBehaviour
     }
 
 
-    public void Exit()
+    async public void Exit()
     {
+        await ConnectionManager.Instance.Connection.InvokeAsync("SignOut");
         sceneTransitionManager.StartSceneTransition("SignIn");
     }
 }

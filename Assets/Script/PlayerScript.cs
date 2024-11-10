@@ -1,17 +1,40 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
 
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
+    private Animator animator;
+
+    public GameObject slashPrefab;
+    public GameObject lifeIconPrefab;
+    public Transform lifeContainer; // Parent GameObject with a Horizontal Layout Group
+
+
+    private int maxLife = 5;
+    private int currentLife = 5;
+    private List<GameObject> lifeIcons = new List<GameObject>();
+
+    [Header("Soul Settings:")]
+    [SerializeField] private GameObject soulSprite; // Reference to the soul sprite's transform
+    [SerializeField] private GameObject eye; // eye objects
+    [SerializeField] private GameObject soulFullSprite; //Soul full sprite
+    [SerializeField] private float soulMinY; // 0% height (y position)
+    [SerializeField] private float soulMaxY; // 99% height (y position)
+    [SerializeField] private int maxSoul = 99; // Max soul value
+    [SerializeField] private Color lowSoulColor; // Max soul value
+    private int currentSoul = 0;
+
+    [Header("Player setting:")]
     public float jumpForce = 5f;
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
     private float lastAttackTime = -1.0f; // Lưu lại thời điểm tấn công gần nhất
     public float moveSpeed = 5f;
     public float attackBounceForce = 20f;
-    Animator animator;
-    public GameObject slashPrefab;
 
     private float jumpTimecounter;
     public float jumpTime;
@@ -32,14 +55,17 @@ public class PlayerScript : MonoBehaviour
     private Coroutine resetTrigerCoroutine;
     private CameraFollow cameraFollowObject;
 
-    private bool isStunned;
+    private bool isStunned=false;
+    private bool isImmune=false;
     public float fallStunThreshold;
-    public float fallStunTime;
+    public float fallStunTime=0.5f;
+    public float getDamageImmnueTime=1f;
     private float previousYVelocity;
 
 
     private void Start()
     {
+        SetLives(maxLife);
         isFacingRight=true;
         rb = GetComponent<Rigidbody2D>();
         rb.interpolation = RigidbodyInterpolation2D.Interpolate; // Làm mượt chuyển động
@@ -47,6 +73,13 @@ public class PlayerScript : MonoBehaviour
         _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
 
         cameraFollowObject=_cameraFollowGO.GetComponent<CameraFollow>();
+
+        //set soul to the right level
+        float newYPosition = Mathf.Lerp(soulMinY, soulMaxY, (float)currentSoul / maxSoul);
+        Vector3 spritePosition = soulSprite.transform.localPosition;
+        spritePosition.y = newYPosition;
+        soulSprite.transform.localPosition = spritePosition;
+
 
     }
 
@@ -72,18 +105,15 @@ public class PlayerScript : MonoBehaviour
 
     void HandleKeyInput()
     {
+        if(animator.GetBool("dead")|| isStunned)
+            return;
         // Đặt lại các animation flags
         string[] bools = { "isRunning", "idle", "isWalking","isJumping" };
         foreach (string s in bools)
         {
             animator.SetBool(s, false);
         }
-
-        if (isStunned)
-        {
-            return;
-        }
-            
+ 
         // Xử lý tấn công bằng chuột trái
         if (Input.GetMouseButtonDown(0))
         {
@@ -147,6 +177,10 @@ public class PlayerScript : MonoBehaviour
             animator.SetBool("isWalking", false);
         }
 
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            Heal();
+        }
     }
 
     void FixedUpdate()
@@ -164,6 +198,11 @@ public class PlayerScript : MonoBehaviour
                 StartCoroutine(Stun(fallStunTime));
             }
         }
+        else if(collision.gameObject.CompareTag("Enemy"))
+        {
+            TakeDamage(1);
+            StartCoroutine(Stun(0.5f));
+        }
 
     }
 
@@ -171,7 +210,13 @@ public class PlayerScript : MonoBehaviour
     {
         yield return new WaitForSeconds(stunTime);
         isStunned=false;
-    }    
+    }
+
+    private IEnumerator Immune(float immuneTime)
+    {
+        yield return new WaitForSeconds(immuneTime);
+        isImmune = false;
+    }
 
     public bool IsOnGround()
     {
@@ -196,5 +241,92 @@ public class PlayerScript : MonoBehaviour
     {
         // Tạo lực phản hồi khi tấn công
         rb.velocity = new Vector2(direction.x * attackBounceForce, rb.velocity.y);
+    }
+
+    private void Die()
+    {
+        animator.SetBool("dead",true);
+    }
+
+    public void Heal()
+    {
+        if(currentLife==maxLife)
+            return;
+        lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("restore");
+        currentLife++;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if(isImmune) return;
+        isImmune = true;
+        StartCoroutine(Immune(getDamageImmnueTime));
+        currentLife--;
+        lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("break");
+        if (currentLife == 0)
+        {
+            Die();
+        }
+    }
+    public void SetLives(int lifeCount)
+    {
+        // Clear old icons
+        foreach (var icon in lifeIcons)
+        {
+            Destroy(icon);
+        }
+        foreach (Transform child in lifeContainer)
+        {
+            Destroy(child.gameObject);
+        }
+        lifeIcons.Clear();
+
+        // Instantiate icons based on lifeCount
+        for (int i = 0; i < lifeCount; i++)
+        {
+            GameObject icon = Instantiate(lifeIconPrefab, lifeContainer);
+            lifeIcons.Add(icon);
+        }
+    }
+    public void SetSoul(int soul)
+    {
+        // Add the soul value, clamping it to the max soul limit
+        currentSoul = Mathf.Clamp(currentSoul + soul, 0, maxSoul);
+
+        float newYPosition = Mathf.Lerp(soulMinY, soulMaxY, (float)currentSoul / maxSoul);
+
+        // Apply the new position to the soul sprite
+        Vector3 spritePosition = soulSprite.transform.localPosition;
+        spritePosition.y = newYPosition;
+        soulSprite.transform.localPosition = spritePosition;
+
+        // Show eyes when soul percentage reaches 50% (or another threshold)
+        if (currentSoul>50)
+        {
+            if(currentSoul==99)
+            {
+                eye.SetActive(false);
+                soulSprite.SetActive(false);
+                soulFullSprite.SetActive(true);
+            }
+            else
+            {              
+                eye.SetActive(true);
+                soulSprite.SetActive(true);
+                soulFullSprite.SetActive(false);
+            }
+        }
+        else
+        {
+            if (currentSoul < 33)
+            {
+                soulSprite.GetComponent<Image>().color = lowSoulColor;
+            }
+            eye.SetActive(false);
+        }
+        if(currentSoul>33)
+        {
+            soulSprite.GetComponent<Image>().color=Color.white;
+        }
     }
 }

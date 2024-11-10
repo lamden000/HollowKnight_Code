@@ -23,6 +23,8 @@ public class SlashPrefab : MonoBehaviour
     public AudioClip attackSound;     
     private AudioSource audioSource;
     private string type;
+    private GameObject player;
+    private int baseSoulGet=11;
 
     [Header("Effect")]
     public GameObject slashgrass;
@@ -36,6 +38,7 @@ public class SlashPrefab : MonoBehaviour
         sprites = new Dictionary<string , Sprite>();
         damages = new Dictionary<string , int>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        player = GameObject.FindGameObjectWithTag("Player");
         foreach (KeyValue kv in keys)
         {
             sprites[kv.key] = kv.sprite;
@@ -89,11 +92,12 @@ public class SlashPrefab : MonoBehaviour
         {
             
             EnemyBase enemy = collider.GetComponent<EnemyBase>();
-            if (enemy != null)
+            if (enemy != null&&!enemy.isDead)
             {
                 Enemy();
                 Vector2 direction = (transform.position - collider.transform.position).normalized;
                 enemy.TakeDamage(damages[type], direction);
+                player.GetComponent<PlayerScript>().SetSoul(baseSoulGet);
             }
 
         }

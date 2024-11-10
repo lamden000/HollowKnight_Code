@@ -17,7 +17,7 @@ public class RoomManager : MonoBehaviour
     private HubConnection connection;
 
     // Start is called before the first frame update
-    async void Awake()
+     void Awake()
     {
         password.enabled = false;
         connection = ConnectionManager.Instance.Connection;

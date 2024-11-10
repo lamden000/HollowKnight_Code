@@ -22,7 +22,6 @@ public class HuskGuardScript : EnemyBase
 
     public float walkSpeed = 2.0f;
     public float runSpeed = 5.0f;
-    public float deathForce = 200f;
 
     public Transform player;
     public Vector2 startPos;
@@ -44,10 +43,7 @@ public class HuskGuardScript : EnemyBase
     } 
     protected override void Die(Vector2 attackDirection)
     {
-        animator.SetTrigger("Dead");   
-        rb.velocity = Vector2.zero;
-        rb.AddForce(attackDirection.normalized * deathForce);
-        Destroy(gameObject, 3);
+        base.Die(attackDirection);
     }
     public bool IsPlayerInWakeUpZone() { 
         

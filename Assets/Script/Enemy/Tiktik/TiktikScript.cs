@@ -7,7 +7,6 @@ public class TiktikScript : EnemyBase
 {
 	public Vector2[] points;  // Array of manually input points
 
-	public float deathForce = 200f;
 	public LayerMask surfaceLayer;
 	// Start is called before the first frame update
 
@@ -27,13 +26,8 @@ public class TiktikScript : EnemyBase
   
     protected override void Die(Vector2 attackDirection)
     {
-        animator.SetTrigger("Dead");
-
-        rb.velocity = Vector2.zero;
-		rb.AddForce(attackDirection.normalized * deathForce);
 		rb.gravityScale = 1;
-
-		Destroy(gameObject, 3);
+		base.Die(attackDirection);
     }
 
 	// Optional: Visualize the points in the Scene view

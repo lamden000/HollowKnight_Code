@@ -10,6 +10,9 @@ public abstract class EnemyBase : MonoBehaviour
 
     public float moveSpeedX;
     public float moveSpeedY;
+    public float deathForceX = 250f;
+    public float deathForceY = 50f;
+    [HideInInspector] public bool isDead=false;
 
     protected Animator animator; 
     protected Rigidbody2D rb;
@@ -20,14 +23,16 @@ public abstract class EnemyBase : MonoBehaviour
     }
     public virtual void TakeDamage(int amount,Vector2 direction)
     {
-        if(!animator.GetBool("dead"))
+        if(!isDead)
         {
-            Knockback(direction, -5f);
+            Knockback(direction, -3f);
             health -= amount;
             if (health <= 0)
             {
                 Die(direction);
+                isDead=true;
                 animator.SetBool("dead", true);
+                gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
             }
         }
     }
@@ -38,6 +43,8 @@ public abstract class EnemyBase : MonoBehaviour
 
     protected virtual void Die(Vector2 direction)
     {
-        Debug.Log($"{this.GetType().Name} has died.");
+        rb.velocity = Vector2.zero;
+        rb.AddForce(new Vector2(direction.normalized.x*deathForceX,deathForceY));
+        Destroy(gameObject, 3);
     }
 }

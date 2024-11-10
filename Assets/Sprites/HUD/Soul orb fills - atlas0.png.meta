@@ -1,0 +1,1187 @@
+fileFormatVersion: 2
+guid: 13da685eaa2ec7b4786f07c6bb2daa51
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 709
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8333bece68b9c194e8602f26184a26fd
+      internalID: 515031081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 742
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e012c7aa7f9972d4783b7fb8d1bfdd05
+      internalID: -951215649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 742
+        width: 116
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8adf4db081299498234f1bbb14db20
+      internalID: -90911565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 725
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957d9d9f58da76a4a9d4616ee7f963fa
+      internalID: 81322028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_4
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 720
+        width: 120
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922697ee272d68940bbb9dfb8162ef17
+      internalID: -1012773993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_5
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 725
+        width: 5
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d94e5ead90e7dc4eb6355161e7bf80b
+      internalID: -1361228089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 569
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108ffeefbc542b74e8a01c291bbce9a9
+      internalID: 875012529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 601
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74796131a5a54747bcbd862fd3fed2c
+      internalID: 642012153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 600
+        width: 116
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4e3a4941ee7e24cb885937e2d7ab55
+      internalID: 781134291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 590
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5023d5ddba71d0841a870a0a5e1ef863
+      internalID: 973885826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 654
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2d6bb57a2249f41bd00bc64d7d80b3
+      internalID: -685081661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 593
+        width: 117
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726e9163b4c57cb418680bca22fdaad7
+      internalID: 205386911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 591
+        width: 115
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74799f3b219ae04b9f811284763a81c
+      internalID: 9941351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_13
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 588
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b18d8c83591b745893ac9bd1765231
+      internalID: -1707610644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_14
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 588
+        width: 121
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aafa3a845fe03743a91280c1474dc79
+      internalID: 1249660887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_15
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 578
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadffb104fb229043827b83ce2219654
+      internalID: -110499509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 427
+        width: 115
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737620a72e4f4344cab9b72f11c13192
+      internalID: 18528244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 438
+        width: 118
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038d4e32b16e1c4a96b416aee3babd0
+      internalID: 942706436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_18
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 432
+        width: 118
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab2a2771ec71ee47956c39bed58d5c0
+      internalID: -2033402103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 447
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f8f5b38e2344f43b692679b1ed62e7
+      internalID: 349567568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_20
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 441
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98bcd7f16690344a97deff58e6874ba
+      internalID: 1355157189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_21
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 453
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f7a1145d488d049a0a12eea45d27e3
+      internalID: -1029496554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_22
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 452
+        width: 110
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a413532db521fb04caa269cd4eb23d48
+      internalID: 891440817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 425
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790af3616dc107746bf98203a964bf94
+      internalID: 703566137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 283
+        width: 115
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d66b9402871e439d0d15b91e38e97
+      internalID: -1419585944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 288
+        width: 5
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c498304ce320974bbe0cb5b4f5e0c4b
+      internalID: 1049971063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 288
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e4d9998fc344e499c35dca5cc63742
+      internalID: -1136975051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_27
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 308
+        width: 116
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae51765012b19604cbee85124f6ce4ec
+      internalID: 757724523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_28
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 305
+        width: 114
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c3cffc762b9245b8df155b2ba4d84
+      internalID: 1106501002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_29
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 272
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd864700cd6b8eb46b0ba709e634e79b
+      internalID: 260793541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 151
+        width: 120
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e5d596e4c54844ab1f4aef8d2b0401
+      internalID: 179381773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 151
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa3e692f92dacb4aa297f9d1e45ce2d
+      internalID: 693835622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_32
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 154
+        width: 115
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202ddf05d0ca1214a8603c3ed89ec708
+      internalID: 1733925024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 156
+        width: 117
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3ad45dde94a848bc14ff108a77815
+      internalID: 283194120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_34
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 217
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec91b80907a106d4da51230f26ef1c96
+      internalID: 887016549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_35
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 153
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acba31b9d71c8248975392715601e4f
+      internalID: 1006468424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_36
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 162
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ffb961a1f60234e897b76ccf5ef9d2
+      internalID: -1378844468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_37
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 164
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2607dbdf81129de418cf71642ef01ce8
+      internalID: 1576549085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_38
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 132
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e6bbb0e5041924c99c649b1755f0fa
+      internalID: 1115059817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_39
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 141
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc2e3a3cc825148bee0a7edfabd635
+      internalID: -1441168121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 110
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe2c2c3eacf11744a69c3005461c952
+      internalID: 559034056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 16
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e450bbe5538bd49962f0c88c39cbc2
+      internalID: 1313526392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3206cf99b596c864ea0bd6c371a9e424
+      internalID: 1863882957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_43
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 10
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bb04e45d930ca44b23f8fdde06dfb6
+      internalID: 1335693341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_44
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e956e9bee3e6c304fa668eea5b882390
+      internalID: -1994381250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_45
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1
+        width: 116
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7438baa3f838b6c45917fe100fb66ec3
+      internalID: -2135584851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soul orb fills - atlas0 #00000276_46
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 0
+        width: 115
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d803226385f059a43b84ef546e9cb25b
+      internalID: -963513776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Soul orb fills - atlas0 #00000276_0: 515031081
+      Soul orb fills - atlas0 #00000276_1: -951215649
+      Soul orb fills - atlas0 #00000276_10: -685081661
+      Soul orb fills - atlas0 #00000276_11: 205386911
+      Soul orb fills - atlas0 #00000276_12: 9941351
+      Soul orb fills - atlas0 #00000276_13: -1707610644
+      Soul orb fills - atlas0 #00000276_14: 1249660887
+      Soul orb fills - atlas0 #00000276_15: -110499509
+      Soul orb fills - atlas0 #00000276_16: 18528244
+      Soul orb fills - atlas0 #00000276_17: 942706436
+      Soul orb fills - atlas0 #00000276_18: -2033402103
+      Soul orb fills - atlas0 #00000276_19: 349567568
+      Soul orb fills - atlas0 #00000276_2: -90911565
+      Soul orb fills - atlas0 #00000276_20: 1355157189
+      Soul orb fills - atlas0 #00000276_21: -1029496554
+      Soul orb fills - atlas0 #00000276_22: 891440817
+      Soul orb fills - atlas0 #00000276_23: 703566137
+      Soul orb fills - atlas0 #00000276_24: -1419585944
+      Soul orb fills - atlas0 #00000276_25: 1049971063
+      Soul orb fills - atlas0 #00000276_26: -1136975051
+      Soul orb fills - atlas0 #00000276_27: 757724523
+      Soul orb fills - atlas0 #00000276_28: 1106501002
+      Soul orb fills - atlas0 #00000276_29: 260793541
+      Soul orb fills - atlas0 #00000276_3: 81322028
+      Soul orb fills - atlas0 #00000276_30: 179381773
+      Soul orb fills - atlas0 #00000276_31: 693835622
+      Soul orb fills - atlas0 #00000276_32: 1733925024
+      Soul orb fills - atlas0 #00000276_33: 283194120
+      Soul orb fills - atlas0 #00000276_34: 887016549
+      Soul orb fills - atlas0 #00000276_35: 1006468424
+      Soul orb fills - atlas0 #00000276_36: -1378844468
+      Soul orb fills - atlas0 #00000276_37: 1576549085
+      Soul orb fills - atlas0 #00000276_38: 1115059817
+      Soul orb fills - atlas0 #00000276_39: -1441168121
+      Soul orb fills - atlas0 #00000276_4: -1012773993
+      Soul orb fills - atlas0 #00000276_40: 559034056
+      Soul orb fills - atlas0 #00000276_41: 1313526392
+      Soul orb fills - atlas0 #00000276_42: 1863882957
+      Soul orb fills - atlas0 #00000276_43: 1335693341
+      Soul orb fills - atlas0 #00000276_44: -1994381250
+      Soul orb fills - atlas0 #00000276_45: -2135584851
+      Soul orb fills - atlas0 #00000276_46: -963513776
+      Soul orb fills - atlas0 #00000276_5: -1361228089
+      Soul orb fills - atlas0 #00000276_6: 875012529
+      Soul orb fills - atlas0 #00000276_7: 642012153
+      Soul orb fills - atlas0 #00000276_8: 781134291
+      Soul orb fills - atlas0 #00000276_9: 973885826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

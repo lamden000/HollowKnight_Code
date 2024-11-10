@@ -6,7 +6,6 @@ using UnityEngine.UIElements;
 
 public class Crawlid : EnemyBase
 {
-    public float deathForce = 200f;
     // Start is called before the first frame update
     protected override void Start()
     {      
@@ -20,9 +19,7 @@ public class Crawlid : EnemyBase
     
     protected override void Die(Vector2 attackDirection)
     {
-		rb.velocity = Vector2.zero;
-		rb.AddForce(attackDirection.normalized*deathForce);
-        Destroy(gameObject, 3);
+        base.Die(attackDirection);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
