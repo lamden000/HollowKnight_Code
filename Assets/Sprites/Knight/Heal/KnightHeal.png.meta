@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: d4bd6337dce42d042b00dbd992e1d046
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KnightHeal_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 183
+        width: 67
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.53782165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f3c2180eb74484caf2cc2ace1e1484
+      internalID: 1578921097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 193
+        width: 68
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5383779, y: 0.5362457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbde7cb42f6ce6428c62a615c442eca
+      internalID: 1433209365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 40
+        width: 92
+        height: 121
+      alignment: 9
+      pivot: {x: 0.36525992, y: 0.5539193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6708f97c6c71e884d94bb2fc295daec1
+      internalID: 2053858195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 190
+        width: 75
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5611646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c040d2f6677411c488252e5c2b4190b6
+      internalID: 917213648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 161
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb43b4bf97fb014dbd7140cf776572e
+      internalID: 1061420514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_5
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 195
+        width: 78
+        height: 124
+      alignment: 9
+      pivot: {x: 0.50836414, y: 0.55261475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aba2c94a713174792eb3cbc22e5fad
+      internalID: -2023499208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_6
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 189
+        width: 77
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5084728, y: 0.5501864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f4afbe4a3e4d64892e7bd9e98fdda6
+      internalID: 1583463824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 191
+        width: 73
+        height: 125
+      alignment: 9
+      pivot: {x: 0.49999917, y: 0.56263256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f1d51c592b804eac0e8b7fa11ff10
+      internalID: -711346562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_8
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 192
+        width: 82
+        height: 121
+      alignment: 9
+      pivot: {x: 0.50795543, y: 0.54852724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5e938ae9b31654fa71550dab14dee8
+      internalID: 1784917860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 40
+        width: 103
+        height: 116
+      alignment: 9
+      pivot: {x: 0.36064726, y: 0.55624336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cedeb30c32984c8cfec557be4062a
+      internalID: 1926913089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 39
+        width: 98
+        height: 120
+      alignment: 9
+      pivot: {x: 0.34688008, y: 0.5543686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c13ae0432cfda74bb8bdd1e1b2bc5a3
+      internalID: -433155720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 35
+        width: 83
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4213948, y: 0.5631377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c90c0f1ea271204abce1ed449cd6c84
+      internalID: -704331706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightHeal_12
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 35
+        width: 79
+        height: 125
+      alignment: 9
+      pivot: {x: 0.44219044, y: 0.55741334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20844e4ace11e448866c01a32035d67
+      internalID: -2139937354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KnightHeal_0: 1578921097
+      KnightHeal_1: 1433209365
+      KnightHeal_10: -433155720
+      KnightHeal_11: -704331706
+      KnightHeal_12: -2139937354
+      KnightHeal_2: 2053858195
+      KnightHeal_3: 917213648
+      KnightHeal_4: 1061420514
+      KnightHeal_5: -2023499208
+      KnightHeal_6: 1583463824
+      KnightHeal_7: -711346562
+      KnightHeal_8: 1784917860
+      KnightHeal_9: 1926913089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

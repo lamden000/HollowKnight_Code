@@ -27,14 +27,20 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float soulMaxY; // 99% height (y position)
     [SerializeField] private int maxSoul = 99; // Max soul value
     [SerializeField] private Color lowSoulColor; // Max soul value
-    private int currentSoul = 0;
+    [SerializeField] private int currentSoul = 66;
+    [SerializeField] private float healHoldTime = 1.5f;
+    [SerializeField] private float soulDrainDelay = 0.501f;  // Time before soul starts to drain
+    [SerializeField] private int soulPerHeal = 33;         // Total soul required for one heal
 
     [Header("Player setting:")]
+    [SerializeField] private float fallStunTime = 0.5f;
+    [SerializeField] private float getDamageImmnueTime = 1f;
     public float jumpForce = 5f;
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
-    private float lastAttackTime = -1.0f; // Lưu lại thời điểm tấn công gần nhất
     public float moveSpeed = 5f;
     public float attackBounceForce = 20f;
+    private float holdTimer;
+    private float lastAttackTime = -1.0f; // Lưu lại thời điểm tấn công gần nhất
 
     private float jumpTimecounter;
     public float jumpTime;
@@ -43,6 +49,7 @@ public class PlayerScript : MonoBehaviour
     public bool isFacingRight;
 
     private float _fallSpeedYDampingChangeThreshold;
+    public float fallStunThreshold;
 
 
     [Header("Ground Check Settings:")]
@@ -52,20 +59,22 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
 
     [SerializeField] private GameObject _cameraFollowGO;
-    private Coroutine resetTrigerCoroutine;
+    private Coroutine resetTriggerCoroutine;
     private CameraFollow cameraFollowObject;
 
     private bool isStunned=false;
     private bool isImmune=false;
-    public float fallStunThreshold;
-    public float fallStunTime=0.5f;
-    public float getDamageImmnueTime=1f;
     private float previousYVelocity;
+    private bool isHealing;
+    private bool canHeal=true;
+    private float drainInterval;
+    private float drainSoulTimer=0;
 
 
     private void Start()
     {
         SetLives(maxLife);
+        TakeDamage(2);
         isFacingRight=true;
         rb = GetComponent<Rigidbody2D>();
         rb.interpolation = RigidbodyInterpolation2D.Interpolate; // Làm mượt chuyển động
@@ -73,6 +82,8 @@ public class PlayerScript : MonoBehaviour
         _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
 
         cameraFollowObject=_cameraFollowGO.GetComponent<CameraFollow>();
+
+        drainInterval = (healHoldTime - soulDrainDelay) / soulPerHeal;
 
         //set soul to the right level
         float newYPosition = Mathf.Lerp(soulMinY, soulMaxY, (float)currentSoul / maxSoul);
@@ -107,13 +118,40 @@ public class PlayerScript : MonoBehaviour
     {
         if(animator.GetBool("dead")|| isStunned)
             return;
-        // Đặt lại các animation flags
-        string[] bools = { "isRunning", "idle", "isWalking","isJumping" };
-        foreach (string s in bools)
+        if (Input.GetKey(KeyCode.F) && (currentSoul >= soulPerHeal || isHealing) && currentLife < maxLife && IsOnGround() && canHeal)
         {
-            animator.SetBool(s, false);
+            isHealing = true;
+
+            if (holdTimer == 0)
+                animator.SetTrigger("startHeal");
+            else
+                animator.SetBool("isHealing", true);
+
+            holdTimer += Time.deltaTime;
+
+            if (holdTimer >= healHoldTime)
+            {
+                Heal();
+                holdTimer = 0;
+            }
+            else if (holdTimer >= soulDrainDelay)
+            {
+                drainSoulTimer += Time.deltaTime;
+
+                // Check if enough time has passed to drain one unit of soul
+                if (drainSoulTimer >= drainInterval)
+                {
+                    DrainSoul();
+                    drainSoulTimer -= drainInterval; // Only subtract interval to keep remainder for precision
+                }
+            }
+            return;
         }
- 
+        else if(Input.GetKeyUp(KeyCode.F))
+        {
+            ResetHealingState();
+        }
+
         // Xử lý tấn công bằng chuột trái
         if (Input.GetMouseButtonDown(0))
         {
@@ -133,6 +171,7 @@ public class PlayerScript : MonoBehaviour
             isJumping = true;
             jumpTimecounter = jumpTime;
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
             animator.SetBool("isJumping", true);
         }
 
@@ -157,10 +196,10 @@ public class PlayerScript : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A)&& isFacingRight|| Input.GetKey(KeyCode.D) && !isFacingRight)
             {
-                float yRotation = isFacingRight ? 0f : 180f;
-                transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
-
                 isFacingRight = !isFacingRight;
+                float yRotation = !isFacingRight ? 0f : 180f;
+                transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+                animator.SetBool("turn",true);
                 cameraFollowObject.CallTurn();
             }
             if (IsOnGround())
@@ -177,11 +216,36 @@ public class PlayerScript : MonoBehaviour
             animator.SetBool("isWalking", false);
         }
 
-        if(Input.GetKeyDown(KeyCode.F))
+    }
+
+    private void DrainSoul()
+    {
+        if (currentSoul > 0)
         {
-            Heal();
+            SetSoul(-1);
+        }
+        else
+        {
+            ResetHealingState();
         }
     }
+
+    private void Heal()
+    {
+        animator.SetTrigger("heal");
+        lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("restore");
+        currentLife++;
+        canHeal = false;
+    }
+
+    private void ResetHealingState()
+    {
+        isHealing = false;
+        holdTimer = 0;
+        drainSoulTimer = 0;
+        animator.SetBool("isHealing", false);
+    }
+
 
     void FixedUpdate()
     {
@@ -218,6 +282,11 @@ public class PlayerScript : MonoBehaviour
         isImmune = false;
     }
 
+    public void AllowHeal()
+    {
+        canHeal = true;
+    }
+
     public bool IsOnGround()
     {
         // Kiểm tra nếu nhân vật đang đứng trên mặt đất
@@ -248,25 +317,22 @@ public class PlayerScript : MonoBehaviour
         animator.SetBool("dead",true);
     }
 
-    public void Heal()
-    {
-        if(currentLife==maxLife)
-            return;
-        lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("restore");
-        currentLife++;
-    }
 
     public void TakeDamage(int damage)
     {
         if(isImmune) return;
+        for (int i = damage; i > 0; i--)
+        {
+            currentLife--;
+            lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("break");
+            if (currentLife == 0)
+            {
+                Die();
+                return;
+            }
+        }
         isImmune = true;
         StartCoroutine(Immune(getDamageImmnueTime));
-        currentLife--;
-        lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("break");
-        if (currentLife == 0)
-        {
-            Die();
-        }
     }
     public void SetLives(int lifeCount)
     {
@@ -301,7 +367,7 @@ public class PlayerScript : MonoBehaviour
         soulSprite.transform.localPosition = spritePosition;
 
         // Show eyes when soul percentage reaches 50% (or another threshold)
-        if (currentSoul>50)
+        if (currentSoul>=50)
         {
             if(currentSoul==99)
             {

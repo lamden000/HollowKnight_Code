@@ -41,7 +41,7 @@ public class HuskGuardScript : EnemyBase
     void Update()
     {
     } 
-    protected override void Die(Vector2 attackDirection)
+    protected override void Die(int attackDirection)
     {
         base.Die(attackDirection);
     }

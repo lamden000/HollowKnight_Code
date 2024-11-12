@@ -24,7 +24,7 @@ public class TiktikScript : EnemyBase
     {    
     }
   
-    protected override void Die(Vector2 attackDirection)
+    protected override void Die(int attackDirection)
     {
 		rb.gravityScale = 1;
 		base.Die(attackDirection);

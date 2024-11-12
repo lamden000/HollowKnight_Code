@@ -16,11 +16,7 @@ public class Crawlid : EnemyBase
     void Update()
     {             
     }
-    
-    protected override void Die(Vector2 attackDirection)
-    {
-        base.Die(attackDirection);
-    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

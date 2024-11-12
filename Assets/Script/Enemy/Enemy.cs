@@ -21,30 +21,32 @@ public abstract class EnemyBase : MonoBehaviour
         animator = GetComponent<Animator>(); // Lấy component Animator
         rb = GetComponent<Rigidbody2D>();
     }
-    public virtual void TakeDamage(int amount,Vector2 direction)
+    public virtual void TakeDamage(int amount,int directionX,float knockBackForce)
     {
         if(!isDead)
         {
-            Knockback(direction, -3f);
             health -= amount;
             if (health <= 0)
             {
-                Die(direction);
-                isDead=true;
+                Die(directionX);
+                isDead = true;
                 animator.SetBool("dead", true);
                 gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
             }
+            else
+            {
+                KnockBack(directionX, knockBackForce);
+            }
         }
     }
-    public void Knockback(Vector2 hitDirection, float knockbackForce)
+    public void KnockBack(int hitDirectionX, float knockbackForce)
     {
-        rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
+        rb.AddForce(new Vector2(hitDirectionX*knockbackForce,0));
     }
 
-    protected virtual void Die(Vector2 direction)
+    protected virtual void Die(int directionX)
     {
-        rb.velocity = Vector2.zero;
-        rb.AddForce(new Vector2(direction.normalized.x*deathForceX,deathForceY));
-        Destroy(gameObject, 3);
+        rb.AddForce(new Vector2(directionX*deathForceX,deathForceY));
+        Destroy(gameObject, 5);
     }
 }

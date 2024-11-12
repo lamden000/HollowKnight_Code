@@ -25,6 +25,7 @@ public class SlashPrefab : MonoBehaviour
     private string type;
     private GameObject player;
     private int baseSoulGet=11;
+    [SerializeField] private float knockBackForce=11;
 
     [Header("Effect")]
     public GameObject slashgrass;
@@ -95,8 +96,9 @@ public class SlashPrefab : MonoBehaviour
             if (enemy != null&&!enemy.isDead)
             {
                 Enemy();
-                Vector2 direction = (transform.position - collider.transform.position).normalized;
-                enemy.TakeDamage(damages[type], direction);
+                Vector2 force = player.transform.position - collider.transform.position;
+                int direction = force.x > 0 ? -1 : 1;
+                enemy.TakeDamage(damages[type], direction,knockBackForce);
                 player.GetComponent<PlayerScript>().SetSoul(baseSoulGet);
             }
 
