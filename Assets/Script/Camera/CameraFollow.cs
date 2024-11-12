@@ -48,7 +48,7 @@ public class CameraFollow : MonoBehaviour
     private float DetermineEndRotation()
     {
         isFacingRight = !isFacingRight;
-        if (isFacingRight)
+        if (!isFacingRight)
         {
             return 0f;
         }

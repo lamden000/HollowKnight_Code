@@ -1,14 +1,17 @@
-﻿using System.Collections;
+﻿using Assets.Script;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
-
+    public GameObject healParticle;
     private Rigidbody2D rb;
     private Animator animator;
+    [SerializeField] private GameObject _cameraFollowGO;
 
     public GameObject slashPrefab;
     public GameObject lifeIconPrefab;
@@ -26,11 +29,11 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float soulMinY; // 0% height (y position)
     [SerializeField] private float soulMaxY; // 99% height (y position)
     [SerializeField] private int maxSoul = 99; // Max soul value
-    [SerializeField] private Color lowSoulColor; // Max soul value
-    [SerializeField] private int currentSoul = 66;
+    [SerializeField] private Color lowSoulColor;
+    [SerializeField] private int currentSoul;
     [SerializeField] private float healHoldTime = 1.5f;
     [SerializeField] private float soulDrainDelay = 0.501f;  // Time before soul starts to drain
-    [SerializeField] private int soulPerHeal = 33;         // Total soul required for one heal
+    private int soulPerHeal = 33;         // Total soul required for one heal
 
     [Header("Player setting:")]
     [SerializeField] private float fallStunTime = 0.5f;
@@ -39,17 +42,24 @@ public class PlayerScript : MonoBehaviour
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
     public float moveSpeed = 5f;
     public float attackBounceForce = 20f;
+    public float jumpTime;
+    public float fallStunThreshold;
+    public bool isFacingRight=true;
+
+    private float jumpTimecounter;
+    private bool isJumping;
+
+    private bool isStunned = false;
+    private bool isImmune = false;
+    private float previousYVelocity;
+    private bool isHealing;
+    private bool canHeal = true;
+    private float drainInterval;
+    private float drainSoulTimer = 0;
     private float holdTimer;
     private float lastAttackTime = -1.0f; // Lưu lại thời điểm tấn công gần nhất
 
-    private float jumpTimecounter;
-    public float jumpTime;
-    private bool isJumping;
-
-    public bool isFacingRight;
-
     private float _fallSpeedYDampingChangeThreshold;
-    public float fallStunThreshold;
 
 
     [Header("Ground Check Settings:")]
@@ -58,39 +68,29 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float groundCheckX = 0.5f;
     [SerializeField] private LayerMask whatIsGround;
 
-    [SerializeField] private GameObject _cameraFollowGO;
     private Coroutine resetTriggerCoroutine;
     private CameraFollow cameraFollowObject;
 
-    private bool isStunned=false;
-    private bool isImmune=false;
-    private float previousYVelocity;
-    private bool isHealing;
-    private bool canHeal=true;
-    private float drainInterval;
-    private float drainSoulTimer=0;
-
+    [Header("Audio Setting:")]
+    private AudioSource audioSource;
+    public Sound healingSound;
+    public AudioClip healCompleteSound;
 
     private void Start()
     {
-        SetLives(maxLife);
-        TakeDamage(2);
-        isFacingRight=true;
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
         rb.interpolation = RigidbodyInterpolation2D.Interpolate; // Làm mượt chuyển động
-        animator = GetComponent<Animator>();
         _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
 
         cameraFollowObject=_cameraFollowGO.GetComponent<CameraFollow>();
 
         drainInterval = (healHoldTime - soulDrainDelay) / soulPerHeal;
 
-        //set soul to the right level
-        float newYPosition = Mathf.Lerp(soulMinY, soulMaxY, (float)currentSoul / maxSoul);
-        Vector3 spritePosition = soulSprite.transform.localPosition;
-        spritePosition.y = newYPosition;
-        soulSprite.transform.localPosition = spritePosition;
-
+        SetSoul(currentSoul);
+        SetLives(maxLife);
+        TakeDamage(3);
 
     }
 
@@ -118,39 +118,42 @@ public class PlayerScript : MonoBehaviour
     {
         if(animator.GetBool("dead")|| isStunned)
             return;
-        if (Input.GetKey(KeyCode.F) && (currentSoul >= soulPerHeal || isHealing) && currentLife < maxLife && IsOnGround() && canHeal)
+        if (Input.GetKey(KeyCode.F) && canHeal && (currentSoul >= soulPerHeal || isHealing) && currentLife < maxLife && IsOnGround())
         {
-            isHealing = true;
-
-            if (holdTimer == 0)
-                animator.SetTrigger("startHeal");
+            if (!isHealing)
+            {
+                StartHealing();
+            }
             else
+            {
                 animator.SetBool("isHealing", true);
+            }
 
             holdTimer += Time.deltaTime;
 
             if (holdTimer >= healHoldTime)
             {
                 Heal();
-                holdTimer = 0;
+                ResetHealingState();
             }
             else if (holdTimer >= soulDrainDelay)
             {
                 drainSoulTimer += Time.deltaTime;
 
-                // Check if enough time has passed to drain one unit of soul
                 if (drainSoulTimer >= drainInterval)
                 {
                     DrainSoul();
-                    drainSoulTimer -= drainInterval; // Only subtract interval to keep remainder for precision
+                    drainSoulTimer -= drainInterval; // Keep remainder for precision
                 }
             }
-            return;
         }
-        else if(Input.GetKeyUp(KeyCode.F))
+        else if (isHealing) // Reset only if healing was in progress but the conditions aren't met anymore
         {
             ResetHealingState();
+            healingSound.ResetTime();
+            audioSource.Stop();
         }
+
 
         // Xử lý tấn công bằng chuột trái
         if (Input.GetMouseButtonDown(0))
@@ -218,6 +221,16 @@ public class PlayerScript : MonoBehaviour
 
     }
 
+    void StartHealing()
+    {
+        isHealing = true;
+        holdTimer = 0;
+        drainSoulTimer = 0;
+        animator.SetTrigger("startHeal");
+        healingSound.Play(audioSource);
+        healParticle.SetActive(true);
+    }
+
     private void DrainSoul()
     {
         if (currentSoul > 0)
@@ -233,17 +246,21 @@ public class PlayerScript : MonoBehaviour
     private void Heal()
     {
         animator.SetTrigger("heal");
+        healingSound.Stop(audioSource);
+        ResetHealingState();
+        audioSource.PlayOneShot(healCompleteSound);
         lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("restore");
         currentLife++;
         canHeal = false;
     }
 
-    private void ResetHealingState()
+    void ResetHealingState()
     {
         isHealing = false;
         holdTimer = 0;
         drainSoulTimer = 0;
         animator.SetBool("isHealing", false);
+        healParticle.SetActive(false);
     }
 
 
