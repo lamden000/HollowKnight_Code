@@ -5,19 +5,10 @@ using UnityEngine.UIElements;
 
 public class TiktikScript : EnemyBase
 {
-	public Vector2[] points;  // Array of manually input points
-
-	public LayerMask surfaceLayer;
-	// Start is called before the first frame update
 
     protected override void Start()
     {
         base.Start();
-        attackPower = 5;
-		if (points.Length > 0)
-		{
-            transform.position = points[0];
-		}
 	}
 
 	void Update()
@@ -30,32 +21,4 @@ public class TiktikScript : EnemyBase
 		base.Die(attackDirection);
     }
 
-	// Optional: Visualize the points in the Scene view
-	void OnDrawGizmos()
-	{
-		// Draw points as small spheres and lines between points
-		if (points != null && points.Length > 0)
-		{
-			for (int i = 0; i < points.Length; i++)
-			{
-				Gizmos.color = Color.green;
-				// Draw lines between consecutive points
-				if (i > 0)
-				{
-					Gizmos.DrawLine(points[i - 1], points[i]);
-				}
-				else
-                {
-					Gizmos.color = Color.red;
-				}
-
-				if (i == points.Length - 1)
-				{
-					Gizmos.DrawLine(points[0], points[i]);
-				}
-				Gizmos.DrawSphere(points[i], 0.1f);
-
-			}
-		}
-	}
 }

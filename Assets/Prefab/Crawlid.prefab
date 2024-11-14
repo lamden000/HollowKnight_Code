@@ -131,7 +131,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 767
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -141,7 +141,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.035561144}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -152,7 +152,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.14, y: 0.8}
+  m_Size: {x: 1.14, y: 0.7288777}
   m_EdgeRadius: 0
 --- !u!114 &4635672856926363357
 MonoBehaviour:
@@ -167,9 +167,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
   moveSpeedX: 2
   moveSpeedY: 0
-  deathForce: 250
+  deathForceX: 350
+  deathForceY: 250
+  isDead: 0
 --- !u!50 &4693088367014057221
 Rigidbody2D:
   serializedVersion: 4
@@ -196,4 +199,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

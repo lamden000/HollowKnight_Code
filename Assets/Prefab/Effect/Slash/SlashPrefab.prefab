@@ -57,6 +57,7 @@ MonoBehaviour:
     damage: 25
   spinSpeed: 100
   attackSound: {fileID: 8300000, guid: b2c0169c2746a3d4ba80c230f9395f75, type: 3}
+  knockBackForce: 100
   slashgrass: {fileID: 5225108685461490603, guid: 2ba4d40c9002de246a34dc6b93125067, type: 3}
   slashenemy: {fileID: 6337669471245651394, guid: 780f73a6f58d2b344aebd5bdc0fc2d2c, type: 3}
   slashwall: {fileID: 8495430031737000348, guid: e28cc5496f4e0a44eaeee0cecaa09cfc, type: 3}
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 49040a0193d2bdd40ab4773f2fbe5193, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,15 +102,15 @@ SpriteRenderer:
   m_SortingLayerID: 1976565951
   m_SortingLayer: 5
   m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -324332146, guid: c28ec6a8a11924e44a3fd767bb7cafe1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.58, y: 1.1700127}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!82 &-5717678163043706259

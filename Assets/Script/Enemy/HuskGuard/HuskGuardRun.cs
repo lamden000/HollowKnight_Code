@@ -17,17 +17,21 @@ public class HuskGuardRun : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       Vector2 target=new Vector2(player.transform.position.x, rb.transform.position.y);
-       Vector2 newPos=Vector2.MoveTowards(rb.transform.position, target, guard.runSpeed*Time.fixedDeltaTime);
-       Vector2 direction = rb.position - target;
-        rb.MovePosition(newPos);
-        if (direction.x < 0)
-        {
-            rb.transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-        else {
-            rb.transform.rotation = Quaternion.Euler(0, 180, 0);
-        }
+        Vector2 target = new Vector2(player.transform.position.x, rb.position.y);  // Target on the same Y as the Rigidbody
+        Vector2 direction = target - rb.position;  // Calculate the direction towards the target
+
+        // Normalize the direction vector to get a unit vector, and multiply by the desired speed
+        Vector2 velocity = direction.normalized * guard.moveSpeedX * guard.runSpeedMultify;
+
+        // Set the Rigidbody2D's velocity
+        rb.velocity = new Vector2(velocity.x, rb.velocity.y);  // Keep the current Y velocity (if you want to maintain vertical movement)
+        if (direction.x > 0)
+          {
+              rb.transform.rotation = Quaternion.Euler(0, 0, 0);
+          }
+          else {
+              rb.transform.rotation = Quaternion.Euler(0, 180, 0);
+          }         
 
         if (!guard.IsPlayerInSecurityZone())
         {
@@ -43,9 +47,10 @@ public class HuskGuardRun : StateMachineBehaviour
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-   // override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-  //  {
-   // }
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+   {
+        rb.velocity=new Vector2(0, rb.velocity.y);
+    }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

@@ -11,16 +11,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DirtMouth.unity
     guid: 87f3999b790e19043bbbe0d450fa04c7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 1578674e864aa9a4995502d5f5674d5d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SignIn.unity
     guid: d645a13e764b3244aa09007383869082
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 252ce5444f1a92a439992c4117c93f25
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoadingScene.unity
     guid: b6be743a75202304486c878fcbb4d5be
   m_configObjects: {}

@@ -150,8 +150,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
   moveSpeedX: 2.5
   moveSpeedY: 0
+  deathForceX: 250
+  deathForceY: 50
+  isDead: 0
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 128

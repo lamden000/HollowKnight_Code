@@ -150,8 +150,8 @@ public class PlayerScript : MonoBehaviour
         else if (isHealing) // Reset only if healing was in progress but the conditions aren't met anymore
         {
             ResetHealingState();
+            healingSound.Stop(audioSource);
             healingSound.ResetTime();
-            audioSource.Stop();
         }
 
 

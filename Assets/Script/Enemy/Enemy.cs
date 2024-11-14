@@ -6,7 +6,7 @@ using UnityEngine;
 public abstract class EnemyBase : MonoBehaviour
 {
     public int health;
-    protected int attackPower;
+    public GameObject bloodPrefab;
 
     public float moveSpeedX;
     public float moveSpeedY;
@@ -16,6 +16,7 @@ public abstract class EnemyBase : MonoBehaviour
 
     protected Animator animator; 
     protected Rigidbody2D rb;
+    protected int attackPower;
     protected virtual void Start()
     {
         animator = GetComponent<Animator>(); // Lấy component Animator
@@ -33,20 +34,27 @@ public abstract class EnemyBase : MonoBehaviour
                 animator.SetBool("dead", true);
                 gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
             }
-            else
+            else 
             {
-                KnockBack(directionX, knockBackForce);
+                KnockBackOnHit(directionX,knockBackForce);              
             }
+            if(bloodPrefab!=null)
+            {
+                GameObject lightInstance = Instantiate(bloodPrefab, transform.position, Quaternion.identity);
+
+                lightInstance.SetActive(true);
+            }    
         }
     }
-    public void KnockBack(int hitDirectionX, float knockbackForce)
+    private void KnockBackOnHit(int directionX, float knockBackForce)
     {
-        rb.AddForce(new Vector2(hitDirectionX*knockbackForce,0));
+        rb.AddForce(new Vector2(directionX*knockBackForce,0));
     }
 
     protected virtual void Die(int directionX)
     {
-        rb.AddForce(new Vector2(directionX*deathForceX,deathForceY));
+        rb.drag = 0;
+        rb.AddForce(new Vector2(directionX* deathForceX, deathForceY));
         Destroy(gameObject, 5);
     }
 }

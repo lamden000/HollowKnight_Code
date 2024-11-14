@@ -125,20 +125,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  moveSpeedX: 0
+  bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
+  moveSpeedX: 2
   moveSpeedY: 0
+  deathForceX: 250
+  deathForceY: 50
+  isDead: 0
   zoneHeight: 8
   zoneWidth: 25
   wakeUpWidth: 15
   normalAttackHeight: 4
   normalAttackWidth: 7
-  zoneCenter: {x: 8.36, y: 1.26, z: 0}
+  zoneCenter: {x: 11, y: 1.26, z: 0}
   zoneColor: {r: 0, g: 1, b: 0, a: 1}
   wakeUpColor: {r: 0, g: 0, b: 1, a: 1}
   normalAttackColor: {r: 1, g: 0, b: 0, a: 1}
-  walkSpeed: 3
-  runSpeed: 5
-  deathForce: 200
+  runSpeedMultify: 2.5
   player: {fileID: 0}
   startPos: {x: 0, y: 0}
 --- !u!82 &208898659886147614

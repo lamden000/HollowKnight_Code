@@ -20,8 +20,7 @@ public class HuskGuardScript : EnemyBase
     public Color wakeUpColor = Color.blue;
     public Color normalAttackColor=Color.red;
 
-    public float walkSpeed = 2.0f;
-    public float runSpeed = 5.0f;
+    public float runSpeedMultify = 2.5f;
 
     public Transform player;
     public Vector2 startPos;

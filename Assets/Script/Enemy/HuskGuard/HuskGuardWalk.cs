@@ -16,11 +16,15 @@ public class HuskGuardWalk : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Vector2 target = new Vector2(guard.startPos.x, rb.transform.position.y);
-        Vector2 newPos = Vector2.MoveTowards(rb.transform.position, target, guard.walkSpeed * Time.fixedDeltaTime);
-        Vector2 direction = rb.position - target;
-        rb.MovePosition(newPos);
-        if (direction.x < 0)
+        Vector2 target = new Vector2(guard.startPos.x, rb.position.y);  // Target position (same Y as the Rigidbody)
+        Vector2 direction = target - rb.position;  // Calculate direction towards the target
+
+        // Normalize the direction vector and multiply by the desired speed
+        Vector2 velocity = direction.normalized * guard.moveSpeedX;
+
+        // Set the Rigidbody's velocity to move towards the target
+        rb.velocity = new Vector2(velocity.x, rb.velocity.y);
+        if (direction.x > 0)
         {
             rb.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
@@ -39,11 +43,10 @@ public class HuskGuardWalk : StateMachineBehaviour
         }
     }
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    // override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //  {
-
-    //  }
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        rb.velocity = new Vector2(0, rb.velocity.y);
+    }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
