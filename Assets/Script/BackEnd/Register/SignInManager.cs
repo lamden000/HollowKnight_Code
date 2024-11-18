@@ -41,7 +41,7 @@ public class SignInManager : MonoBehaviour
                 {
                     resultText.color = Color.blue;
 
-                    PlayerSession.SignIn(playerId, name);
+                    PlayerSession.SignIn(playerId, usernameInput.text);
                     resultText.text = "Sign in successful!";
                     sceneTransitionManager.StartSceneTransition("MainMenu");
                 }
