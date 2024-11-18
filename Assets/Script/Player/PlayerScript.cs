@@ -40,7 +40,9 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float getDamageImmnueTime = 1f;
     public float jumpForce = 5f;
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
-    public float moveSpeed = 5f;
+    public float maxSpeedX = 10f;
+    public float accelerationX = 5f;
+
     public float attackBounceForce = 20f;
     public float jumpTime;
     public float fallStunThreshold;
@@ -118,38 +120,41 @@ public class PlayerScript : MonoBehaviour
     {
         if(animator.GetBool("dead")|| isStunned)
             return;
-        if (Input.GetKey(KeyCode.F) && canHeal && (currentSoul >= soulPerHeal || isHealing) && currentLife < maxLife && IsOnGround())
+        if (Input.GetKey(KeyCode.F)  && (currentSoul >= soulPerHeal || isHealing) && currentLife < maxLife && IsOnGround())
         {
-            if (!isHealing)
+            if (canHeal)
             {
-                StartHealing();
-            }
-            else
-            {
-                animator.SetBool("isHealing", true);
-            }
-
-            holdTimer += Time.deltaTime;
-
-            if (holdTimer >= healHoldTime)
-            {
-                Heal();
-                ResetHealingState();
-            }
-            else if (holdTimer >= soulDrainDelay)
-            {
-                drainSoulTimer += Time.deltaTime;
-
-                if (drainSoulTimer >= drainInterval)
+                if (holdTimer==0)
                 {
-                    DrainSoul();
-                    drainSoulTimer -= drainInterval; // Keep remainder for precision
+                    StartHealing();
+                }
+                else
+                {
+                    animator.SetBool("isHealing", true);
+                }
+
+                holdTimer += Time.deltaTime;
+
+                if (holdTimer >= healHoldTime)
+                {
+                    Heal();
+                    ResetHealingState(true);
+                }
+                else if (holdTimer >= soulDrainDelay)
+                {
+                    drainSoulTimer += Time.deltaTime;
+
+                    if (drainSoulTimer >= drainInterval)
+                    {
+                        DrainSoul();
+                        drainSoulTimer -= drainInterval; // Keep remainder for precision
+                    }
                 }
             }
         }
         else if (isHealing) // Reset only if healing was in progress but the conditions aren't met anymore
         {
-            ResetHealingState();
+            ResetHealingState(false);
             healingSound.Stop(audioSource);
             healingSound.ResetTime();
         }
@@ -210,8 +215,14 @@ public class PlayerScript : MonoBehaviour
                 animator.SetBool("isWalking", true);
             }
 
-            float direction = isFacingRight ? moveSpeed : -moveSpeed;
-            rb.velocity = new Vector2(direction, rb.velocity.y);
+            // Determine the target velocity based on the facing direction
+            float targetVelocityX = isFacingRight ? maxSpeedX : -maxSpeedX;
+
+            // Smoothly interpolate the current velocity towards the target velocity
+            float newVelocityX = Mathf.MoveTowards(rb.velocity.x, targetVelocityX, accelerationX * Time.fixedDeltaTime);
+
+            // Set the Rigidbody's velocity
+            rb.velocity = new Vector2(newVelocityX, rb.velocity.y);
         }
         else
         {
@@ -239,7 +250,7 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            ResetHealingState();
+            ResetHealingState(false);
         }
     }
 
@@ -247,16 +258,17 @@ public class PlayerScript : MonoBehaviour
     {
         animator.SetTrigger("heal");
         healingSound.Stop(audioSource);
-        ResetHealingState();
-        audioSource.PlayOneShot(healCompleteSound);
+        audioSource.loop = false;
+        audioSource.clip=healCompleteSound;
+        audioSource.Play();
         lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("restore");
         currentLife++;
         canHeal = false;
     }
 
-    void ResetHealingState()
+    void ResetHealingState(bool isHealing)
     {
-        isHealing = false;
+        this.isHealing = isHealing;
         holdTimer = 0;
         drainSoulTimer = 0;
         animator.SetBool("isHealing", false);
@@ -273,7 +285,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            if (previousYVelocity < fallStunThreshold)
+            if (previousYVelocity < fallStunThreshold&&IsOnGround())
             {
                 isStunned = true;
                 StartCoroutine(Stun(fallStunTime));

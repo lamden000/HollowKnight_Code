@@ -14,7 +14,9 @@ namespace Assets.Script
         private float timePlayed;
 
         public void ResetTime()
-        { timePlayed = 0; }
+        { 
+            timePlayed = 0;
+        }
 
         public void Play(AudioSource audioSource)
         {
@@ -25,8 +27,11 @@ namespace Assets.Script
 
         public void Stop(AudioSource audioSource)
         {
-            timePlayed=audioSource.time;
-            audioSource.Stop();
+            if (audioSource.clip == audioClip)
+            {
+                timePlayed = audioSource.time;
+                audioSource.Stop();
+            }
         }
 
     }

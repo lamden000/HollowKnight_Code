@@ -14,4 +14,11 @@ public class RoomEntry : MonoBehaviour
         PlayerCountText.text = $"{currentPlayerCount}/{4}";
         isPrivateText.text = isPrivate? "Private":"Public";
     }
+
+    public void SetLeaderboardInfo(string roomName, int rank, int score)
+    {
+        RoomNameText.text = roomName;
+        PlayerCountText.text = rank.ToString();
+        isPrivateText.text = score.ToString();
+    }
 }

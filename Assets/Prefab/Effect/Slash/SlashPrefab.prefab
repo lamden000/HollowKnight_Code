@@ -57,7 +57,7 @@ MonoBehaviour:
     damage: 25
   spinSpeed: 100
   attackSound: {fileID: 8300000, guid: b2c0169c2746a3d4ba80c230f9395f75, type: 3}
-  knockBackForce: 100
+  knockBackForce: 500
   slashgrass: {fileID: 5225108685461490603, guid: 2ba4d40c9002de246a34dc6b93125067, type: 3}
   slashenemy: {fileID: 6337669471245651394, guid: 780f73a6f58d2b344aebd5bdc0fc2d2c, type: 3}
   slashwall: {fileID: 8495430031737000348, guid: e28cc5496f4e0a44eaeee0cecaa09cfc, type: 3}
