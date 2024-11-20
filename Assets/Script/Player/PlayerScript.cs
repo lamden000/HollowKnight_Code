@@ -37,13 +37,17 @@ public class PlayerScript : MonoBehaviour
 
     [Header("Player setting:")]
     [SerializeField] private float fallStunTime = 0.5f;
+    [SerializeField] private float hitStunTime = 1f;
     [SerializeField] private float getDamageImmnueTime = 1f;
     public float jumpForce = 5f;
     public float attackCooldown = 1.0f;   // Thời gian cooldown giữa các lần tấn công
     public float maxSpeedX = 10f;
     public float accelerationX = 5f;
 
-    public float attackBounceForce = 20f;
+    public float attackBounceForce;
+    public float hitBounceForceX;
+    public float hitBounceForceY;
+
     public float jumpTime;
     public float fallStunThreshold;
     public bool isFacingRight=true;
@@ -92,7 +96,7 @@ public class PlayerScript : MonoBehaviour
 
         SetSoul(currentSoul);
         SetLives(maxLife);
-        TakeDamage(3);
+      //  TakeDamage(3);
 
     }
 
@@ -226,7 +230,8 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
+            float newVelocityX = Mathf.MoveTowards(rb.velocity.x, 0, accelerationX * Time.fixedDeltaTime);
+            rb.velocity = new Vector2(newVelocityX, rb.velocity.y);
             animator.SetBool("isWalking", false);
         }
 
@@ -287,20 +292,21 @@ public class PlayerScript : MonoBehaviour
         {
             if (previousYVelocity < fallStunThreshold&&IsOnGround())
             {
-                isStunned = true;
                 StartCoroutine(Stun(fallStunTime));
             }
         }
         else if(collision.gameObject.CompareTag("Enemy"))
         {
+            GetDamageBounceBack(collision.contacts[0].normal);
             TakeDamage(1);
-            StartCoroutine(Stun(0.5f));
+            StartCoroutine(Stun(hitStunTime));
         }
 
     }
 
     private IEnumerator Stun(float stunTime)
     {
+        isStunned = true;
         yield return new WaitForSeconds(stunTime);
         isStunned=false;
     }
@@ -338,8 +344,16 @@ public class PlayerScript : MonoBehaviour
     public void AttackBounceBack(Vector2 direction)
     {
         // Tạo lực phản hồi khi tấn công
-        rb.velocity = new Vector2(direction.x * attackBounceForce, rb.velocity.y);
+        rb.AddForce( new Vector2(direction.x * attackBounceForce,0));
     }
+
+    private void GetDamageBounceBack(Vector2 direction)
+    {
+        animator.SetTrigger("hit");
+        Vector2 bounceForce = new Vector2(direction.x* hitBounceForceX, hitBounceForceY);
+        rb.AddForce(bounceForce);
+    }
+
 
     private void Die()
     {

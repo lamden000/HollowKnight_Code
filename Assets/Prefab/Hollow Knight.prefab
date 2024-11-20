@@ -5600,12 +5600,15 @@ MonoBehaviour:
   healHoldTime: 1.5
   soulDrainDelay: 0.501
   fallStunTime: 1
+  hitStunTime: 0.5
   getDamageImmnueTime: 1
   jumpForce: 5
   attackCooldown: 0.3
   maxSpeedX: 6
-  accelerationX: 10
-  attackBounceForce: 20
+  accelerationX: 9
+  attackBounceForce: 100
+  hitBounceForceX: 100
+  hitBounceForceY: 250
   jumpTime: 0.5
   fallStunThreshold: -10
   isFacingRight: 1

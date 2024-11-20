@@ -22,7 +22,9 @@ public class VengeflyChase : StateMachineBehaviour
     {
         Vector2 direction = (player.transform.position - rb.transform.position).normalized;
 
-        rb.velocity = new Vector2(direction.x , direction.y) *vengeflyScript.moveSpeedX;
+        Vector2 targetVelocity = direction * vengeflyScript.moveSpeedX;
+
+        rb.velocity = Vector2.MoveTowards(rb.velocity,targetVelocity,vengeflyScript.accelerationX);
         DetectPlayerDirection(animator);
     }
     private void DetectPlayerDirection(Animator animator)
@@ -43,7 +45,7 @@ public class VengeflyChase : StateMachineBehaviour
 
     private void Turn(bool faceRight, Animator animator)
     {
-        animator.SetTrigger("turn");
+        animator.SetBool("turn",true);
         Vector3 scale = rb.transform.localScale;
         scale.x = faceRight ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
         rb.transform.localScale = scale;

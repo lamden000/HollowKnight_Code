@@ -9,6 +9,7 @@ public abstract class EnemyBase : MonoBehaviour
     public GameObject bloodPrefab;
 
     public float moveSpeedX;
+    public float accelerationX;
     public float moveSpeedY;
     public float deathForceX = 250f;
     public float deathForceY = 50f;
@@ -55,6 +56,6 @@ public abstract class EnemyBase : MonoBehaviour
     {
         rb.drag = 0;
         rb.AddForce(new Vector2(directionX* deathForceX, deathForceY));
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 15);
     }
 }

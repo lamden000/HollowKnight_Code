@@ -42,7 +42,7 @@ public class TiktikWalk : StateMachineBehaviour
             float targetRotation = currentZRotation - 40f; // Rotate by 40 degrees per frame
 
             // Smoothly rotate towards the target rotation
-            float newZRotation = Mathf.LerpAngle(currentZRotation, targetRotation, Time.deltaTime * 2f); // Smooth rotation speed multiplier
+            float newZRotation = Mathf.LerpAngle(currentZRotation, targetRotation, Time.deltaTime * 5f); // Smooth rotation speed multiplier
 
             // Apply the new rotation to the enemy (keep the x and y rotation at 0)
             rb.transform.rotation = Quaternion.Euler(0, 0, newZRotation);
@@ -57,7 +57,8 @@ public class TiktikWalk : StateMachineBehaviour
             Vector2 downMovement = downDirection * tiktik.moveSpeedY;     // Downward movement (scale as needed)
 
             // Set velocity: Combine forward and downward velocities
-            rb.velocity = moveDirection + downMovement; // Move based on current rotation (forward + down)
+            Vector2 targetVelocity = moveDirection + downMovement;
+            rb.velocity = Vector2.MoveTowards(rb.velocity, targetVelocity, tiktik.accelerationX * Time.fixedDeltaTime); // Move based on current rotation (forward + down)
         }
     }
 
