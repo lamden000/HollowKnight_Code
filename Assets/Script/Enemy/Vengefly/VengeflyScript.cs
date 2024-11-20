@@ -7,6 +7,7 @@ public class VengeflyScript : EnemyBase
     public LayerMask obstacleLayer;          // Layer for walls/obstacles (e.g., "Obstacles")
     private Transform player;
     public float turnThreshold = 0.1f;
+    private bool isChasing=false;
 
     override protected void Start()
     {
@@ -16,14 +17,18 @@ public class VengeflyScript : EnemyBase
 
     void Update()
     {
-       
     }
 
+    protected override void Die(int attackDirection)
+    {
+        rb.gravityScale = 1;
+        base.Die(attackDirection);
+    }
 
     // Called when the player enters the enemy's detection circle
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&&!isChasing)
         {
             // Perform a raycast to check if there's a clear line of sight
             Vector2 directionToPlayer = (player.position - transform.position).normalized;
@@ -34,7 +39,8 @@ public class VengeflyScript : EnemyBase
 
             if (hit.collider == null) // No obstacle blocking the view, start chasing
             {
-                animator.SetTrigger("startChasing");                
+                animator.SetBool("startChasing",true);     
+                isChasing = true;
             }
         }
     }

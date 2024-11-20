@@ -27,7 +27,13 @@ public class CrawlidWalk : StateMachineBehaviour
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        rb.velocity = new Vector2(moveDirection.x * crawlid.moveSpeedX, rb.velocity.y);
+        float targetVelocityX = moveDirection.x * crawlid.moveSpeedX;
+
+        // Smoothly interpolate the current velocity towards the target velocity
+        float newVelocityX = Mathf.MoveTowards(rb.velocity.x, targetVelocityX, crawlid.accelerationX * Time.fixedDeltaTime);
+
+        // Set the Rigidbody's velocity
+        rb.velocity = new Vector2(newVelocityX, rb.velocity.y);
 
         if (IsBlocked() || IsOnVerge())
         {
