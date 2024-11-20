@@ -7,4 +7,5 @@ public class ItemData : ScriptableObject
 {
     public Sprite sprite;
     public string Nameitem;
+    public int point;
 }
