@@ -123,7 +123,13 @@ public class PlayerScript : MonoBehaviour
     void HandleKeyInput()
     {
         if(animator.GetBool("dead")|| isStunned)
+        {
+            if (isHealing)
+            {
+                ResetHealingState(false);
+            }
             return;
+        }
         if (Input.GetKey(KeyCode.F)  && (currentSoul >= soulPerHeal || isHealing) && currentLife < maxLife && IsOnGround())
         {
             if (canHeal)
@@ -208,11 +214,8 @@ public class PlayerScript : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A)&& isFacingRight|| Input.GetKey(KeyCode.D) && !isFacingRight)
             {
-                isFacingRight = !isFacingRight;
-                float yRotation = !isFacingRight ? 0f : 180f;
-                transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
-                animator.SetBool("turn",true);
-                cameraFollowObject.CallTurn();
+                Turn();
+                animator.SetBool("turn", true);
             }
             if (IsOnGround())
             {
@@ -259,6 +262,14 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    private void Turn()
+    {
+        isFacingRight = !isFacingRight;
+        float yRotation = !isFacingRight ? 0f : 180f;
+        transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+        cameraFollowObject.CallTurn();
+    }
+
     private void Heal()
     {
         animator.SetTrigger("heal");
@@ -274,6 +285,11 @@ public class PlayerScript : MonoBehaviour
     void ResetHealingState(bool isHealing)
     {
         this.isHealing = isHealing;
+        if (!isHealing)
+        {
+            healingSound.Stop(audioSource);
+            healingSound.ResetTime();
+        }
         holdTimer = 0;
         drainSoulTimer = 0;
         animator.SetBool("isHealing", false);
@@ -349,6 +365,10 @@ public class PlayerScript : MonoBehaviour
 
     private void GetDamageBounceBack(Vector2 direction)
     {
+        if(direction.x>0&&isFacingRight|| direction.x < 0 && !isFacingRight)
+        {
+            Turn();
+        }
         animator.SetTrigger("hit");
         Vector2 bounceForce = new Vector2(direction.x* hitBounceForceX, hitBounceForceY);
         rb.AddForce(bounceForce);
