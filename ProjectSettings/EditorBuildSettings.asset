@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DirtMouth.unity
     guid: 87f3999b790e19043bbbe0d450fa04c7
   - enabled: 0
-    path: Assets/Scenes/TestScene.unity
+    path: Assets/Scenes/TestSceneLam.unity
     guid: 1578674e864aa9a4995502d5f5674d5d
   - enabled: 1
     path: Assets/Scenes/SignIn.unity
