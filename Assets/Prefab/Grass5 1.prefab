@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7180006078912013436
+--- !u!1 &4791456090698785615
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4150000157086273145}
-  - component: {fileID: 8870288043778759969}
-  - component: {fileID: 2871815413018049763}
-  - component: {fileID: 2810069640447505496}
-  - component: {fileID: 7652757216987528741}
+  - component: {fileID: 1882095649145677091}
+  - component: {fileID: 6860119237578074987}
+  - component: {fileID: 5637070630383688390}
+  - component: {fileID: 5680510434509435366}
+  - component: {fileID: 2763151741070678393}
   m_Layer: 0
-  m_Name: Grass3
-  m_TagString: Untagged
+  m_Name: Grass5 1
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4150000157086273145
+--- !u!4 &1882095649145677091
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7180006078912013436}
+  m_GameObject: {fileID: 4791456090698785615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.99, y: -0.63, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -452.93726, y: -254.13297, z: 3.8559654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &8870288043778759969
+--- !u!95 &6860119237578074987
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7180006078912013436}
+  m_GameObject: {fileID: 4791456090698785615}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 102b53f43416dac4a85a14b728a79558, type: 2}
@@ -56,26 +56,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2871815413018049763
+--- !u!114 &5637070630383688390
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7180006078912013436}
+  m_GameObject: {fileID: 4791456090698785615}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30deda02c7d11a74f9cbe6d685d35cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grassSprites: []
---- !u!212 &2810069640447505496
+  isDead: 0
+  dead: {fileID: 21300000, guid: 2935ae2de6c835e49b68c1cd308ea813, type: 3}
+  particledead: {fileID: 0}
+  height: 0.95
+--- !u!212 &5680510434509435366
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7180006078912013436}
+  m_GameObject: {fileID: 4791456090698785615}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -110,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 1976565951
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ccb46cd1b0b60124986c3d3a958cdf57, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f37feda34a98474496b81f064aed97b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,13 +124,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7652757216987528741
+--- !u!61 &2763151741070678393
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7180006078912013436}
+  m_GameObject: {fileID: 4791456090698785615}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -157,7 +160,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.51, y: 1.74}
+    oldSize: {x: 0.74, y: 1.73}
     newSize: {x: 0.74, y: 1.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

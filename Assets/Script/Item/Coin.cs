@@ -13,10 +13,10 @@ public class Coin : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    
-    private void OnCollisionEnter2D(Collider2D other)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             /*PlayerScore playerScore = other.GetComponent<PlayerScore>();
             if (playerScore != null)
@@ -25,7 +25,7 @@ public class Coin : MonoBehaviour
             }*/
             Destroy(gameObject);
         }
-        else if (((1 << other.gameObject.layer) & groundLayer) != 0)
+        else if (((1 << collision.gameObject.layer) & groundLayer) != 0)
         {
             rb.bodyType = RigidbodyType2D.Static; 
         }

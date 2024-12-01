@@ -91,23 +91,41 @@ public class SlashPrefab : MonoBehaviour
     {
         if (collider.CompareTag("Enemy"))
         {
-            
+
             EnemyBase enemy = collider.GetComponent<EnemyBase>();
-            if (enemy != null&&!enemy.isDead)
+            if (enemy != null && !enemy.isDead)
             {
                 Enemy();
                 Vector2 force = player.transform.position - collider.transform.position;
                 int direction = force.x > 0 ? -1 : 1;
-                enemy.TakeDamage(damages[type], direction,knockBackForce);
+                enemy.TakeDamage(damages[type], direction, knockBackForce);
                 player.GetComponent<PlayerScript>().SetSoul(baseSoulGet);
             }
 
         }
         else if (collider.CompareTag("Grass"))
         {
-            Grass();
+            Grass gr = collider.GetComponent<Grass>();
+            EnviromentCotroller con = gr.GetComponent<EnviromentCotroller>();
+            if (!con.isDead && gr != null)
+            {
+                Grass();
+                Vector2 force = player.transform.position - collider.transform.position;
+                int direction = force.x > 0 ? -1 : 1;
+                con.StartDead(direction);
+            }
         }
-        
+        else if (collider.CompareTag("Environment"))
+        {
+            EnviromentCotroller con = collider.GetComponent<EnviromentCotroller>();
+            if (con != null && !con.isDead)
+            {
+                Vector2 force = player.transform.position - collider.transform.position;
+                int direction = force.x > 0 ? -1 : 1;
+                con.StartDead(direction);
+                CameraShake.instance.ShakeCamera(5f, 0.1f);
+            }
+        }
     }
 
 }
