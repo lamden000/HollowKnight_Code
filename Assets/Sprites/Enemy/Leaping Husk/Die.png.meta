@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2cc9d43df2bddf04e850f7eec7bc6aca
+guid: dfdb5158220e629439e559d452aff0dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,274 +136,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dead_0
+      name: Soul orb fills - atlas0 #00000276_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 1160
-        width: 307
-        height: 231
+        x: 5
+        y: 300
+        width: 177
+        height: 136
       alignment: 9
-      pivot: {x: 0.48398668, y: 0.119238384}
+      pivot: {x: 0.5045523, y: 0.04972121}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8bf47a5249f0c240b2c0fea8271768e
-      internalID: -1741424104
+      spriteID: a7f110827ceaeae409ede1dd328939f3
+      internalID: -229584562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_1
+      name: Soul orb fills - atlas0 #00000276_1
       rect:
         serializedVersion: 2
-        x: 987
-        y: 1283
-        width: 5
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e52feb236be2a342b676f971964cc50
-      internalID: 1216407694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dead_2
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 1122
-        width: 289
-        height: 294
+        x: 8
+        y: 154
+        width: 205
+        height: 123
       alignment: 9
-      pivot: {x: 0.51098126, y: 0.0921498}
+      pivot: {x: 0.507861, y: 0.054538384}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a217aa48f5ffd48818e6cdc5451bcf
-      internalID: -286116499
+      spriteID: 5e8aab5948c725b4ba987fd0a341e03e
+      internalID: 804400632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_3
+      name: Soul orb fills - atlas0 #00000276_2
       rect:
         serializedVersion: 2
-        x: 395
-        y: 1042
-        width: 301
-        height: 237
+        x: 228
+        y: 156
+        width: 198
+        height: 113
       alignment: 9
-      pivot: {x: 0.4929751, y: 0.10443553}
+      pivot: {x: 0.49593037, y: 0.057900757}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6baa5686a49e4da41a7ada249c522eb3
-      internalID: 344233928
+      spriteID: dc15db2b89f4f6e43bb87c73b76d4a89
+      internalID: 980024653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_4
+      name: Soul orb fills - atlas0 #00000276_3
       rect:
         serializedVersion: 2
-        x: 797
-        y: 773
-        width: 287
-        height: 285
+        x: 434
+        y: 161
+        width: 203
+        height: 117
       alignment: 9
-      pivot: {x: 0.4822798, y: 0.09631476}
+      pivot: {x: 0.4960306, y: -0.002740322}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d56e5d426a8b7740a1c146636539ec4
-      internalID: 58736917
+      spriteID: 0f102ef42bb71ba45b2ec253eee54ade
+      internalID: -1157868787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_5
+      name: Soul orb fills - atlas0 #00000276_4
       rect:
         serializedVersion: 2
-        x: 1307
-        y: 1030
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6be9198649ce80749808978c98598806
-      internalID: -607527898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dead_6
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 975
-        width: 5
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 635940d99f768d8459d111f2e5e1385f
-      internalID: -1822074264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dead_7
-      rect:
-        serializedVersion: 2
-        x: 1149
-        y: 733
-        width: 326
-        height: 253
+        x: 655
+        y: 155
+        width: 202
+        height: 122
       alignment: 9
-      pivot: {x: 0.49309555, y: 0.14719653}
+      pivot: {x: 0.4999997, y: 0.044282258}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b97a586d11fe222458adaebfc1f5182d
-      internalID: 410840907
+      spriteID: b5b45090ca81f8345901effac84c77ef
+      internalID: 640158870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_8
+      name: Soul orb fills - atlas0 #00000276_5
       rect:
         serializedVersion: 2
-        x: 1399
-        y: 729
-        width: 8
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 366ae60a3e6050249a3c92c18c215317
-      internalID: 362972881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dead_9
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 370
-        width: 282
-        height: 243
+        x: 875
+        y: 152
+        width: 198
+        height: 116
       alignment: 9
-      pivot: {x: 0.49345344, y: 0.13201942}
+      pivot: {x: 0.5, y: 0.07628053}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cf9d8cc87594a942b0a9b0a42f6a597
-      internalID: 232182409
+      spriteID: 6ebe2f1acb6d4f54880b7cad750c040e
+      internalID: 1501418413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_10
+      name: Soul orb fills - atlas0 #00000276_6
       rect:
         serializedVersion: 2
-        x: 602
-        y: 295
-        width: 301
-        height: 277
+        x: 479
+        y: 15
+        width: 162
+        height: 94
       alignment: 9
-      pivot: {x: 0.46658537, y: 0.090627074}
+      pivot: {x: 0.490052, y: 0.054259583}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 473ee1511b56923439f0ff1cd60ff00f
-      internalID: 1942723383
+      spriteID: 65f519c765a161446bd1ce21c22c1062
+      internalID: 1875203434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_11
+      name: Soul orb fills - atlas0 #00000276_7
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 402
-        width: 324
-        height: 278
+        x: 257
+        y: 15
+        width: 170
+        height: 111
       alignment: 9
-      pivot: {x: 0.47309217, y: 0.1310685}
+      pivot: {x: 0.4953957, y: 0.057194}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e759959a8a6abd4439d80497c87ab8b0
-      internalID: -982732627
+      spriteID: 4c85c6c2d1559484daae8718b7c611b0
+      internalID: 1171712483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_12
+      name: Soul orb fills - atlas0 #00000276_8
       rect:
         serializedVersion: 2
-        x: 1203
-        y: 21
-        width: 286
-        height: 294
+        x: 18
+        y: 15
+        width: 197
+        height: 120
       alignment: 9
-      pivot: {x: 0.47237626, y: 0.079717115}
+      pivot: {x: 0.49999997, y: 0.06354573}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cbaa08537949e44e859dc86f6cf9db1
-      internalID: -2113369957
+      spriteID: ee760c31e3c8f044aba00ce9626d6c54
+      internalID: -423653844
       vertices: []
       indices: 
       edges: []
@@ -419,19 +335,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dead_0: -1741424104
-      Dead_1: 1216407694
-      Dead_10: 1942723383
-      Dead_11: -982732627
-      Dead_12: -2113369957
-      Dead_2: -286116499
-      Dead_3: 344233928
-      Dead_4: 58736917
-      Dead_5: -607527898
-      Dead_6: -1822074264
-      Dead_7: 410840907
-      Dead_8: 362972881
-      Dead_9: 232182409
+      Soul orb fills - atlas0 #00000276_0: -229584562
+      Soul orb fills - atlas0 #00000276_1: 804400632
+      Soul orb fills - atlas0 #00000276_2: 980024653
+      Soul orb fills - atlas0 #00000276_3: -1157868787
+      Soul orb fills - atlas0 #00000276_4: 640158870
+      Soul orb fills - atlas0 #00000276_5: 1501418413
+      Soul orb fills - atlas0 #00000276_6: 1875203434
+      Soul orb fills - atlas0 #00000276_7: 1171712483
+      Soul orb fills - atlas0 #00000276_8: -423653844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
