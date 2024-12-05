@@ -3,16 +3,17 @@ using UnityEngine;
 
 public class Grass : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    
     private Vector3 originalRotation; // Lưu trữ góc quay ban đầu của cỏ
     private bool isSwaying = false;
     private Animator animator; // Animator để quản lý animation
+
+ 
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        
         animator = GetComponent<Animator>(); // Lấy Animator
         originalRotation = transform.localEulerAngles; // Lưu vị trí gốc
-
     }
 
     void OnTriggerEnter2D(Collider2D other)

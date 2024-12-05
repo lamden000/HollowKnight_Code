@@ -233,8 +233,8 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            float newVelocityX = Mathf.MoveTowards(rb.velocity.x, 0, accelerationX * Time.fixedDeltaTime);
-            rb.velocity = new Vector2(newVelocityX, rb.velocity.y);
+            //float newVelocityX = Mathf.MoveTowards(rb.velocity.x, 0, accelerationX * Time.fixedDeltaTime);
+            rb.velocity = new Vector2(0, rb.velocity.y);
             animator.SetBool("isWalking", false);
         }
 

@@ -9,6 +9,8 @@ TagManager:
   - Platform
   - Ground
   - Grass
+  - Item
+  - Environment
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - DeadEnemy
   - Player
   - CameraSortingLayer
-  - 
+  - Environment
   - 
   - 
   - 

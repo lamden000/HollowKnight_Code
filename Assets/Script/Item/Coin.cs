@@ -6,21 +6,17 @@ public class Coin : MonoBehaviour
 {
     [SerializeField]
     private ItemData coindata;
+    [SerializeField] private LayerMask groundLayer;
+    private Rigidbody2D rb;
 
     private void Start()
     {
-        if (coindata != null)
-        {
-            var spriteRenderer = GetComponent<SpriteRenderer>();
-            if (spriteRenderer != null)
-            {
-                spriteRenderer.sprite = coindata.sprite;
-            }
-        }
+        rb = GetComponent<Rigidbody2D>();
     }
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             /*PlayerScore playerScore = other.GetComponent<PlayerScore>();
             if (playerScore != null)
@@ -28,6 +24,10 @@ public class Coin : MonoBehaviour
                 playerScore.AddScore(coinValue);
             }*/
             Destroy(gameObject);
+        }
+        else if (((1 << collision.gameObject.layer) & groundLayer) != 0)
+        {
+            rb.bodyType = RigidbodyType2D.Static; 
         }
     }
 }
