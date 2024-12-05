@@ -27,6 +27,10 @@ public class CameraManager : MonoBehaviour
     private float _normYPanAmount;
 
     private Vector2 _startingTrackedObjectOffset;
+    public CinemachineVirtualCamera GetCurrentCamera()
+    {
+        return _currentCamera;
+    }
 
     void Awake()
     {
@@ -43,6 +47,7 @@ public class CameraManager : MonoBehaviour
         _normYPanAmount = _framingTransposer.m_YDamping;
 
         _startingTrackedObjectOffset =_framingTransposer.m_TrackedObjectOffset;
+        CameraShake.instance?.UpdateCurrentCamera(_currentCamera);
     }
 
     public void LerpYDamping(bool isPlayerfalling)
@@ -143,6 +148,7 @@ public class CameraManager : MonoBehaviour
             cameraFromLeft.enabled=false;
             _currentCamera = cameraFromRight;
             _framingTransposer = _currentCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+            CameraShake.instance?.UpdateCurrentCamera(_currentCamera);
         }
         else if (_currentCamera == cameraFromRight && trigerExistDirection.x < 0)
         {
@@ -150,6 +156,7 @@ public class CameraManager : MonoBehaviour
             cameraFromLeft.enabled = true;
             _currentCamera = cameraFromLeft;
             _framingTransposer = _currentCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+            CameraShake.instance?.UpdateCurrentCamera(_currentCamera);
         }
     }
     #endregion

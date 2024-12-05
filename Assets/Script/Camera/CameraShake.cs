@@ -7,7 +7,10 @@ public class CameraShake : MonoBehaviour
 {
     public static CameraShake instance { get; private set; }
     private CinemachineVirtualCamera cinemachineVirtualCamera;
+    private CinemachineBasicMultiChannelPerlin _perlinNoise;
     private float shakeTimer;
+
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -16,34 +19,53 @@ public class CameraShake : MonoBehaviour
             return;
         }
         instance = this;
-        cinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
-        if (cinemachineVirtualCamera == null)
-        {
-            Debug.LogError("CinemachineVirtualCamera not found in the scene!");
-            return;
-        }
     }
 
     private void Update()
     {
+        // Gi?m th?i gian rung camera
         if (shakeTimer > 0)
         {
             shakeTimer -= Time.deltaTime;
-            if (shakeTimer <= 0f)
+            if (shakeTimer <= 0f && _perlinNoise != null)
             {
-                CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin =
-            cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-
-                cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = 0f;
+                _perlinNoise.m_AmplitudeGain = 0f;
             }
         }
     }
+
+    /// <summary>
+    /// C?p nh?t camera hi?n t?i trong CameraShake
+    /// </summary>
+    /// <param name="newCamera">CinemachineVirtualCamera m?i</param>
+    public void UpdateCurrentCamera(CinemachineVirtualCamera newCamera)
+    {
+        cinemachineVirtualCamera = newCamera;
+
+        if (cinemachineVirtualCamera != null)
+        {
+            _perlinNoise = cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        }
+        else
+        {
+            Debug.LogWarning("No CinemachineVirtualCamera provided to CameraShake.");
+        }
+    }
+
+    /// <summary>
+    /// Rung camera v?i c??ng ?? và th?i gian ch? ??nh
+    /// </summary>
+    /// <param name="intensity">C??ng ?? rung</param>
+    /// <param name="time">Th?i gian rung</param>
     public void ShakeCamera(float intensity, float time)
     {
-        CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin =
-             cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        if (_perlinNoise == null)
+        {
+            Debug.LogError("CinemachineBasicMultiChannelPerlin component is missing or not initialized!");
+            return;
+        }
 
-        cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = intensity;
+        _perlinNoise.m_AmplitudeGain = intensity;
         shakeTimer = time;
     }
 }
