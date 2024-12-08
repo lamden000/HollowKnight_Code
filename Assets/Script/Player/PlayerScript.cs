@@ -96,8 +96,7 @@ public class PlayerScript : MonoBehaviour
 
         SetSoul(currentSoul);
         SetLives(maxLife);
-      //  TakeDamage(3);
-
+        //  TakeDamage(3);
     }
 
     void Update()
@@ -383,7 +382,11 @@ public class PlayerScript : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if(isImmune) return;
+        if (currentLife > 1)
+            Hit_CrackController.instance.OpenEffect();
+        else
+            Hit_CrackController.instance.LastHealthEffect();
+        if (isImmune) return;
         for (int i = damage; i > 0; i--)
         {
             currentLife--;

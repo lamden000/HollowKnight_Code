@@ -23,7 +23,6 @@ public class CameraShake : MonoBehaviour
 
     private void Update()
     {
-        // Gi?m th?i gian rung camera
         if (shakeTimer > 0)
         {
             shakeTimer -= Time.deltaTime;
@@ -35,7 +34,6 @@ public class CameraShake : MonoBehaviour
     }
 
     /// <summary>
-    /// C?p nh?t camera hi?n t?i trong CameraShake
     /// </summary>
     /// <param name="newCamera">CinemachineVirtualCamera m?i</param>
     public void UpdateCurrentCamera(CinemachineVirtualCamera newCamera)

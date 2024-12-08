@@ -123,7 +123,7 @@ public class SlashPrefab : MonoBehaviour
                 Vector2 force = player.transform.position - collider.transform.position;
                 int direction = force.x > 0 ? -1 : 1;
                 con.StartDead(direction);
-                CameraShake.instance.ShakeCamera(5f, 1f);
+                CameraShake.instance.ShakeCamera(5f, 0.5f);
             }
         }
     }
