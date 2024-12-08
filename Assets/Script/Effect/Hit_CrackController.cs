@@ -18,6 +18,8 @@ public class Hit_CrackController : MonoBehaviour
     [SerializeField] ParticleSystem left_dead;
     [SerializeField] ParticleSystem right_dead;
 
+    [SerializeField] ParticleSystem ganhetmau;
+
     private void Awake()
     {
         if (instance == null)
@@ -35,6 +37,7 @@ public class Hit_CrackController : MonoBehaviour
         ResetParticleSystem(low_health);
         ResetParticleSystem(left_dead);
         ResetParticleSystem(right_dead);
+        ResetParticleSystem(ganhetmau);
     }
     public void OpenEffect()
     {
@@ -42,6 +45,8 @@ public class Hit_CrackController : MonoBehaviour
         ResetParticleSystem(hit_crack);
         ResetParticleSystem(die_effect);
         ResetParticleSystem(four_slash);
+
+        CameraShake.instance.ShakeCamera(1.5f, 0.5f);
 
         backhit.Play();
         hit_crack.Play();
@@ -61,7 +66,8 @@ public class Hit_CrackController : MonoBehaviour
         ResetParticleSystem(right_dead);
         ResetParticleSystem(low_health);
 
-        
+        CameraShake.instance.ShakeCamera(2f, 5f);
+
         hit_crack.Play();
         yield return StartCoroutine(WaitForEffect(hit_crack));
 
@@ -88,6 +94,17 @@ public class Hit_CrackController : MonoBehaviour
         }
     }
 
+    public void HetmauEffect()
+    {
+        ResetParticleSystem(ganhetmau);
+
+        ganhetmau.Play();
+    }
+
+    public void StopHetmauEffect()
+    {
+        ResetParticleSystem(ganhetmau);
+    }
     private void ResetParticleSystem(ParticleSystem ps)
     {
         ps.Stop(true);

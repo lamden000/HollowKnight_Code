@@ -33,9 +33,6 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// </summary>
-    /// <param name="newCamera">CinemachineVirtualCamera m?i</param>
     public void UpdateCurrentCamera(CinemachineVirtualCamera newCamera)
     {
         cinemachineVirtualCamera = newCamera;
@@ -50,11 +47,6 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Rung camera v?i c??ng ?? và th?i gian ch? ??nh
-    /// </summary>
-    /// <param name="intensity">C??ng ?? rung</param>
-    /// <param name="time">Th?i gian rung</param>
     public void ShakeCamera(float intensity, float time)
     {
         if (_perlinNoise == null)

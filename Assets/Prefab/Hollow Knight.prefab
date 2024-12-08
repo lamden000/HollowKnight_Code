@@ -20439,6 +20439,73 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!1001 &7177552155930695417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7286358352352461161}
+    m_Modifications:
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986343158964046661, guid: d15553317168c234db138845fd0bc483, type: 3}
+      propertyPath: m_Name
+      value: Ganchet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d15553317168c234db138845fd0bc483, type: 3}
+--- !u!4 &1061523278062399606 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7863426117558937231, guid: d15553317168c234db138845fd0bc483, type: 3}
+  m_PrefabInstance: {fileID: 7177552155930695417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8054932348581341491 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 888079815748943818, guid: d15553317168c234db138845fd0bc483, type: 3}
+  m_PrefabInstance: {fileID: 7177552155930695417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8215317000173731012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20447,6 +20514,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6025508528053658096}
     m_Modifications:
+    - target: {fileID: 1411263566025332255, guid: 7d30a3bed23ef604ea81d38972eca277, type: 3}
+      propertyPath: ganhetmau
+      value: 
+      objectReference: {fileID: 8054932348581341491}
     - target: {fileID: 1665473254858325421, guid: 7d30a3bed23ef604ea81d38972eca277, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.06
@@ -20493,7 +20564,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1665473254858325421, guid: 7d30a3bed23ef604ea81d38972eca277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061523278062399606}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d30a3bed23ef604ea81d38972eca277, type: 3}
 --- !u!4 &7286358352352461161 stripped

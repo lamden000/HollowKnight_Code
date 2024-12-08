@@ -279,6 +279,7 @@ public class PlayerScript : MonoBehaviour
         lifeIcons[currentLife].GetComponent<Animator>().SetTrigger("restore");
         currentLife++;
         canHeal = false;
+        Hit_CrackController.instance.StopHetmauEffect();
     }
 
     void ResetHealingState(bool isHealing)
@@ -398,6 +399,14 @@ public class PlayerScript : MonoBehaviour
             }
         }
         isImmune = true;
+
+        if (currentLife == 1)
+        {
+            Hit_CrackController.instance.HetmauEffect();
+            var icon = lifeIconPrefab.transform.GetChild(0).gameObject;
+            var effect = icon.transform.GetChild(0).gameObject;
+            effect.SetActive(true);
+        }
         StartCoroutine(Immune(getDamageImmnueTime));
     }
     public void SetLives(int lifeCount)
