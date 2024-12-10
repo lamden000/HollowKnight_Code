@@ -108,7 +108,7 @@ public class SlashPrefab : MonoBehaviour
         {
             Grass gr = collider.GetComponent<Grass>();
             EnviromentCotroller con = gr.GetComponent<EnviromentCotroller>();
-            if (!con.isDead && gr != null)
+            if (!con.isDead)
             {
                 Grass();
                 Vector2 force = player.transform.position - collider.transform.position;

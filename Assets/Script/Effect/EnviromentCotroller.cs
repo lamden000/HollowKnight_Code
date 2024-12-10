@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -29,6 +30,20 @@ public class EnviromentCotroller : MonoBehaviour
         {
             rotation *= Quaternion.Euler(0, 180, 0);
         }
-        Instantiate(particlesystem, spawnPosition, rotation);
+        ParticleSystem spawnedParticle = Instantiate(particlesystem, spawnPosition, rotation);
+
+        StartCoroutine(DestroyParticleWhenDone(spawnedParticle));
+    }
+    IEnumerator DestroyParticleWhenDone(ParticleSystem ps)
+    {
+        if (ps != null)
+        {
+            yield return new WaitWhile(() => ps.IsAlive(true));
+            Destroy(ps.gameObject);
+        }
+        else
+        {
+            Debug.LogWarning("No ParticleSystem found on instantiated object!");
+        }
     }
 }
