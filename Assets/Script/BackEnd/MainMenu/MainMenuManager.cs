@@ -11,6 +11,7 @@ public class MainMenuManager : MonoBehaviour
     public GameObject mainMenuPannel;
     public GameObject createRoomPanel;
     public GameObject leaderboardPanel;
+    public GameObject title;
     private SceneTransitionManager sceneTransitionManager; 
     // Start is called before the first frame update
     void Start()
@@ -22,14 +23,20 @@ public class MainMenuManager : MonoBehaviour
     {      
         if(!multiplayerPannel.activeInHierarchy)
         {
-            mainMenuPannel.SetActive(false);
-            multiplayerPannel.SetActive(true);
+            SetActiveMenu(false,multiplayerPannel);
         }
         else
         {
-            mainMenuPannel.SetActive(true);
-            multiplayerPannel.SetActive(false);
+            SetActiveMenu(true, multiplayerPannel);
         }
+    }
+
+
+    void SetActiveMenu(bool isActive,GameObject activeObject)
+    {
+        mainMenuPannel.SetActive(isActive);
+        title.SetActive(isActive);
+        activeObject.SetActive(!isActive);
     }
 
     public void CreateRoom()
@@ -48,13 +55,11 @@ public class MainMenuManager : MonoBehaviour
     {
         if (!leaderboardPanel.activeInHierarchy)
         {
-            mainMenuPannel.SetActive(false);
-            leaderboardPanel.SetActive(true);
+            SetActiveMenu(false, leaderboardPanel);
         }
         else
         {
-            mainMenuPannel.SetActive(true);
-            leaderboardPanel.SetActive(false);
+            SetActiveMenu(true, leaderboardPanel);
         }
     }
 

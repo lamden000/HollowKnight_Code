@@ -2298,7 +2298,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1443074645
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2359,6 +2359,7 @@ MonoBehaviour:
   mainMenuPannel: {fileID: 765240511}
   createRoomPanel: {fileID: 1472336699}
   leaderboardPanel: {fileID: 82644795}
+  title: {fileID: 1516422128}
 --- !u!4 &570299242
 Transform:
   m_ObjectHideFlags: 0
@@ -3456,7 +3457,6 @@ RectTransform:
   - {fileID: 11699496}
   - {fileID: 2053010371}
   - {fileID: 1161692385}
-  - {fileID: 1516422130}
   m_Father: {fileID: 811071252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11728,8 +11728,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.30655, y: -0.074750006, z: 0}
-    m_Extent: {x: 2.8099499, y: 1.12975, z: 0}
+    m_Center: {x: 1.3081, y: -0.07464999, z: 0}
+    m_Extent: {x: 2.794, y: 1.1370499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -12351,7 +12351,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1764348197
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c6a87f21b1be2794a95276b51f066ae3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12373,12 +12373,12 @@ Transform:
   m_GameObject: {fileID: 1516422128}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 59.446747, y: 102.63957, z: 0}
-  m_LocalScale: {x: 36.384876, y: 28.786663, z: 0.9376464}
+  m_LocalPosition: {x: 491.59412, y: 337.10968, z: 0}
+  m_LocalScale: {x: 38.04039, y: 30.096457, z: 0.9803093}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1426223651}
-  m_Father: {fileID: 765240512}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1530009436
 PrefabInstance:
@@ -19180,3 +19180,4 @@ SceneRoots:
   - {fileID: 570299242}
   - {fileID: 260979283}
   - {fileID: 1883749776}
+  - {fileID: 1516422130}
