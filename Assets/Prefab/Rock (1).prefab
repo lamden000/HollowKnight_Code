@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 785087879963322596}
   - component: {fileID: 4806037695371647451}
-  - component: {fileID: 3030894746519376283}
+  - component: {fileID: 3185382539167723778}
   - component: {fileID: 8957396997587292687}
   m_Layer: 0
   m_Name: Rock (1)
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3030894746519376283
+--- !u!114 &3185382539167723778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,13 +95,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8461044926605343373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d950af1eaf89b347b947fa8a37aedb3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b763cbc427576d4db2789aa3605c371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   particlesystem: {fileID: 2744921294846768445, guid: 98a4efa956b7eba488626250f64c4de6, type: 3}
   height: 0
   sprite: {fileID: 21300000, guid: 4aa6d5e7ac6b92a4eb1c378fcc6ec9a7, type: 3}
   isDead: 0
+  dust: {fileID: 474403489221321378, guid: d59d156cf44f88d4985487a84b09cb28, type: 3}
 --- !u!61 &8957396997587292687
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -82,6 +82,7 @@ public class PlayerScript : MonoBehaviour
     public Sound healingSound;
     public AudioClip healCompleteSound;
 
+    
     private void Start()
     {
         animator = GetComponent<Animator>();

@@ -16,7 +16,7 @@ public class EnviromentCotroller : MonoBehaviour
         trans = GetComponent<Transform>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    public void StartDead(int hitLeft)
+    public virtual void StartDead(int hitLeft)
     {
         isDead = true;
         spriteRenderer.sprite = sprite;
@@ -25,6 +25,10 @@ public class EnviromentCotroller : MonoBehaviour
         spawnPosition.y += height;
 
         Quaternion rotation = particlesystem.transform.rotation;
+        if (hitLeft < 0)
+        {
+            rotation *= Quaternion.Euler(0, 180, 0);
+        }
         Instantiate(particlesystem, spawnPosition, rotation);
     }
 }
