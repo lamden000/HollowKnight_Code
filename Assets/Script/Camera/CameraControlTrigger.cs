@@ -56,7 +56,7 @@ public class CustomInspectorObjects
     [HideInInspector] public CinemachineVirtualCamera cameraOnRight;
 
     [HideInInspector] public PanDirection panDirection;
-    [HideInInspector] public float panDistance=3f;
+    [HideInInspector] public float panDistance=1f;
     [HideInInspector] public float panTime = 0.35f;
 }
 

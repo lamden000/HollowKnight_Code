@@ -15,6 +15,7 @@ public class WanderingHusk : EnemyBase
     public float attackWidth;
     protected override void Start()
     {
+        base.Start();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

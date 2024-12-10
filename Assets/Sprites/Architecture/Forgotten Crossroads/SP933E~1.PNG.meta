@@ -1257,7 +1257,7 @@ TextureImporter:
         width: 107
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1265,6 +1265,216 @@ TextureImporter:
       bones: []
       spriteID: 64b5a7f2656a039428f41e6a2447c882
       internalID: 1433682288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_54
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 2461
+        width: 77
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679b8fe8ae2ff3b478646475c375a51a
+      internalID: -1003847141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_55
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 3698
+        width: 72
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3876bdb58a861464998fa9179c72f44c
+      internalID: -281690789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_56
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 905
+        width: 117
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c44ce14b7bf723458f6005ca4641476
+      internalID: -1438559808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_57
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 3887
+        width: 115
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649cda2818cd37947945e765f4d966b5
+      internalID: 1502839179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_58
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2959
+        width: 287
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260b5fb98800ba44c9deca14677b6c21
+      internalID: -93158360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_59
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 2063
+        width: 107
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082687e875f11044682791a379c64357
+      internalID: 570029342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_60
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 2881
+        width: 115
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836e470096b28db4dbc3ae4b034f747e
+      internalID: 1943218928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_61
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 3004
+        width: 90
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f161a8d20fc84b9185b50c1a20623
+      internalID: -852204231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_62
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1041
+        width: 297
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bb2f5614f0f0743a4ab0cc86e76754
+      internalID: 1758616135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3846
+        width: 130
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987dfa041d464774291008c74b15180b
+      internalID: 980340410
       vertices: []
       indices: 
       edges: []
@@ -1330,7 +1540,17 @@ TextureImporter:
       SP933E~1_51: -549559699
       SP933E~1_52: -531903435
       SP933E~1_53: 1433682288
+      SP933E~1_54: -1003847141
+      SP933E~1_55: -281690789
+      SP933E~1_56: -1438559808
+      SP933E~1_57: 1502839179
+      SP933E~1_58: -93158360
+      SP933E~1_59: 570029342
       SP933E~1_6: -509985856
+      SP933E~1_60: 1943218928
+      SP933E~1_61: -852204231
+      SP933E~1_62: 1758616135
+      SP933E~1_63: 980340410
       SP933E~1_7: -628462169
       SP933E~1_8: 1344860063
       SP933E~1_9: 1488522497

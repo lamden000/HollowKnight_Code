@@ -23,7 +23,6 @@ public class SignUpManager : MonoBehaviour
 
         // Handle server response for registration result
         connection.On<bool, string>("RegisterResult", OnRegisterResult);
-
     }
 
     public void OnSignUpButtonPressed()

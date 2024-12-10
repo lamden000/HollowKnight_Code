@@ -47,7 +47,12 @@ public class CameraManager : MonoBehaviour
         _normYPanAmount = _framingTransposer.m_YDamping;
 
         _startingTrackedObjectOffset =_framingTransposer.m_TrackedObjectOffset;
-        CameraShake.instance?.UpdateCurrentCamera(_currentCamera);
+      
+    }
+
+    private void Start()
+    {
+        CameraShake.instance.UpdateCurrentCamera(_currentCamera);
     }
 
     public void LerpYDamping(bool isPlayerfalling)
