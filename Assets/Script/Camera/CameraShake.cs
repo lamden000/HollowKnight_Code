@@ -23,7 +23,6 @@ public class CameraShake : MonoBehaviour
 
     private void Update()
     {
-        // Gi?m th?i gian rung camera
         if (shakeTimer > 0)
         {
             shakeTimer -= Time.deltaTime;
@@ -34,10 +33,6 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// C?p nh?t camera hi?n t?i trong CameraShake
-    /// </summary>
-    /// <param name="newCamera">CinemachineVirtualCamera m?i</param>
     public void UpdateCurrentCamera(CinemachineVirtualCamera newCamera)
     {
         cinemachineVirtualCamera = newCamera;
@@ -52,11 +47,6 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Rung camera v?i c??ng ?? và th?i gian ch? ??nh
-    /// </summary>
-    /// <param name="intensity">C??ng ?? rung</param>
-    /// <param name="time">Th?i gian rung</param>
     public void ShakeCamera(float intensity, float time)
     {
         if (_perlinNoise == null)

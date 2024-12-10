@@ -95,6 +95,7 @@ public class SlashPrefab : MonoBehaviour
             EnemyBase enemy = collider.GetComponent<EnemyBase>();
             if (enemy != null && !enemy.isDead)
             {
+                CameraShake.instance.ShakeCamera(0.7f, 0.5f);
                 Enemy();
                 Vector2 force = player.transform.position - collider.transform.position;
                 int direction = force.x > 0 ? -1 : 1;
@@ -123,7 +124,7 @@ public class SlashPrefab : MonoBehaviour
                 Vector2 force = player.transform.position - collider.transform.position;
                 int direction = force.x > 0 ? -1 : 1;
                 con.StartDead(direction);
-                CameraShake.instance.ShakeCamera(5f, 1f);
+                CameraShake.instance.ShakeCamera(0.5f, 0.5f);
             }
         }
     }

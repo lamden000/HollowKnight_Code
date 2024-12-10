@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParticleController : MonoBehaviour
+public class MoveParticleController : MonoBehaviour
 {
     [Header("Movement Particle")]
     [SerializeField] ParticleSystem movementParticle;
