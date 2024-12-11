@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Random13_21
+  m_Name: bg_highway_bridge_0000_5
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1819520594, guid: f66fa19bec1f8704099dafa21bdb6788, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99ca9f809e0f12842a38c801374158e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
