@@ -1467,7 +1467,7 @@ TextureImporter:
         width: 130
         height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1475,6 +1475,69 @@ TextureImporter:
       bones: []
       spriteID: 987dfa041d464774291008c74b15180b
       internalID: 980340410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_64
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 2725
+        width: 132
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7b3d586710f947b9194cd59c498a3
+      internalID: 816999305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_65
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3366
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9270494d02e00e64e82f8fadb0c6ab3f
+      internalID: -943055944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_66
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 614
+        width: 176
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5216d4e210c784db4f6265b6b947b5
+      internalID: -648851074
       vertices: []
       indices: 
       edges: []
@@ -1551,6 +1614,9 @@ TextureImporter:
       SP933E~1_61: -852204231
       SP933E~1_62: 1758616135
       SP933E~1_63: 980340410
+      SP933E~1_64: 816999305
+      SP933E~1_65: -943055944
+      SP933E~1_66: -648851074
       SP933E~1_7: -628462169
       SP933E~1_8: 1344860063
       SP933E~1_9: 1488522497
