@@ -1530,7 +1530,7 @@ TextureImporter:
         width: 176
         height: 371
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1538,6 +1538,132 @@ TextureImporter:
       bones: []
       spriteID: 2f5216d4e210c784db4f6265b6b947b5
       internalID: -648851074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_67
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1479
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea6fd9e7a60164a8f1013e98e9cc5e
+      internalID: -443636569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_68
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1474
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b36d75008597c4e8e225a64506f637
+      internalID: 366140534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_69
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2259
+        width: 89
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c77a36ab74b7840abf8055c11b97c2
+      internalID: 1749531382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_70
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1799
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b67a03a62b32324ca56bb19589d3a2f
+      internalID: -1184870582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_71
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1587
+        width: 170
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45acfaec2f4353e44973ddb818d6948c
+      internalID: 333745443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_72
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2959
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aab4b2160062f42a94eb04c7388992
+      internalID: 388783375
       vertices: []
       indices: 
       edges: []
@@ -1617,7 +1743,13 @@ TextureImporter:
       SP933E~1_64: 816999305
       SP933E~1_65: -943055944
       SP933E~1_66: -648851074
+      SP933E~1_67: -443636569
+      SP933E~1_68: 366140534
+      SP933E~1_69: 1749531382
       SP933E~1_7: -628462169
+      SP933E~1_70: -1184870582
+      SP933E~1_71: 333745443
+      SP933E~1_72: 388783375
       SP933E~1_8: 1344860063
       SP933E~1_9: 1488522497
   mipmapLimitGroupName: 

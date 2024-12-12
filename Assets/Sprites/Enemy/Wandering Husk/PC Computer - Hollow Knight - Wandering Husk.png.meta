@@ -140,12 +140,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 1016
+        y: 1017
         width: 105
-        height: 126
+        height: 125
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -183,7 +183,7 @@ TextureImporter:
         serializedVersion: 2
         x: 225
         y: 1018
-        width: 102
+        width: 101
         height: 126
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -350,9 +350,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 484
-        y: 865
+        y: 866
         width: 104
-        height: 127
+        height: 126
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,9 +371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 598
-        y: 865
+        y: 866
         width: 108
-        height: 125
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,7 +394,7 @@ TextureImporter:
         x: 714
         y: 866
         width: 108
-        height: 121
+        height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,7 +561,7 @@ TextureImporter:
         serializedVersion: 2
         x: 5
         y: 409
-        width: 120
+        width: 119
         height: 119
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -601,9 +601,9 @@ TextureImporter:
       name: PC Computer - Hollow Knight - Wandering Husk_22
       rect:
         serializedVersion: 2
-        x: 255
+        x: 254
         y: 409
-        width: 119
+        width: 120
         height: 119
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -644,9 +644,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4
-        y: 264
-        width: 105
-        height: 122
+        y: 265
+        width: 104
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,10 +769,10 @@ TextureImporter:
       name: PC Computer - Hollow Knight - Wandering Husk_30
       rect:
         serializedVersion: 2
-        x: 564
-        y: 5
+        x: 565
+        y: 4
         width: 116
-        height: 113
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,9 +812,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 846
-        y: 3
+        y: 4
         width: 116
-        height: 99
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

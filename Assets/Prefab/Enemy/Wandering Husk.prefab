@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7452783665656971277}
   - component: {fileID: 4704513385145483199}
   - component: {fileID: 8220595508769924436}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Wandering Husk
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1976565951
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 1452495924, guid: 1f66b7e16a5b3524bb66b0ceddf7deae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,31 +108,31 @@ BoxCollider2D:
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1919
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1919
   m_ContactCaptureLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1919
   m_CallbackLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1919
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.015760422}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.08, y: 1.25}
+    oldSize: {x: 1.08, y: 1.24}
     newSize: {x: 1.08, y: 1.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.08, y: 1.25}
+  m_Size: {x: 1.08, y: 1.2184792}
   m_EdgeRadius: 0
 --- !u!95 &2163864958316162623
 Animator:
@@ -168,7 +168,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -194,13 +194,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ec850a341419b448abaa0064fad1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 75
   bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
   moveSpeedX: 2
   accelerationX: 30
   moveSpeedY: 0
-  deathForceX: 250
-  deathForceY: 50
+  deathForceX: 300
+  deathForceY: 300
   isDead: 0
   walkRestTime: 2
   idleTime: 1.5

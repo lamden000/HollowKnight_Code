@@ -97,7 +97,6 @@ public class PlayerScript : MonoBehaviour
 
         SetSoul(currentSoul);
         SetLives(maxLife);
-        //  TakeDamage(3);
     }
 
     void Update()
@@ -330,7 +329,10 @@ public class PlayerScript : MonoBehaviour
 
     private IEnumerator Immune(float immuneTime)
     {
+        isImmune = true;
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), true);
         yield return new WaitForSeconds(immuneTime);
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), false);
         isImmune = false;
     }
 
@@ -399,7 +401,6 @@ public class PlayerScript : MonoBehaviour
                 return;
             }
         }
-        isImmune = true;
 
         if (currentLife == 1)
         {
