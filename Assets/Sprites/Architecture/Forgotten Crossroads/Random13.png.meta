@@ -627,7 +627,7 @@ TextureImporter:
         width: 215
         height: 589
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,6 +635,69 @@ TextureImporter:
       bones: []
       spriteID: 87da6a1744d9e5b4dbc0abcb3a584dbf
       internalID: 1395873790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Random13_24
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 949
+        width: 524
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1b3b953feff4f498e238f70be37a74
+      internalID: 630405255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Random13_25
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 1240
+        width: 589
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ba33cebdd738842addcce805016fde
+      internalID: 620152542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Random13_26
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 843
+        width: 535
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdfed80238943244b045af7399d90c2
+      internalID: 779523063
       vertices: []
       indices: 
       edges: []
@@ -667,6 +730,9 @@ TextureImporter:
       Random13_21: -1819520594
       Random13_22: -1214965361
       Random13_23: 1395873790
+      Random13_24: 630405255
+      Random13_25: 620152542
+      Random13_26: 779523063
       Random13_3: 814371502
       Random13_4: -684365972
       Random13_5: -1413068112

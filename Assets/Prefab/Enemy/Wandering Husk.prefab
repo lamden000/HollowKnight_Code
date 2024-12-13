@@ -206,7 +206,7 @@ MonoBehaviour:
   idleTime: 1.5
   attackTime: 1.5
   attackHeight: 1.5
-  attackWidth: 5
+  attackWidth: 7.07
 --- !u!82 &8220595508769924436
 AudioSource:
   m_ObjectHideFlags: 0

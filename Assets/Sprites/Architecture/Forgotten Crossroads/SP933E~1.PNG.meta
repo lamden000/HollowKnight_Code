@@ -1656,7 +1656,7 @@ TextureImporter:
         width: 154
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1664,6 +1664,27 @@ TextureImporter:
       bones: []
       spriteID: 03aab4b2160062f42a94eb04c7388992
       internalID: 388783375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_73
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 3021
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69ec9db844a05b4ebdc0cf4df232d2d
+      internalID: -2102469713
       vertices: []
       indices: 
       edges: []
@@ -1750,6 +1771,7 @@ TextureImporter:
       SP933E~1_70: -1184870582
       SP933E~1_71: 333745443
       SP933E~1_72: 388783375
+      SP933E~1_73: -2102469713
       SP933E~1_8: 1344860063
       SP933E~1_9: 1488522497
   mipmapLimitGroupName: 
