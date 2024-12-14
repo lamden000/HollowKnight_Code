@@ -113,10 +113,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         animator.SetBool("isGrounded",IsOnGround());
-        if (!IsOnGround())
-        {
-            animator.SetFloat("yVelocity",rb.velocity.y);
-        }
+        animator.SetFloat("yVelocity",rb.velocity.y);
     }
 
     void HandleKeyInput()

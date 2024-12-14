@@ -29,7 +29,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: 22585ee208fd12f409674b65578b89c1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Forgotten Crossroads_3.unity
     guid: e2ef6f527ba1c2c4baad9839ca863fb1
+  - enabled: 1
+    path: Assets/Scenes/Forgotten Crossroads_4.unity
+    guid: 192cc73c6558c944793295738a4813f6
   m_configObjects: {}
