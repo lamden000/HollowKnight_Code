@@ -6505,7 +6505,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1443074645
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13764,8 +13764,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.3883, y: -0.024300039, z: 0}
-    m_Extent: {x: 2.7224998, y: 1.0478001, z: 0}
+    m_Center: {x: 1.38425, y: -0.027050018, z: 0}
+    m_Extent: {x: 2.71975, y: 1.03345, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -14327,7 +14327,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1764348197
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3898d84714a5629428ab474fa042915a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20823,6 +20823,10 @@ PrefabInstance:
       propertyPath: fadePanel
       value: 
       objectReference: {fileID: 1519546051}
+    - target: {fileID: 6229453269829637964, guid: 6482cd57095d32f49821f3f265d74805, type: 3}
+      propertyPath: loadLoadingScene
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8895922289027654872, guid: 6482cd57095d32f49821f3f265d74805, type: 3}
       propertyPath: m_Name
       value: SceneLoadingManager

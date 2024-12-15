@@ -11728,8 +11728,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.3081, y: -0.07464999, z: 0}
-    m_Extent: {x: 2.794, y: 1.1370499, z: 0}
+    m_Center: {x: 1.30705, y: -0.074499965, z: 0}
+    m_Extent: {x: 2.7960498, y: 1.14, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -13054,6 +13054,10 @@ PrefabInstance:
     - target: {fileID: 6229453269829637964, guid: 6482cd57095d32f49821f3f265d74805, type: 3}
       propertyPath: targetSceneName
       value: SignIn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229453269829637964, guid: 6482cd57095d32f49821f3f265d74805, type: 3}
+      propertyPath: loadLoadingScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8895922289027654872, guid: 6482cd57095d32f49821f3f265d74805, type: 3}
       propertyPath: m_Name
