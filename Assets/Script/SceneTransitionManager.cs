@@ -54,6 +54,7 @@ public class SceneTransitionManager : MonoBehaviour
         else
         {
             SceneManager.LoadSceneAsync(targetSceneName);
+            GameManager.Instance.LastScene = SceneManager.GetActiveScene().name;
         }
         }
 }
