@@ -51,7 +51,6 @@ public class WanderingHusk : EnemyBase
 
     private void OnDrawGizmos()
     {
-        // Draw the security zone
         Gizmos.color = Color.red;
         DrawRectangle(attackWidth, attackHeight, transform.position);
     }

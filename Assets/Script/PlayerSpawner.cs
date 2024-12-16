@@ -32,7 +32,6 @@ public class PlayerSpawner : MonoBehaviour
             
             for(int i=0; i < _allVirtualCameras.Length; i++)
             {
-                Debug.Log((int)spawnPoint.GetComponent<PlayerSpawnPoint>().cameraType);
                 if((int)spawnPoint.GetComponent<PlayerSpawnPoint>().cameraType != i)
                 {
                     _allVirtualCameras[i].GetComponent<CinemachineVirtualCamera>().enabled = false;

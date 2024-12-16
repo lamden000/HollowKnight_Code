@@ -39,7 +39,7 @@ public class TiktikWalk : StateMachineBehaviour
         if (hit.collider == null)
         {
             // Slowly rotate the object by a small step each frame
-            float targetRotation = currentZRotation - 40f; // Rotate by 40 degrees per frame
+            float targetRotation = currentZRotation - 30f; // Rotate by 40 degrees per frame
 
             // Smoothly rotate towards the target rotation
             float newZRotation = Mathf.LerpAngle(currentZRotation, targetRotation, Time.deltaTime * 5f); // Smooth rotation speed multiplier
