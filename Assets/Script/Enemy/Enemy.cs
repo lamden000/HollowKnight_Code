@@ -5,7 +5,8 @@ using UnityEngine;
 
 public abstract class EnemyBase : MonoBehaviour
 {
-    public int health;
+    public int health=50;
+    public int coinRelease=3;
     public GameObject bloodPrefab;
 
     public float moveSpeedX;

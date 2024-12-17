@@ -10,6 +10,7 @@ public class GroundFly : MonoBehaviour
     public float damping = 2f;
     private Vector3 originalPosition;
     private bool isBouncing = false;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -18,16 +19,19 @@ public class GroundFly : MonoBehaviour
             ground = transform; 
         }
         originalPosition = ground.position;
+        audioSource = GetComponent<AudioSource>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player") && !isBouncing)
+        if (other.CompareTag("Player") && !isBouncing)
         {
-            PlayerScript a = collision.gameObject.GetComponent<PlayerScript>(); 
-            if (!a.IsOnGround()) 
+            PlayerScript playerScript = other.GetComponent<PlayerScript>();
+
+            if (playerScript != null) // Ensure the PlayerScript component exists
             {
                 StartCoroutine(SpringEffect());
+                audioSource.Play();
             }
         }
     }
@@ -37,7 +41,7 @@ public class GroundFly : MonoBehaviour
         isBouncing = true;
         float elapsedTime = 0f;
 
-        while (elapsedTime < 3f)
+        while (elapsedTime < 2f)
         {
             float yOffset = Mathf.Exp(-damping * elapsedTime) * Mathf.Cos(bounceSpeed * elapsedTime) * bounceDistance;
             ground.position = originalPosition - new Vector3(0, yOffset, 0);

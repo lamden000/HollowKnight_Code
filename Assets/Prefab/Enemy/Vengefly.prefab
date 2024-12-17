@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7892316719421223648}
   - component: {fileID: 726248107324092812}
   - component: {fileID: 7436152615650467005}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Vengefly
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1976565951
-  m_SortingLayer: 5
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -879495054, guid: 8aa61f853ea4fa44483c42062d219f55, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
