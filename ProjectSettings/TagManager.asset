@@ -12,6 +12,7 @@ TagManager:
   - Item
   - Environment
   - Volume
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - CameraSortingLayer
   - Environment
   - Enemy
-  - 
+  - Coin
   - 
   - 
   - 

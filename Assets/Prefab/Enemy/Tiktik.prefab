@@ -49,8 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  coinRelease: 3
   bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
-  moveSpeedX: 1.5
+  moveSpeedX: 3
   accelerationX: 10
   moveSpeedY: 1
   deathForceX: 350
@@ -116,7 +117,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1976565951
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 1415369663, guid: 0a584eb389288aa4d8ceb2a8f0477848, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -187,7 +188,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 12
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}

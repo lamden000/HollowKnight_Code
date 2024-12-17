@@ -5301,8 +5301,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2530499, y: 1.7755, z: 0}
-    m_Extent: {x: 36.12475, y: 7.4656, z: 0}
+    m_Center: {x: 1.2520008, y: 1.7734499, z: 0}
+    m_Extent: {x: 36.137802, y: 7.46095, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -13282,8 +13282,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0659, y: 0.002700001, z: 0}
-    m_Extent: {x: 0.54499996, y: 0.5641, z: 0}
+    m_Center: {x: -0.07060002, y: 0.0038000047, z: 0}
+    m_Extent: {x: 0.5481, y: 0.57360005, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -55479,18 +55479,16 @@ MonoBehaviour:
   currentSoul: 99
   healHoldTime: 1.5
   soulDrainDelay: 0.501
-  fallStunTime: 1
   hitStunTime: 0.3
   getDamageImmnueTime: 1
-  jumpForce: 6
+  jumpForce: 7
   attackCooldown: 0.3
   maxSpeedX: 5
-  accelerationX: 10
+  accelerationX: 50
   attackBounceForce: 100
   hitBounceForceX: 100
   hitBounceForceY: 250
   jumpTime: 0.5
-  fallStunThreshold: -10
   isFacingRight: 1
   groundCheckPoint: {fileID: 712888887433075426}
   groundCheckY: 0.2
@@ -66818,7 +66816,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 1
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 5c7cca9c5e599c648a980bc0ea1cb2e5, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -73093,7 +73091,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4031
+    m_Bits: 8127
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

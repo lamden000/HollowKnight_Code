@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: acf7faca8dbcba5468bb981c12b05f0b
+guid: c20bc2d0ab6fbaf46854ee0c42f64bba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,85 +136,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_0
+      name: cd_lift_top_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 308
-        width: 598
-        height: 171
+        y: 0
+        width: 237
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5a8ecb3a46785449d9bc56d3704a42
-      internalID: 1521433510
+      spriteID: de55e870c85da1a428ee8405c04a46b7
+      internalID: -2033368597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_1
+      name: cd_lift_top_1
       rect:
         serializedVersion: 2
-        x: 598
-        y: 307
-        width: 783
-        height: 173
+        x: 237
+        y: 0
+        width: 212
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93a0facdb2600314f80cd2374cd9bd8a
-      internalID: 82727521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 643
-        height: 218
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf1bef71d6e10ba4c817d0fc96a89282
-      internalID: 694997060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_3
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 47
-        width: 279
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c568ed0838b7ee4499e81f05d72bc776
-      internalID: 698717263
+      spriteID: 5542a90d627add944b7ec8590de3bf52
+      internalID: -921178397
       vertices: []
       indices: 
       edges: []
@@ -230,10 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_0: 1521433510
-      SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_1: 82727521
-      SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_2: 694997060
-      SpriteAtlasTexture-Lift_Struts-1024x512-fmt12_3: 698717263
+      cd_lift_top_0: -2033368597
+      cd_lift_top_1: -921178397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

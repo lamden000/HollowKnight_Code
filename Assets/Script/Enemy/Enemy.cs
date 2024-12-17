@@ -32,9 +32,6 @@ public abstract class EnemyBase : MonoBehaviour
             if (health <= 0)
             {
                 Die(directionX);
-                isDead = true;
-                animator.SetBool("dead", true);
-                gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
             }
             else 
             {
@@ -57,6 +54,10 @@ public abstract class EnemyBase : MonoBehaviour
     {
         rb.drag = 0;
         rb.AddForce(new Vector2(directionX* deathForceX, deathForceY));
+        CoinEmitter.Instance.EmitCoins(transform.position+new Vector3(0,0.5f,0),coinRelease);
+        isDead = true;
+        animator.SetBool("dead", true);
+        gameObject.layer = LayerMask.NameToLayer("DeadEnemy");
         Destroy(gameObject, 15);
     }
 }

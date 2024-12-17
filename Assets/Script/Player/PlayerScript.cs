@@ -36,7 +36,6 @@ public class PlayerScript : MonoBehaviour
     private int soulPerHeal = 33;         // Total soul required for one heal
 
     [Header("Player setting:")]
-    [SerializeField] private float fallStunTime = 0.5f;
     [SerializeField] private float hitStunTime = 1f;
     [SerializeField] private float getDamageImmnueTime = 1f;
     public float jumpForce = 5f;
@@ -49,7 +48,6 @@ public class PlayerScript : MonoBehaviour
     public float hitBounceForceY;
 
     public float jumpTime;
-    public float fallStunThreshold;
     public bool isFacingRight=true;
 
     private float jumpTimecounter;
@@ -57,7 +55,6 @@ public class PlayerScript : MonoBehaviour
 
     private bool isStunned = false;
     private bool isImmune = false;
-    private float previousYVelocity;
     private bool isHealing;
     private bool canHeal = true;
     private float drainInterval;
@@ -293,22 +290,9 @@ public class PlayerScript : MonoBehaviour
         healParticle.SetActive(false);
     }
 
-
-    void FixedUpdate()
-    {
-        previousYVelocity = rb.velocity.y;
-    }
-
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            if (previousYVelocity < fallStunThreshold&&IsOnGround())
-            {
-                StartCoroutine(Stun(fallStunTime));
-            }
-        }
-        else if(collision.gameObject.CompareTag("Enemy"))
+        if(collision.gameObject.CompareTag("Enemy"))
         {
             GetDamageBounceBack(collision.contacts[0].normal);
             TakeDamage(1);
