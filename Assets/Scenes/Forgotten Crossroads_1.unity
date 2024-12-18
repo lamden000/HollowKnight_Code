@@ -5301,8 +5301,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2520008, y: 1.7734499, z: 0}
-    m_Extent: {x: 36.137802, y: 7.46095, z: 0}
+    m_Center: {x: 1.2512016, y: 1.7652001, z: 0}
+    m_Extent: {x: 36.1362, y: 7.4667, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -13282,8 +13282,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.07060002, y: 0.0038000047, z: 0}
-    m_Extent: {x: 0.5481, y: 0.57360005, z: 0}
+    m_Center: {x: -0.06394999, y: 0.005100012, z: 0}
+    m_Extent: {x: 0.54434997, y: 0.5708, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -55482,7 +55482,7 @@ MonoBehaviour:
   hitStunTime: 0.3
   getDamageImmnueTime: 1
   jumpForce: 7
-  attackCooldown: 0.3
+  attackCooldown: 0.5
   maxSpeedX: 5
   accelerationX: 50
   attackBounceForce: 100

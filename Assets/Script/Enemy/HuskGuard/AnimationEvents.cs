@@ -51,7 +51,7 @@ public class AnimationEvents : MonoBehaviour
     {
         audioSource.PlayOneShot(clubImpact);
         InstantiateDebris(clubImpactDistanceX);
-        CameraShake.instance.ShakeCamera(1, 0.5f);
+        CameraShake.instance.ShakeCamera(0.7f, 0.5f);
     }
 
     private void InstantiateDebris(float distance=0)
@@ -85,7 +85,7 @@ public class AnimationEvents : MonoBehaviour
         rightObject.transform.rotation = Quaternion.Euler(0, 0, 0);
 
         rightObject.GetComponent<Animator>().SetInteger("direction",1);
-        CameraShake.instance.ShakeCamera(3, 1);
+        CameraShake.instance.ShakeCamera(2, 1);
         InstantiateDebris();
     }
 

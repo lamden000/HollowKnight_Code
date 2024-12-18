@@ -40,7 +40,8 @@ public class HuskGuardScript : EnemyBase
 
     public void Jump()
     {
-        rb.AddForce(jumpForce,ForceMode2D.Impulse);
+        int direction=transform.rotation.y==0 ? -1 : 1;
+        rb.AddForce(new Vector2(direction*jumpForce.x,jumpForce.y),ForceMode2D.Impulse);
     }
 
     protected override void Die(int attackDirection)

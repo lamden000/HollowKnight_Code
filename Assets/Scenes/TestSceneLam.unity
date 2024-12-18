@@ -28943,37 +28943,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 565235478}
     m_Modifications:
-    - target: {fileID: 934881339124619373, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: m_GravityScale
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 5666633253864924767, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
       propertyPath: m_Name
       value: HuskGuard
-      objectReference: {fileID: 0}
-    - target: {fileID: 5666633253864924767, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178431734940912568, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: jumpForce
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178431734940912568, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: moveSpeedX
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178431734940912568, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: jumpForce.x
-      value: -50
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178431734940912568, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: jumpForce.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178431734940912568, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
-      propertyPath: runSpeedMultify
-      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8926079513334216703, guid: 83e178056ae69e14986f9d9f75cce0d5, type: 3}
       propertyPath: m_LocalPosition.x

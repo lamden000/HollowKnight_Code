@@ -7,8 +7,16 @@ public class HuskGuardRun : StateMachineBehaviour
     private Transform player;
     private Rigidbody2D rb;
     private HuskGuardScript guard;
+    [SerializeField] private float shakeIntensity = 1.0f;
+    [SerializeField] private float shakeDuration = 0.1f;
+    private bool isShaking;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        if (!isShaking)
+        {
+            isShaking = true;
+            CameraShake.instance?.ShakeCamera(shakeIntensity, shakeDuration);
+        }
         rb = animator.GetComponent<Rigidbody2D>();
         guard = animator.GetComponent<HuskGuardScript>();
         player = guard.player;
@@ -48,15 +56,29 @@ public class HuskGuardRun : StateMachineBehaviour
             {
                 if (guard.IsPlayerInAttackZone())
                 {
-                    animator.SetTrigger("normalAttack");
+
+                    if (Random.Range(0, 100) > 30)
+                    {
+                        animator.SetTrigger("jumpAttack");
+                    }
+                    else
+                    {
+                        animator.SetTrigger("normalAttack");
+                    }
                 }
             }
+            CameraShake.instance?.ShakeCamera(shakeIntensity, shakeDuration);
         }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
    {
+        if (isShaking)
+        {
+            CameraShake.instance?.ShakeCamera(0f, 0f); // Reset shake
+            isShaking = false;
+        }
         rb.velocity=new Vector2(0, rb.velocity.y);
     }
 
