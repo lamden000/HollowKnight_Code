@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class LeapingHuskScript : EnemyBase
 {
-    public Transform player;
-
     public float attackHeight;
     public float attackWidth;
 

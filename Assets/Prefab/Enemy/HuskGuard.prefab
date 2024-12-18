@@ -17,13 +17,13 @@ GameObject:
   - component: {fileID: 4852197361201116902}
   - component: {fileID: 934881339124619373}
   - component: {fileID: 2139995103884133027}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HuskGuard
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8926079513334216703
 Transform:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1976565951
-  m_SortingLayer: 5
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 713994107, guid: a7305fdeb69665f43804d067a5d7868f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -124,13 +124,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67dc3f1d8ae6e84c8ac8a42ce21b23a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 500
+  coinRelease: 3
   bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
-  moveSpeedX: 2
+  moveSpeedX: 3
+  accelerationX: 100
   moveSpeedY: 0
   deathForceX: 250
-  deathForceY: 50
+  deathForceY: 150
+  player: {fileID: 0}
   isDead: 0
+  attackPower: 2
   zoneHeight: 8
   zoneWidth: 25
   wakeUpWidth: 15
@@ -141,7 +145,6 @@ MonoBehaviour:
   wakeUpColor: {r: 0, g: 0, b: 1, a: 1}
   normalAttackColor: {r: 1, g: 0, b: 0, a: 1}
   runSpeedMultify: 2.5
-  player: {fileID: 0}
   startPos: {x: 0, y: 0}
 --- !u!82 &208898659886147614
 AudioSource:
@@ -258,7 +261,7 @@ CapsuleCollider2D:
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 255
+    m_Bits: 511
   m_ForceReceiveLayers:
     serializedVersion: 2
     m_Bits: 255
@@ -303,7 +306,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.22467208, y: 2.5147676}
@@ -332,9 +335,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 20
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -368,3 +371,4 @@ MonoBehaviour:
   die: {fileID: 8300000, guid: cf6f76dc5759cc841a62c5c7af298421, type: 3}
   debris: {fileID: 2937208775853359293, guid: 4eab702192e20f149ab4c2149426f415, type: 3}
   debrisPower: {fileID: 5748660091324244504, guid: 0907e9646459ddf4882bbc18c7310a16, type: 3}
+  objectPrefab: {fileID: 4069567727131125677, guid: 3ece4c1eaccef6349857a3cc9dfe5273, type: 3}

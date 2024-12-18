@@ -294,9 +294,11 @@ public class PlayerScript : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            GetDamageBounceBack(collision.contacts[0].normal);
-            TakeDamage(1);
-            StartCoroutine(Stun(hitStunTime));
+            // Get the position of the other object
+            Vector2 otherPosition = collision.transform.position;
+            // Calculate the direction vector
+            int direction = otherPosition.x - transform.position.x>0?-1:1;
+            TakeDamage(1, direction);          
         }
 
     }
@@ -347,31 +349,43 @@ public class PlayerScript : MonoBehaviour
         rb.AddForce( new Vector2(direction.x * attackBounceForce,0));
     }
 
-    private void GetDamageBounceBack(Vector2 direction)
+    private void GetDamageBounceBack(int direction)
     {
-        if(direction.x>0&&isFacingRight|| direction.x < 0 && !isFacingRight)
+        if(direction>0&&isFacingRight|| direction < 0 && !isFacingRight)
         {
             Turn();
         }
         animator.SetTrigger("hit");
-        Vector2 bounceForce = new Vector2(direction.x* hitBounceForceX, hitBounceForceY);
+        Vector2 bounceForce = new Vector2(direction* hitBounceForceX, hitBounceForceY);
         rb.AddForce(bounceForce);
     }
 
 
     private void Die()
     {
+        gameObject.tag = "DeadPlayer";
+        NotifyEnemies();
         animator.SetBool("dead",true);
     }
 
-
-    public void TakeDamage(int damage)
+    private void NotifyEnemies()
     {
+        EnemyBase[] enemies = FindObjectsOfType<EnemyBase>();
+        foreach (EnemyBase enemy in enemies)
+        {
+            enemy.UpdatePlayerReference();
+        }
+    }
+
+    public void TakeDamage(int damage, int hitDirection)
+    {
+        if (isImmune) return;
+        GetDamageBounceBack(hitDirection);
+        StartCoroutine(Stun(hitStunTime));
         if (currentLife > 1)
             Hit_CrackController.instance.OpenEffect();
         else
             Hit_CrackController.instance.LastHealthEffect();
-        if (isImmune) return;
         for (int i = damage; i > 0; i--)
         {
             currentLife--;

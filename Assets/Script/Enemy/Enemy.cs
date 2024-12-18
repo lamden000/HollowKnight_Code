@@ -14,15 +14,17 @@ public abstract class EnemyBase : MonoBehaviour
     public float moveSpeedY;
     public float deathForceX = 250f;
     public float deathForceY = 50f;
+    [HideInInspector] public Transform player;
     [HideInInspector] public bool isDead=false;
 
     protected Animator animator; 
     protected Rigidbody2D rb;
-    protected int attackPower;
+    public int attackPower;
     protected virtual void Start()
     {
         animator = GetComponent<Animator>(); // Lấy component Animator
         rb = GetComponent<Rigidbody2D>();
+        UpdatePlayerReference();
     }
     public virtual void TakeDamage(int amount,int directionX,float knockBackForce)
     {
@@ -45,6 +47,19 @@ public abstract class EnemyBase : MonoBehaviour
             }    
         }
     }
+    public void UpdatePlayerReference()
+    {
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            player = playerObject.transform;
+        }
+        else
+        {
+            player = null; 
+        }
+    }
+
     private void KnockBackOnHit(int directionX, float knockBackForce)
     {
         rb.AddForce(new Vector2(directionX*knockBackForce,0));

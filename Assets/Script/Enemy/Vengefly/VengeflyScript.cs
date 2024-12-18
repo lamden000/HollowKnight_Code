@@ -5,7 +5,6 @@ using UnityEngine;
 public class VengeflyScript : EnemyBase
 {
     public LayerMask obstacleLayer;          // Layer for walls/obstacles (e.g., "Obstacles")
-    private Transform player;
     public float turnThreshold = 0.1f;
     private bool isChasing=false;
 

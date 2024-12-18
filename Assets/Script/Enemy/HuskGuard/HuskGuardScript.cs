@@ -20,10 +20,10 @@ public class HuskGuardScript : EnemyBase
     public Color wakeUpColor = Color.blue;
     public Color normalAttackColor=Color.red;
 
-    public float runSpeedMultify = 2.5f;
+    public float runSpeedMultify = 2f;
 
-    public Transform player;
     public Vector2 startPos;
+    public Vector2 jumpForce;
 
     // Start is called before the first frame update
 
@@ -31,15 +31,18 @@ public class HuskGuardScript : EnemyBase
     {
         rb = GetComponent<Rigidbody2D>();
         startPos = transform.position;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         base.Start();
-        health = 50;
-        attackPower = 5;
     }
 
     void Update()
     {
-    } 
+    }
+
+    public void Jump()
+    {
+        rb.AddForce(jumpForce,ForceMode2D.Impulse);
+    }
+
     protected override void Die(int attackDirection)
     {
         base.Die(attackDirection);
@@ -72,6 +75,8 @@ public class HuskGuardScript : EnemyBase
 
     private bool IsPlayerInZone(float width, float height, Vector3 center)
     {
+        if(player==null)
+            return false;
         Vector3 playerPos = player.position;
 
         // Calculate bounds of the rectangle
@@ -84,8 +89,14 @@ public class HuskGuardScript : EnemyBase
         return playerPos.x >= minX && playerPos.x <= maxX && playerPos.y >= minY && playerPos.y <= maxY;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.CompareTag("Player"))
+        {
+            int direction = other.transform.position.x - transform.position.x > 0 ? 1 : -1;
+            other.GetComponent<PlayerScript>().TakeDamage(attackPower,direction);
+        }
     }
 
     private void OnDrawGizmos()

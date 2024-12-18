@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class WanderingHusk : EnemyBase
 {
-    private Transform player;
 
     public float walkRestTime;
     public float idleTime;
