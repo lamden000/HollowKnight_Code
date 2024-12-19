@@ -25,6 +25,9 @@ public class HuskGuardScript : EnemyBase
     public Vector2 startPos;
     public Vector2 jumpForce;
 
+    public delegate void OnBossDeath();
+    public static event OnBossDeath BossDeathEvent;
+
     // Start is called before the first frame update
 
     protected override void Start()
@@ -47,6 +50,11 @@ public class HuskGuardScript : EnemyBase
     protected override void Die(int attackDirection)
     {
         base.Die(attackDirection);
+        if (BossDeathEvent != null)
+        {
+            BossDeathEvent.Invoke();
+            CameraShake.instance.ShakeCamera(5f, 12f);
+        }
     }
     public bool IsPlayerInWakeUpZone() { 
         
