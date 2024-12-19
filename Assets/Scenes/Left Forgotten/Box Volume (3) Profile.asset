@@ -30,7 +30,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   master:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       <length>k__BackingField: 2
       m_Loop: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   green:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 2
+      <length>k__BackingField: 4
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -114,6 +114,24 @@ MonoBehaviour:
           time: 0
           value: 0
           inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.23548596
+          value: 0.2683516
+          inSlope: 1.2099271
+          outSlope: 1.2099271
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.23558596
+          value: 0.77482533
+          inSlope: 1
           outSlope: 1
           tangentMode: 0
           weightedMode: 0
@@ -151,8 +169,8 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.24023578
-          value: 0.46719992
+          time: 0.37573385
+          value: 0.2321679
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -257,16 +275,16 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 1
   contrast:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: -26
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.14117649, g: 1.9245286, b: 0.13435382, a: 1}
   hueShift:
     m_OverrideState: 1
-    m_Value: 40
+    m_Value: 146
   saturation:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 52
