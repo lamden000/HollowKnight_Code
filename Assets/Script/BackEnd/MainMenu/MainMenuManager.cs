@@ -64,9 +64,9 @@ public class MainMenuManager : MonoBehaviour
     }
 
 
-    // Update is called once per frame
-    void Update()
+    public void StartGame()
     {
+        sceneTransitionManager.StartSceneTransition("Dirthmouth");
     }
 
 

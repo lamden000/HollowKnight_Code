@@ -29,29 +29,38 @@ public class LeaderboardManager : MonoBehaviour
     {
         MainThreadDispatcher.Enqueue(() =>
         {
+            // Step 1: Sort the player list by score in descending order
+            var sortedList = playerList.OrderByDescending(p => p.Score).ToList();
 
+            // Step 2: Assign ranks based on sorted list (highest score gets rank 1, etc.)
+            for (int i = 0; i < sortedList.Count; i++)
+            {
+                sortedList[i].Rank = i + 1;  // Assign rank starting from 1
+            }
+
+            // Step 3: Clear previous entries in the UI
             foreach (Transform child in contentPanel)
             {
                 Destroy(child.gameObject);  // Clear previous entries
             }
 
-            foreach (var player in playerList)
+            // Step 4: Add each player to the leaderboard UI
+            foreach (var player in sortedList)
             {
                 GameObject newEntry = Instantiate(leaderboardEntryPrefab, contentPanel);
                 RoomEntry entry = newEntry.GetComponent<RoomEntry>();
                 entry.SetLeaderboardInfo(player.PlayerName, player.Rank, player.Score);
             }
 
-            Leaderboard playerData = playerList.Find(p => p.PlayerName == PlayerSession.CurrentPlayer.Name);
+            // Step 5: Find and highlight the current player's entry
+            Leaderboard playerData = sortedList.Find(p => p.PlayerName == PlayerSession.CurrentPlayer.Name);
 
             if (playerData != null)
             {
                 // Update the player's fixed UI entry
                 RoomEntry playerEntryComponent = currentPlayerInfo.GetComponent<RoomEntry>();
-                playerEntryComponent.SetLeaderboardInfo(playerData.PlayerName+" (you)", playerData.Rank, playerData.Score);
+                playerEntryComponent.SetLeaderboardInfo(playerData.PlayerName + " (you)", playerData.Rank, playerData.Score);
 
-                // Remove the player's data from the list
-                playerList.Remove(playerData);
             }
         });
     }

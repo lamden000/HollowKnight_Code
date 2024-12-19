@@ -20,7 +20,6 @@ public class PlayerScript : MonoBehaviour
 
     private int maxLife = 5;
     private int currentLife = 5;
-    public int money;
     private List<GameObject> lifeIcons = new List<GameObject>();
 
     [Header("Soul Settings:")]
@@ -96,29 +95,26 @@ public class PlayerScript : MonoBehaviour
         if (GameManager.Instance.playerStats.Health != 0)
             GetPreviousStats();
         else
-            SetStats();
+        {
+            SetSoul(currentSoul);
+            SetLives();
+        }
+        GameManager.Instance.UpdateMoney();
     }
 
-    public void SetStats()
-    {
-        SetSoul(currentSoul);
-        SetLives();
-        money = 0;
-    }
 
     public void StoreCurrentStats()
     {
         GameManager.Instance.playerStats.Health = currentLife;
         GameManager.Instance.playerStats.Soul =currentSoul;
-        GameManager.Instance.playerStats.Money = money;
     }
 
     public void GetPreviousStats()
     {
         currentLife = GameManager.Instance.playerStats.Health;
-        currentSoul = GameManager.Instance.playerStats.Soul;    
-        SetStats();
-        money = GameManager.Instance.playerStats.Money;
+        currentSoul = 0;
+        SetSoul(GameManager.Instance.playerStats.Soul);
+        SetLives();
     }
 
     void Update()

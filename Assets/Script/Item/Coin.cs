@@ -18,11 +18,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            /*PlayerScore playerScore = other.GetComponent<PlayerScore>();
-            if (playerScore != null)
-            {
-                playerScore.AddScore(coinValue);
-            }*/
+            GameManager.Instance.GetMoney();
             Destroy(gameObject);
         }
         else if (((1 << collision.gameObject.layer) & groundLayer) != 0)
