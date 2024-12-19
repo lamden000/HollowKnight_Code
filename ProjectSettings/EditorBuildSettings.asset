@@ -35,10 +35,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Forgotten Crossroads_4.unity
     guid: 192cc73c6558c944793295738a4813f6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Left Forgotten.unity
     guid: 396d4f8ace894874f9de105a666e4985
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GuardHouse.unity
     guid: a6608d540e43d774e9f23757238b78fd
   m_configObjects: {}
