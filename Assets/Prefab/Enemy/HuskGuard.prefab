@@ -127,7 +127,7 @@ MonoBehaviour:
   health: 500
   coinRelease: 3
   bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
-  moveSpeedX: 3
+  moveSpeedX: 8
   accelerationX: 100
   moveSpeedY: 0
   deathForceX: 250
@@ -136,16 +136,17 @@ MonoBehaviour:
   isDead: 0
   attackPower: 2
   zoneHeight: 8
-  zoneWidth: 25
-  wakeUpWidth: 15
+  zoneWidth: 31.8
+  wakeUpWidth: 20.5
   normalAttackHeight: 4
   normalAttackWidth: 7
-  zoneCenter: {x: 11, y: 1.26, z: 0}
+  zoneCenter: {x: 23.1, y: 1.26, z: 0}
   zoneColor: {r: 0, g: 1, b: 0, a: 1}
   wakeUpColor: {r: 0, g: 0, b: 1, a: 1}
   normalAttackColor: {r: 1, g: 0, b: 0, a: 1}
-  runSpeedMultify: 2.5
+  runSpeedMultify: 1.5
   startPos: {x: 0, y: 0}
+  jumpForce: {x: 50, y: 100}
 --- !u!82 &208898659886147614
 AudioSource:
   m_ObjectHideFlags: 0
@@ -337,7 +338,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 20
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 50
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

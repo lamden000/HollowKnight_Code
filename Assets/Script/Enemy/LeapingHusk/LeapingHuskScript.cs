@@ -47,7 +47,7 @@ public class LeapingHuskScript : EnemyBase
     public bool IsGrounded()
     {
         // Check if the enemy is on the ground
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.2f, groundLayer);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.3f, groundLayer);
         return hit.collider != null;
     }
 
@@ -76,7 +76,7 @@ public class LeapingHuskScript : EnemyBase
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine(transform.position, transform.position+Vector3.down*0.2f);
+        Gizmos.DrawLine(transform.position, transform.position+Vector3.down*0.3f);
         // Draw the security zone
         Gizmos.color = Color.red;
         DrawRectangle(attackWidth, attackHeight, new Vector3(transform.position.x, transform.position.y + 1, 0));

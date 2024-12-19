@@ -1677,7 +1677,7 @@ TextureImporter:
         width: 114
         height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1685,6 +1685,90 @@ TextureImporter:
       bones: []
       spriteID: c69ec9db844a05b4ebdc0cf4df232d2d
       internalID: -2102469713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_74
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 2410
+        width: 111
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e651d8c06a30fe4ba37a563dda0a0e6
+      internalID: 376522738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_75
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 2469
+        width: 78
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e0f9df8d81c85428e59ddc27560a4b
+      internalID: 841034801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_76
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 2416
+        width: 81
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925dca6ab1af6844ab0088f8dca9546
+      internalID: -255335574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SP933E~1_77
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 214
+        width: 237
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8be79c73d660e140817b3b881c9176d
+      internalID: 437860705
       vertices: []
       indices: 
       edges: []
@@ -1772,6 +1856,10 @@ TextureImporter:
       SP933E~1_71: 333745443
       SP933E~1_72: 388783375
       SP933E~1_73: -2102469713
+      SP933E~1_74: 376522738
+      SP933E~1_75: 841034801
+      SP933E~1_76: -255335574
+      SP933E~1_77: 437860705
       SP933E~1_8: 1344860063
       SP933E~1_9: 1488522497
   mipmapLimitGroupName: 

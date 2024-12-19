@@ -14,34 +14,27 @@ public class HuskGuardFightingIdle : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(guard.IsPlayerInSecurityZone())
+        if (guard.IsPlayerInAttackZone())
         {
-            if (guard.IsPlayerInAttackZone())
-            {        
-                if (Random.Range(0, 100) > 50)
-                {
-                    animator.SetTrigger("jumpAttack"); 
-                }
-                else
-                {
-                    animator.SetTrigger("normalAttack");
-                }
+            if (Random.Range(0, 100) > 50)
+            {
+                animator.SetTrigger("jumpAttack");
             }
             else
             {
-                if (Random.Range(0, 100) > 50)
-                {
-                    animator.SetTrigger("jumpAttack");
-                }
-                else
-                {
-                    animator.SetTrigger("run");
-                }
+                animator.SetTrigger("normalAttack");
             }
         }
         else
         {
-            guard.StartCoroutine(WaitMakeSure(animator));
+            if (guard.IsPlayerInSecurityZone())
+            {
+                animator.SetTrigger("run");
+            }
+            else
+            {
+                guard.StartCoroutine(WaitMakeSure(animator));
+            }
         }
     }
 

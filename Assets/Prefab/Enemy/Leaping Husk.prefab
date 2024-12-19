@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1976565951
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -1725692281, guid: 20947ea1ae980ab42894d1af04af7698, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -155,10 +155,10 @@ BoxCollider2D:
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 6015
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 6015
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -168,7 +168,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007222295, y: 1.0456759}
+  m_Offset: {x: 0.007222295, y: 0.8656106}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.4916985, y: 0.030037237}
@@ -179,7 +179,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.87, y: 1.9436934}
+  m_Size: {x: 0.87, y: 1.5835629}
   m_EdgeRadius: 0
 --- !u!114 &5464119434811567505
 MonoBehaviour:
@@ -194,24 +194,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  coinRelease: 3
   bloodPrefab: {fileID: 4181011004657943638, guid: 817f35c87c5b90148b55ea3f536ae7bd, type: 3}
   moveSpeedX: 2
   accelerationX: 40
   moveSpeedY: 0
   deathForceX: 250
   deathForceY: 200
+  player: {fileID: 0}
   isDead: 0
+  attackPower: 0
   attackHeight: 4.12
   attackWidth: 4.19
   walkRestTime: 2.5
   idleTime: 1.5
-  jumpHeight: 5
-  jumpSpeed: 2
+  jumpHeight: 3
+  jumpSpeed: 3
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  attackDuration: 1
   startPosition: {x: 0, y: 0}
   targetPosition: {x: 0, y: 0}
-  h: 0
-  k: 0
-  a: 0
+  parabolaPoints: []
+  drawParabola: 0
