@@ -10,11 +10,16 @@ public class SceneTransitionManager : MonoBehaviour
 
     private Image panelImage;
     public bool loadLoadingScene = false;
+    private PlayerScript playerStat;
 
     void Start()
     {
         panelImage = fadePanel.GetComponent<Image>();
-        fadePanel.SetActive(false);  
+        fadePanel.SetActive(false);
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null) {
+            playerStat=player.GetComponent<PlayerScript>();
+        }
     }
 
     public void StartSceneTransition(string targetSceneName)
@@ -53,8 +58,9 @@ public class SceneTransitionManager : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadSceneAsync(targetSceneName);
             GameManager.Instance.LastScene = SceneManager.GetActiveScene().name;
+            SceneManager.LoadSceneAsync(targetSceneName);     
+            playerStat.StoreCurrentStats();
         }
         }
 }

@@ -46,7 +46,6 @@ public class GroundFly : MonoBehaviour
             float yOffset = Mathf.Exp(-damping * elapsedTime) * Mathf.Cos(bounceSpeed * elapsedTime) * bounceDistance;
             ground.position = originalPosition - new Vector3(0, yOffset, 0);
 
-            Debug.Log($"Ground Position: {ground.position}");
             elapsedTime += Time.deltaTime;
             yield return null;
         }

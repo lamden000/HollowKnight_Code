@@ -11,6 +11,7 @@ public class WanderingHuskAttackAnticipate : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        if(player == null ) {  return; }
         rb = animator.GetComponent<Rigidbody2D>();
         Vector2 direction = (player.transform.position - rb.transform.position).normalized;
         if(direction.x<0)

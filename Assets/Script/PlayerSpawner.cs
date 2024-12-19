@@ -19,10 +19,11 @@ public class PlayerSpawner : MonoBehaviour
         if (spawnPoint != null)
         {
             // Move existing player or instantiate at spawn point
-            GameObject player = GameObject.FindWithTag("Player");
+            GameObject player = GameObject.FindWithTag("Player");     
             if (player == null)
             {
-                Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
+               
+                GameObject pl = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
             }
             else
             {

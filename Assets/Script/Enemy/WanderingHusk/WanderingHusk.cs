@@ -35,6 +35,8 @@ public class WanderingHusk : EnemyBase
 
     private bool IsPlayerInZone(float width, float height, Vector3 center)
     {
+        if(player==null)
+            return false;
         Vector3 playerPos = player.position;
 
         // Calculate bounds of the rectangle

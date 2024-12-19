@@ -20,6 +20,7 @@ public class PlayerScript : MonoBehaviour
 
     private int maxLife = 5;
     private int currentLife = 5;
+    public int money;
     private List<GameObject> lifeIcons = new List<GameObject>();
 
     [Header("Soul Settings:")]
@@ -30,7 +31,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float soulMaxY; // 99% height (y position)
     [SerializeField] private int maxSoul = 99; // Max soul value
     [SerializeField] private Color lowSoulColor;
-    [SerializeField] private int currentSoul;
+    private int currentSoul;
     [SerializeField] private float healHoldTime = 1.5f;
     [SerializeField] private float soulDrainDelay = 0.501f;  // Time before soul starts to drain
     private int soulPerHeal = 33;         // Total soul required for one heal
@@ -57,6 +58,7 @@ public class PlayerScript : MonoBehaviour
     private bool isImmune = false;
     private bool isHealing;
     private bool canHeal = true;
+    private bool isdead=false;
     private float drainInterval;
     private float drainSoulTimer = 0;
     private float holdTimer;
@@ -79,7 +81,7 @@ public class PlayerScript : MonoBehaviour
     public Sound healingSound;
     public AudioClip healCompleteSound;
 
-    
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -91,9 +93,32 @@ public class PlayerScript : MonoBehaviour
         cameraFollowObject=_cameraFollowGO.GetComponent<CameraFollow>();
 
         drainInterval = (healHoldTime - soulDrainDelay) / soulPerHeal;
+        if (GameManager.Instance.playerStats.Health != 0)
+            GetPreviousStats();
+        else
+            SetStats();
+    }
 
+    public void SetStats()
+    {
         SetSoul(currentSoul);
-        SetLives(maxLife);
+        SetLives();
+        money = 0;
+    }
+
+    public void StoreCurrentStats()
+    {
+        GameManager.Instance.playerStats.Health = currentLife;
+        GameManager.Instance.playerStats.Soul =currentSoul;
+        GameManager.Instance.playerStats.Money = money;
+    }
+
+    public void GetPreviousStats()
+    {
+        currentLife = GameManager.Instance.playerStats.Health;
+        currentSoul = GameManager.Instance.playerStats.Soul;    
+        SetStats();
+        money = GameManager.Instance.playerStats.Money;
     }
 
     void Update()
@@ -363,6 +388,8 @@ public class PlayerScript : MonoBehaviour
 
     private void Die()
     {
+        GameManager.Instance.ResetGame();
+        isdead = true;
         gameObject.tag = "DeadPlayer";
         NotifyEnemies();
         animator.SetBool("dead",true);
@@ -379,7 +406,7 @@ public class PlayerScript : MonoBehaviour
 
     public void TakeDamage(int damage, int hitDirection)
     {
-        if (isImmune) return;
+        if (isImmune||isdead) return;
         GetDamageBounceBack(hitDirection);
         StartCoroutine(Stun(hitStunTime));
         if (currentLife > 1)
@@ -406,7 +433,7 @@ public class PlayerScript : MonoBehaviour
         }
         StartCoroutine(Immune(getDamageImmnueTime));
     }
-    public void SetLives(int lifeCount)
+    public void SetLives()
     {
         // Clear old icons
         foreach (var icon in lifeIcons)
@@ -420,10 +447,12 @@ public class PlayerScript : MonoBehaviour
         lifeIcons.Clear();
 
         // Instantiate icons based on lifeCount
-        for (int i = 0; i < lifeCount; i++)
+        for (int i = 0; i < 5; i++)
         {
             GameObject icon = Instantiate(lifeIconPrefab, lifeContainer);
             lifeIcons.Add(icon);
+            if (i >= currentLife)
+                icon.GetComponent<Animator>().SetTrigger("break");
         }
     }
     public void SetSoul(int soul)

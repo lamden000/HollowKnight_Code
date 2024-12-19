@@ -46,4 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadePanel: {fileID: 0}
   fadeDuration: 1.5
-  targetSceneName: MainMenu
+  loadLoadingScene: 0
