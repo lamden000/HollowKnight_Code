@@ -384,13 +384,19 @@ public class PlayerScript : MonoBehaviour
 
     private void Die()
     {
-        GameManager.Instance.ResetGame();
+        StartCoroutine(ResetGame());
         isdead = true;
         gameObject.tag = "DeadPlayer";
         NotifyEnemies();
         animator.SetBool("dead",true);
     }
 
+    IEnumerator ResetGame()
+    {
+        yield return new WaitForSeconds(1);
+        GameManager.Instance.ResetGame();
+    }
+    
     private void NotifyEnemies()
     {
         EnemyBase[] enemies = FindObjectsOfType<EnemyBase>();
@@ -423,9 +429,8 @@ public class PlayerScript : MonoBehaviour
         if (currentLife == 1)
         {
             Hit_CrackController.instance.HetmauEffect();
-            var icon = lifeIconPrefab.transform.GetChild(0).gameObject;
-            var effect = icon.transform.GetChild(0).gameObject;
-            effect.SetActive(true);
+            Transform icon=lifeIcons[0].transform.GetChild(0);
+            icon.gameObject.SetActive(true);
         }
         StartCoroutine(Immune(getDamageImmnueTime));
     }
