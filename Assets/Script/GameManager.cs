@@ -4,8 +4,10 @@ using Assets.Script.BackEnd.User;
 using Assets.Script.Player;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.Extensions.DependencyInjection;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +30,21 @@ public class GameManager : MonoBehaviour
         if (playerStats == null)
         {
             playerStats = new PlayerData(); 
+        }
+    }
+
+    private void Update()
+    {
+       if( Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneTransitionManager mn=GameObject.Find("SceneLoadingManager").GetComponent<SceneTransitionManager>();
+            mn.loadLoadingScene = true;
+    
+            Destroy(GameObject.Find("CoinEmiter").gameObject);
+            Destroy(GameObject.Find("CameraShake").gameObject);
+            mn.StartSceneTransition("MainMenu");
+            Destroy(gameObject);
+
         }
     }
 
