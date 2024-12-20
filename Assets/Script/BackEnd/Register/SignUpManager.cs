@@ -51,6 +51,19 @@ public class SignUpManager : MonoBehaviour
         connection.InvokeAsync("RegisterAccount", username, password, email);
     }
 
+    private IEnumerator ShowSignIn()
+    {
+        usernameInput.text = "";
+        passwordInput.text = "";
+        emailInput.text = "";
+        confirmPasswordInput.text = "";
+        feedbackText.color = Color.blue;
+        feedbackText.text = "Account created successfully!, you will be redirected to sign in window";
+        yield return new WaitForSeconds(3);
+        
+       RegisterUIManager manager = GameObject.Find("UIManager").GetComponent<RegisterUIManager>();
+       manager.ShowSignIn();
+    }
 
     private void OnRegisterResult(bool success, string message)
     {
@@ -58,7 +71,7 @@ public class SignUpManager : MonoBehaviour
         {
             if (success)
             {
-                feedbackText.text = "Account created successfully!";
+                StartCoroutine(ShowSignIn());
             }
             else
             {
